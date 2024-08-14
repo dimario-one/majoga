@@ -1,0 +1,84 @@
+.cases-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    /* padding: 40px; */
+}
+
+.cases__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+    color: #1E2F49;
+    ;
+}
+
+.case-card {
+    height: 500px;
+    border-radius: 20px;
+    background: #FBF2DC;
+    margin-top: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.cases__img {
+    position: absolute;
+    top: -40px;
+    right: 10px;
+    width: 90px;
+    height: 90px;
+    border: 2px solid #FFFFFF
+}
+
+.case-cardTitle {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    text-align: left;
+    color: #303030;
+}
+
+.case-cardText {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: justified;
+    color: #303030;
+
+}
+
+.expand {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #848484;
+    cursor: pointer;
+}
+
+.cases__button {
+    width: 360px;
+    height: 54px;
+    border-radius: 10px;
+    background: #1E2F49;
+}
+
+.casses_button-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+
+}

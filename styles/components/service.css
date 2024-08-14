@@ -1,0 +1,123 @@
+.service-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    color: #1e2f49;
+}
+
+.service__box{
+    flex: 1 1 0;
+    min-height: 270px;
+}
+
+.service-cardContainer {
+
+    border-radius: 20px;
+}
+
+.service-card {
+    height: 180px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.service-cardText {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    text-align: left;
+    color: #303030;
+}
+
+.arrow-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.service__background__blue {
+    background: #1e2f49;
+}
+
+.service__img {
+    width: 180px;
+    height: 180px;
+}
+
+.service__imgMargin_first {
+    margin-bottom: -10px;
+}
+
+.service__imgMargin_second {
+    margin-left: -20px;
+}
+
+.service__imgMargin_therd {
+    object-fit: cover;
+}
+
+.service-more {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #303030;
+}
+
+.cta-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background: linear-gradient(96.87deg, #1e2f49 43.64%, #4871af 97.83%);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.service-formText {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.47px;
+    text-align: left;
+    color: #fdfdfd;
+}
+
+.service-formSubText {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #fdfdfd;
+}
+
+.service-formPrivacyText {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+    color: #e8e9ea;
+}
+
+.service-btn {
+    height: 44px;
+    border-radius: 5px;
+    background: #f8b514;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.service-input {
+    height: 44px;
+}

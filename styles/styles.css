@@ -20,6 +20,8 @@ main {
     padding-top: 5rem;
 }
 
+/* Header */
+
 .header {
     width: 100%;
     height: 150px;
@@ -28,7 +30,7 @@ main {
 }
 
 .time {
-    width: 1137px;
+    width: 100%;
     height: 20px;
 }
 
@@ -41,7 +43,7 @@ main {
 }
 
 .header__wrapper {
-    width: 1196px;
+    width: 100%;
     height: 87px;
     /* margin-top: 25px; */
     padding: 15px;
@@ -144,7 +146,7 @@ main {
 }
 
 /* General */
-/* General */
+
 .general {
     width: 100%;
 }
@@ -187,6 +189,7 @@ main {
     border-radius: 300px;
     background: #1E304C;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .general-buttonText {
@@ -273,15 +276,27 @@ main {
     height: 20px;
 }
 
+
+
+
+
+
 /* service */
+.service-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    color: #1e2f49;
+}
+
 .service-cardContainer {
-    width: 360px;
     height: 270px;
     border-radius: 20px;
 }
 
 .service-card {
-    max-width: 360px;
     height: 180px;
     text-align: center;
     border-radius: 8px;
@@ -338,8 +353,7 @@ main {
     align-items: center;
     justify-content: center;
     height: 100%;
-    background: linear-gradient(96.87deg, #1E2F49 43.64%, #4871AF 97.83%);
-
+    background: linear-gradient(96.87deg, #1e2f49 43.64%, #4871af 97.83%);
     padding: 20px;
     border-radius: 20px;
 }
@@ -350,7 +364,7 @@ main {
     font-weight: 500;
     line-height: 31.47px;
     text-align: left;
-    color: #FDFDFD;
+    color: #fdfdfd;
 }
 
 .service-formSubText {
@@ -359,8 +373,7 @@ main {
     font-weight: 400;
     line-height: 21.78px;
     text-align: left;
-    color: #FDFDFD;
-
+    color: #fdfdfd;
 }
 
 .service-formPrivacyText {
@@ -369,25 +382,31 @@ main {
     font-weight: 400;
     line-height: 10px;
     text-align: left;
-    color: #E8E9EA;
-
+    color: #e8e9ea;
 }
 
 .service-btn {
-   height: 44px;
-   border-radius: 5px;
-    background: #F8B514;
+    height: 44px;
+    border-radius: 5px;
+    background: #f8b514;
     font-family: Inter;
     font-size: 16px;
     font-weight: 500;
     line-height: 16px;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
-.service-input{
+.service-input {
     height: 44px;
 }
+
+
+
+
+
+
+
 
 /* protect*/
 .protect__title {
@@ -397,6 +416,15 @@ main {
     line-height: 52px;
     text-align: left;
     color: #1E2F49;
+}
+
+.protect__text {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+    color: #303030;
 }
 
 .protect__img {
@@ -415,10 +443,19 @@ main {
 }
 
 .protect__item {
+    position: relative;
     width: 320px;
     height: 120px;
     border-radius: 10px;
     background: #FDFDFD;
+}
+
+.protect-image {
+    position: absolute;
+    top: -15px;
+    right: 10px;
+    width: 37px;
+    height: 37px;
 }
 
 .protect__rules {
@@ -540,6 +577,7 @@ main {
 
 .task {
     width: 360px;
+    height: 228px;
     border-radius: 20px;
     background: #FDFDFD;
 }
@@ -663,6 +701,45 @@ main {
     text-align: center;
     color: #FFFFFF;
 
+}
+
+/* reviews */
+.reviews {
+    background: #E5ECF6;
+}
+
+.reviews-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.reviews-contentBox {
+    cursor: pointer;
+    border-radius: 10px;
+    background: #F8B514;
+}
+
+.reviews-text {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 31.2px;
+    text-align: left;
+    color: #000000;
+}
+
+.reviews-DubleGis {
+    width: 100px;
+    height: 30px;
+}
+
+.reviews-YandexMap {
+    width: 130px;
+    height: 30px;
 }
 
 /* contacts */
@@ -811,6 +888,26 @@ main {
     line-height: 23.4px;
     text-align: left;
     color: #FDFDFD;
+}
+
+.footer__city-address {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    color: #FDFDFD;
+
+}
+
+.footer__city-address_bold {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 23.4px;
+    text-align: left;
+    color: #FDFDFD;
+
 }
 
 .footer__bottom {

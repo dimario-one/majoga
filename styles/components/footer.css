@@ -1,0 +1,137 @@
+.footer {
+    width: 100%;
+    min-height: 554px;
+    flex-shrink: 0;
+    background: #3C3C3C;
+}
+
+.footer__container {
+    height: 100%;
+    flex: 1 0 auto;
+    position: relative;
+    background: #3C3C3C;
+    box-shadow: none;
+}
+
+.footer__logo {
+    width: 152px;
+    height: 100px;
+}
+
+.footer__consultation {
+    height: 20px;
+}
+
+.footer__title_text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer__title_color {
+    color: #B8CCE0;
+}
+
+.footer__text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: center;
+}
+
+.footer__text_color {
+    color: #FDFDFD;
+}
+
+.footer__list {
+    list-style: none;
+}
+
+.footer__phone {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 46.8px;
+    /* text-align: left; */
+    color: #B8CCE0;
+}
+
+.footer__address {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #B8CCE0;
+}
+
+.footer__bottom {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #B8CCE0;
+}
+
+.footer__privecy-text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.footer_social__icon {
+    width: 44px;
+    height: 44px;
+    border-radius: 6px;
+    border: 1px solid #838F9F;
+}
+
+.footer_social__img {
+    /* width: 28.71px;
+    height: 28.71px; */
+
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+
+.footer_consultation {
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    border-radius: 6px;
+    background: #F8B514;
+}
+
+
+.footer_consultation__text {
+    font-family: Inter;
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #FDFDFD;
+}
+
+@media screen and (max-width:390px) {
+    .footer__phone {
+        font-size: 24px;
+        text-align: center;
+        color: #B8CCE0;
+    }
+}
+
+@media (max-width: 992px) {
+    .footer__text {
+        text-align: center;
+    }
+    /* .footer_consultation {
+        width: 200px;
+        height: 44px;
+    } */
+}
