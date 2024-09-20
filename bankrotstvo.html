@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мажуга&Мажуга</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/components/Bankrotstvo/bankrotstvo.css"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header mb-5">
+        <div
+          class="container d-flex flex-column align-items-center justify-content-end justify-content-xl-between h-100 flex-grow-1"
+        >
+          <div
+            class="d-none d-xl-flex flex-row align-items-center justify-content-between ps-3 pe-3 time"
+          >
+            <div class="d-flex flex-row align-items-center">
+              <img class="" src="./images/header/Mask group.png" alt="" />
+              <div class="d-flex flex-row align-items-center">
+                <p class="m-0 ms-2 p-0 header__address">
+                  г. Омск, ул. Декабристов, 45, офис 402 Б
+                </p>
+                <p class="m-0 ms-5 p-0 header__address">
+                  г. Москва, ул. Ленинская Слобода, д. 26, офис 533.9.
+                  Бизнес-центр "Омега 2", корпус А.
+                </p>
+              </div>
+              <!-- <p class="m-0 ms-2 p-0 header__address">
+                г. Омск, ул. Декабристов, 45, офис 402 Б
+              </p> -->
+            </div>
+            <div class="d-flex flex-row align-items-center">
+              <img class="" src="./images/header/Layer 2.png" alt="" />
+              <p class="m-0 ms-2 p-0 header__address">
+                Время работы офиса: ПН-ПТ с 9:00 до 20:00
+              </p>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-row align-items-center justify-content-between header__wrapper"
+          >
+            <figure class="logo">
+              <img
+                class="logo__img"
+                src="./images/header/logo.png"
+                alt="Логотип"
+              />
+            </figure>
+            <nav
+              class="d-none d-xl-flex flex-row align-items-center justify-content-between"
+            >
+              <ul
+                class="d-flex flex-row align-items-center justify-content-between nav"
+              >
+                <li class="">
+                  <a class="nav__text" href="./uslugi.html"> Услуги </a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./okompanii.html"> О компании </a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./buissnes.html">Юр. услуги</a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./news.html">Новости</a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./contacts.html">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div
+              class="d-none d-md-flex flex-row align-items-center ms-0 ms-lg-5 header_contacts"
+            >
+              <figure class="d-none d-md-block p-0 header__phone">
+                <img
+                  class="logo__img"
+                  src="./images/header/phone__.svg.png"
+                  alt="Телефон"
+                />
+              </figure>
+              <div
+                class="d-none d-md-flex flex-column align-items-center justify-content-center ms-2"
+              >
+                <p class="m-0 p-0 header__phoneNumber">+7 (995) 127-83-12</p>
+                <p class="m-0 p-0 header__phoneNumber">+7 (3812) 34-61-34</p>
+
+                <p class="m-0 p-0 header__call">Заказать звонок</p>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column">
+              <ul
+                class="d-flex flex-row align-items-center justify-content-between m-0 p-0 header__socialMedia"
+              >
+                <li class="social__icon">
+                  <div
+                    class="d-flex align-items-center justify-content-center w-100 h-100"
+                  >
+                    <img
+                      class="social__img"
+                      src="./images/header/_Telegram_.svg.png"
+                      alt="Телеграмм"
+                    />
+                  </div>
+                </li>
+                <li class="social__icon ms-2">
+                  <div
+                    class="d-flex align-items-center justify-content-center w-100 h-100"
+                  >
+                    <img
+                      class="social__img"
+                      src="./images/header/_WhatsApp_.svg fill.png"
+                      alt="Ватсап"
+                    />
+                  </div>
+                </li>
+                <li class="ms-2">
+                  <button class="consultation consultation__text">
+                    Консультация
+                  </button>
+                </li>
+              </ul>
+              <!-- <div
+              class="d-flex d-sm-none flex-column align-items-center justify-content-center ms-2"
+            >
+              <p class="m-0 p-0 header__phoneNumber">+7 (995) 127-83-12</p>
+            </div> -->
+            </div>
+
+            <nav class="navbar navbar-expand-xl navbar-dark d-xl-none">
+              <div class="container-fluid">
+                <button
+                  class="navbar-toggler border border-white"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav"
+                  aria-controls="navbarNav"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="container ps-3 ps-sm-5 bankrotstvo-services"> 
+          <div class="bankrotstvo-services__banner d-flex flex-column flex-xl-row align-items-center justify-content-between">
+            <div class="bankrotstvo-services__content col-6 h-100 h-xl-50 d-flex flex-column flex-xl-row justify-content-none justify-content-lg-between mt-2 mt-sm-5 mt-xl-0 pt-5">
+              <div class="bankrotstvo-services__title-container w-100">
+                <h1 class="bankrotstvo-services__title">Банкротство физических лиц</h1>
+                <!-- <p class="bankrotstvo-services__description mt-5">
+                  Консультации, юридическое сопровождение бизнеса, юридические услуги для бизнеса и граждан
+                </p> -->
+
+                <ul class="mt-5 bankrotstvo-services__list">
+                  <li class="d-flex flex-row align-items-center mt-2  bankrotstvo-services__list-item">
+                    <div class="bankrotstvo-services__list-icon"></div>
+                    <p class="m-0 ms-3 bankrotstvo-services__list-text">Работаем напрямую и без посредников</p>
+                  </li>
+                  <li class="d-flex flex-row align-items-center mt-2  bankrotstvo-services__list-item">
+                    <div class="bankrotstvo-services__list-icon"></div>
+                    <p class="m-0 ms-3 bankrotstvo-services__list-text">Списываем долги даже с ипотекой</p>
+                  </li>
+                  <li class="d-flex flex-row align-items-center mt-2  bankrotstvo-services__list-item">
+                    <div class="bankrotstvo-services__list-icon"></div>
+                    <p class="m-0 ms-3 bankrotstvo-services__list-text">100% гарантия прописана в договоре</p>
+                  </li>
+                  <li class="d-flex flex-row align-items-center mt-2  bankrotstvo-services__list-item">
+                    <div class="bankrotstvo-services__list-icon"></div>
+                    <p class="m-0 ms-3 bankrotstvo-services__list-text">Прозрачное ценообразование</p>
+                  </li>
+                </ul>
+                
+              </div>
+              <div class="col-12 col-md-9 col-lg-6 d-flex flex-column justify-content-center mt-3 mt-sm-0 ms-0 ms-xl-5 ps-0 ps-sm-3 ps-xl-0 bankrotstvo-services__testimonials">
+                <p class="m-0 bankrotstvo-services__testimonial-count">
+                  <p class="m-0 bankrotstvo-services__testimonial-count_bold">
+                    Более 1200 людей
+                  </p> 
+                  доверились нам
+                </p>
+                <ul class="d-flex flex-row align-items-center  ps-5 p-sm-0  bankrotstvo-services__testimonial-list">
+                  <li class="bankrotstvo-services__testimonial-item">
+                    <img class="bankrotstvo-services__testimonial-image" src="./images/general/services/Ellipse 88 (1).png" alt="">
+                  </li>
+                  <li class="bankrotstvo-services__testimonial-item">
+                    <img class="bankrotstvo-services__testimonial-image" src="./images/general/services/Ellipse 89.png" alt="">
+                  </li>
+                  <li class="bankrotstvo-services__testimonial-item">
+                    <img class="bankrotstvo-services__testimonial-image" src="./images/general/services/Ellipse 90.png" alt="">
+                  </li>
+                  <li class="bankrotstvo-services__testimonial-item">
+                    <img class="bankrotstvo-services__testimonial-image" src="./images/general/services/Ellipse 91.png" alt="">
+                  </li>
+                  <li class="bankrotstvo-services__testimonial-item">
+                    <img class="bankrotstvo-services__testimonial-image" src="./images/general/services/Ellipse 92.png" alt="">
+                  </li>
+                  <li class="d-flex align-items-center justify-content-center bankrotstvo-services__testimonial-item bankrotstvo-services__testimonial-icon-plus">
+                    <img class="bankrotstvo-services__icon-plus" src="./images/general/services/Group 2098.png" alt="">
+                  </li>
+                  <div class="d-flex align-items-center justify-content-center bankrotstvo-services__testimonial-icon-heart">
+                    <img class="bankrotstvo-services__icon-heart" src="./images/general/services/Frame.png" alt="">
+                  </div>
+                </ul>
+              </div>
+            </div>
+            <div class="bankrotstvo-services__image-container col d-flex justify-content-end">
+              <figure class="bankrotstvo-services__main-image m-0">
+                <img class="bankrotstvo-services_img" src="./images/general/services/RZDS4080 копия-Photoroom 1.png" alt="" />
+              </figure>
+            </div>
+            <figure class="bankrotstvo-services__background-image m-0">
+              <img src="./images/general/services/Mask group.png" alt="" />
+            </figure>
+          </div>
+        </section>
+        
+        <section class="bankrotstvo-container container mt-5">
+          <h2 class="bankrotstvo-advantages__title">
+            Преимущества работы с нами
+          </h2>
+          <ul
+            class="bankrotstvo-advantages__list d-flex flex-column flex-lg-row flex-wrap align-items-stretch gap-5 mt-5 p-0"
+          >
+            <li class="bankrotstvo-advantages__item col-12 col-lg-4">
+              <div
+                class="bankrotstvo-advantages__header d-flex flex-row align-items-center"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center bankrotstvo-advantages__image-wrapper"
+                >
+                  <img
+                    class="bankrotstvo-advantages__image"
+                    src="./images/advantages/bankrotstvo/Group (1).png"
+                    alt="Комплексное решение"
+                  />
+                </div>
+                <h3 class="bankrotstvo-advantages__title ms-3 ms-sm-5">
+                  Гонорар успеха:
+                </h3>
+              </div>
+              <span class="bankrotstvo-advantages__description mt-5">
+                Мы заинтересованы в списании долгов нашим клиентам. Если не
+                спишем долг, то вернем все деньги.
+              </span>
+            </li>
+            <li class="bankrotstvo-advantages__item col-12 col-lg-6">
+              <div
+                class="bankrotstvo-advantages__header d-flex flex-row align-items-center"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center bankrotstvo-advantages__image-wrapper"
+                >
+                  <img
+                    class="bankrotstvo-advantages__image"
+                    src="./images/advantages/bankrotstvo/Vector.png"
+                    alt="Опыт и профессионализм"
+                  />
+                </div>
+                <h3 class="bankrotstvo-advantages__title ms-3 ms-sm-5">
+                  Опыт и профессионализм:
+                </h3>
+              </div>
+              <span class="bankrotstvo-advantages__description mt-5">
+                Мы не посредники, поэтому знаем, как поступить даже в самой
+                тяжелой ситуации. Сумма списанных долгов составляет более 1 млрд
+                рублей. С нами Вы получите тот результат, который нужен Вам.
+              </span>
+            </li>
+            <li class="bankrotstvo-advantages__item col-12 col-lg-6">
+              <div
+                class="bankrotstvo-advantages__header d-flex flex-row align-items-center"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center bankrotstvo-advantages__image-wrapper"
+                >
+                  <img
+                    class="bankrotstvo-advantages__image"
+                    src="./images/advantages/bankrotstvo/Group (2).png"
+                    alt="Конфиденциальность"
+                  />
+                </div>
+                <h3 class="bankrotstvo-advantages__title ms-3 ms-sm-5">
+                  Полная прозрачность:
+                </h3>
+              </div>
+              <span class="bankrotstvo-advantages__description mt-5">
+                Мы сразу прописываем в договоре окончательную стоимость работ,
+                которая рассчитывается индивидуально для каждого клиента. При
+                этом мы сразу сообщим, если банкротство Вам не подходит, чтобы
+                Вы не переплачивали.
+              </span>
+            </li>
+            <li
+              class="bankrotstvo-advantages__item bankrotstvo-advantages__item_blue col-12 col-lg-4"
+            >
+              <span
+                class="bankrotstvo-advantages__description bankrotstvo-advantages__description_white"
+              >
+                Достаточно оставить заявку на бесплатную консультацию, чтобы мы
+                Вам помогли списать долги и начать финансовую жизнь с чистого
+                листа
+              </span>
+              <div
+                class="d-flex flex-row align-items-center justify-content-between mt-3 p-2 ps-3 bankrotstvo-advantages__button-wrapper"
+              >
+                <p class="m-0 bankrotstvo-advantages__button-text">
+                  Оставить заявку
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-center bankrotstvo-advantages__button-icon-wrapper"
+                >
+                  <img
+                    class="bankrotstvo-advantages__button-icon"
+                    src="./images/advantages/Line 19 (1).png"
+                    alt="стрелка"
+                  />
+                </div>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <section class="container mt-5 way-out">
+          <h2 class="way-out__title">Что делать, если:</h2>
+          <div
+            class="row mt-5 d-flex flex-column-reverse flex-lg-row way-out__content"
+          >
+            <div
+              class="col-6 col-xl-7 d-flex flex-column justify-content-between way-out__wrapper"
+            >
+              <div class="way-out__section way-out__section--problems">
+                <ul
+                  class="d-flex flex-row flex-wrap align-items-stretch gap-3 gap-xl-5 p-0 way-out__list way-out__list--problems"
+                >
+                  <li
+                    class="col-12 col-xl-5 d-flex align-items-center justify-content-center ps-3 pt-2 pt-xl-3 way-out__item way-out__item--problem"
+                  >
+                    <p class="m-0 way-out__text way-out__text--problem">
+                      Начали поступать звонки и письма от коллекторов,
+                      взыскателей и банков
+                    </p>
+                  </li>
+                  <li
+                    class="col-12 col-xl-6 d-flex align-items-center justify-content-center ps-3 pt-2 pt-xl-3 way-out__item way-out__item--problem"
+                  >
+                    <p class="m-0 way-out__text way-out__text--problem">
+                      Боитесь, что ваше имущество заберут за долги от банков и
+                      других организаций
+                    </p>
+                  </li>
+                  <li
+                    class="col-12 col-xl-6 d-flex align-items-center justify-content-center ps-3 pt-2 pt-xl-3 way-out__item way-out__item--problem"
+                  >
+                    <p class="m-0 way-out__text way-out__text--problem">
+                      Ваше дело находится у судебных приставов и вам не чем
+                      платить по задолженности
+                    </p>
+                  </li>
+                  <li
+                    class="col-12 col-xl-5 d-flex align-items-center justify-content-center ps-3 pt-2 pt-xl-3 way-out__item way-out__item--problem"
+                  >
+                    <p class="m-0 way-out__text way-out__text--problem">
+                      Отдаёте все деньги на долги по кредитам и не остаётся на
+                      жизнь
+                    </p>
+                  </li>
+                </ul>
+              </div>
+              <div class="way-out__section way-out__section--solutions">
+                <h3 class="mt-3 mt-xl-5 way-out__title">Выход есть:</h3>
+                <ul
+                  class="d-flex flex-column mt-3 mt-xl-5 p-0 way-out__list way-out__list--solutions"
+                >
+                  <li
+                    class="d-flex align-items-center justify-content-center p-3 way-out__item way-out__item--solution way-out__item--solution_blue"
+                  >
+                    <p class="m-0 way-out__text way-out__text--solution">
+                      Договориться о рассрочке или кредитных каникулах
+                    </p>
+                  </li>
+                  <li
+                    class="d-flex align-items-center justify-content-center mt-3 p-3 way-out__item way-out__item--solution way-out__item--solution_green"
+                  >
+                    <p class="m-0 way-out__text way-out__text--solution">
+                      Полностью списать все долги законным путем
+                    </p>
+                  </li>
+                  <li
+                    class="d-flex align-items-center justify-content-center mt-3 p-3 way-out__item way-out__item--solution way-out__item--solution_blue"
+                  >
+                    <p class="m-0 way-out__text way-out__text--solution">
+                      Рефинансировать долги
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-6 col-xl-5 way-out__image-container">
+              <img
+                class="way-out__image"
+                src="./images/way-out/image 16.png"
+                alt="Описание изображения"
+              />
+            </div>
+          </div>
+        </section>
+        <section class="container mt-5 bankruptcy-process">
+          <div
+            class="d-flex flex-column flex-xl-row align-items-center justify-content-between bankruptcy-process__header"
+          >
+            <h2 class="bankruptcy-process__title">Процесс банкротства</h2>
+            <div
+              class="d-flex align-items-center justify-content-center mt-5 mt-xl-0 bankruptcy-process__buttons"
+            >
+              <button class="bankruptcy-process__button">
+                <img
+                  class="bankruptcy-process__button-image"
+                  src="./images/bankruptcy/Line 24.png"
+                  alt=""
+                />
+              </button>
+              <button
+                class="d-flex align-items-center justify-content-center ms-3 bankruptcy-process__button"
+              >
+                <img
+                  class="bankruptcy-process__button-image"
+                  src="./images/bankruptcy/Line 23.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column-reverse flex-xl-row align-items-center justify-content-between mt-5 bankruptcy-process__inner"
+          >
+            <div class="w-75 w-xl-50 mt-5 mt-xl-0 bankruptcy-process__content">
+              <div class="bankruptcy-process__description">
+                <span class="w-100 w-xl-50 bankruptcy-process__text">
+                  Мы ведем дело до получения определения о списании долгов, что
+                  обеспечивает нашим клиентам максимальную защиту и уверенность
+                  в результате.
+                </span>
+                <p class="w-75 mt-5 bankruptcy-process__duration">
+                  6-8 месяцев — средний срок проведения процедуры банкротства
+                </p>
+              </div>
+            </div>
+            <div
+              class="w-100 w-lg-75 w-xl-50 ms-5 p-5 p-xl-0 bankruptcy-process__consultation-section"
+            >
+              <p class="bankruptcy-process__consultation-title">
+                Консультация и оценка:
+              </p>
+              <div
+                class="d-flex flex-column flex-sm-row align-items-center bankruptcy-process__consultation"
+              >
+                <p class="bankruptcy-process__consultation-step">01</p>
+                <p
+                  class="ms-0 ms-sm-5 bankruptcy-process__consultation-description"
+                >
+                  Начинаем с основательной консультации, в ходе которой вы
+                  расскажете нам о своей ситуации, а мы проведем детальную
+                  оценку вашей финансовой обстановки. Вы точно будете знать
+                  возможность списания долгов в Вашей ситуации.
+                </p>
+              </div>
+            </div>
+          </div>
+          <ul
+            class="d-flex flex-column flex-xl-row align-items-center align-items-xl-stretch justify-content-between gap-2 mt-5 bankruptcy-process__steps"
+          >
+            <li class="d-flex flex-column bankruptcy-process__step">
+              <div
+                class="d-flex align-items-center justify-content-center bankruptcy-process__step-duration bankruptcy-process__step-duration_eff5ff"
+              >
+                <p class="bankruptcy-process__step-duration-text">2 дня</p>
+              </div>
+              <span class="bankruptcy-process__step-date">20 апреля</span>
+              <span class="bankruptcy-process__step-description"
+                >Консультация и заключение договора</span
+              >
+            </li>
+            <li class="d-flex flex-column bankruptcy-process__step">
+              <div
+                class="d-flex align-items-center justify-content-center bankruptcy-process__step-duration bankruptcy-process__step-duration_e7f0ff"
+              >
+                <p class="bankruptcy-process__step-duration-text">2 недели</p>
+              </div>
+              <span class="bankruptcy-process__step-date">5 мая</span>
+              <span class="bankruptcy-process__step-description"
+                >Сбор документов и подача заявления в суд</span
+              >
+            </li>
+            <li class="d-flex flex-column bankruptcy-process__step">
+              <div
+                class="d-flex align-items-center justify-content-center bankruptcy-process__step-duration bankruptcy-process__step-duration_c8dcfd"
+              >
+                <p class="bankruptcy-process__step-duration-text">4 недели</p>
+              </div>
+              <span class="bankruptcy-process__step-date">4 недели</span>
+              <span class="bankruptcy-process__step-description"
+                >Начало процедуры вынесения решения о признании банкротом</span
+              >
+            </li>
+            <li class="d-flex flex-column bankruptcy-process__step">
+              <div
+                class="d-flex align-items-center justify-content-center bankruptcy-process__step-duration bankruptcy-process__step-duration_93bcff"
+              >
+                <p class="bankruptcy-process__step-duration-text">6 месяцев</p>
+              </div>
+              <span class="bankruptcy-process__step-date">20 октября</span>
+              <span class="bankruptcy-process__step-description"
+                >Сопровождение процедуры банкротства</span
+              >
+            </li>
+            <li
+              class="d-flex flex-column bankruptcy-process__step bankruptcy-process__step_long"
+            >
+              <div
+                class="d-flex align-items-center justify-content-center bankruptcy-process__step-duration bankruptcy-process__step-duration_25d366"
+              >
+                <p class="bankruptcy-process__step-duration-text">
+                  Жизнь без долгов
+                </p>
+              </div>
+              <span class="bankruptcy-process__step-description">
+                Получение определения о завершении процедуры списанием долгов
+              </span>
+            </li>
+          </ul>
+        </section>
+            Юристы, которых заслуживаете именно Вы
+          </h2>
+          <div
+            class="d-flex flex-row align-items-center justify-content-between mt-5 attorneys-content-wrapper"
+          >
+            <ul class="w-50 p-0 attorneys-list">
+              <li class="attorneys-item">
+                <div class="d-flex flex-row align-items-center">
+                  <p class="attorneys-number m-0">01</p>
+                  <h3 class="ms-3 attorneys-title">Понимание</h3>
+                </div>
+                <span class="attorneys-description"
+                  >Тщательно изучаем ситуацию, выявляем основные проблемы и цели
+                  клиента, чтобы разработать наиболее эффективные стратегии и
+                  решения</span
+                >
+              </li>
+              <li class="attorneys-item mt-5">
+                <div class="d-flex flex-row align-items-center">
+                  <p class="attorneys-number m-0">02</p>
+                  <h3 class="ms-3 attorneys-title">Эффективность</h3>
+                </div>
+                <span class="attorneys-description"
+                  >Стремимся к достижению конкретных и результативных решений,
+                  минимизируя время и ресурсы клиента и обеспечивая максимально
+                  лучшие результаты</span
+                >
+              </li>
+            </ul>
+            <div class="attorneys-image-container">
+              <img
+                class="attorneys-image"
+                src="./images/aim/telegram-cloud-document-2-5192795613267250980 2.png"
+                alt=""
+              />
+              <img
+                class="attorneys-logo-image"
+                src="./images/aim/Group 1957.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <ul
+            class="d-flex flex-row align-items-center justify-content-between mt-5 p-0 attorneys-list"
+          >
+            <li class="attorneys-item">
+              <div class="d-flex flex-row align-items-center">
+                <p class="attorneys-number m-0">03</p>
+                <h3 class="ms-3 attorneys-title">Профессионализм</h3>
+              </div>
+              <span class="attorneys-description"
+                >Для вас будут работать только профессиональные и
+                квалифицированные специалисты, которые будут решать самые
+                сложные задачи и обеспечивать высокий уровень качества
+                услуг</span
+              >
+            </li>
+            <li class="attorneys-item">
+              <div class="d-flex flex-row align-items-center">
+                <p class="attorneys-number m-0">04</p>
+                <h3 class="ms-3 attorneys-title">Партнерство</h3>
+              </div>
+              <span class="attorneys-description"
+                >Интересы клиента для нас на первом месте. От этого мы строим
+                долгосрочные отношения на взаимном уважении, доверии и
+                понимании.</span
+              >
+            </li>
+          </ul>
+        </section> -->
+        <article class="container mt-5 start__form">
+          <ul
+            class="d-flex flex-column flex-lg-row align-items-center justify-content-between w-100 h-100 p-5 p-lg-0 start_list"
+          >
+            <li class="col ps-0 ps-lg-3 ps-xl-5">
+              <p class="start__title">Начните с консультации</p>
+              <p class="start__subTitle">
+                Подберем оптимальный варинт решение вашего вопроса
+              </p>
+            </li>
+            <li class="col mt-5 mt-lg-0">
+              <figure class="m-0 start__img">
+                <img
+                  class="start__image"
+                  src="./images/start/foto.png"
+                  alt=""
+                />
+              </figure>
+            </li>
+            <li class="col d-flex flex-column align-items-center mt-5 mt-lg-0">
+              <input class="start__input" placeholder=" Телефон" />
+              <input class="mt-4 start__input" placeholder=" Имя" />
+              <button class="mt-4 start__btn start__btn-text">Отправить</button>
+              <span class="mt-2 start__textHolder start-text"
+                >Нажимая кнопку “Отправить” Вы соглашаетесь с политикой
+                конфиденциальности</span
+              >
+            </li>
+          </ul>
+        </article>
+        <section class="container pt-5 pb-5 cases">
+          <h2 class="cases__title">Кейсы</h2>
+          <div class="d-flex flex-column flex-lg-row cases-section mt-5">
+            <div class="col-12 col-lg-4 mt-5 mt-xl-0 case-card">
+              <figure class="cases__img">
+                <img
+                  class="logo__img"
+                  src="./images/cases/Иконка.png"
+                  alt="Icon"
+                />
+              </figure>
+              <h3 class="case-cardTitle">Задача</h3>
+              <p class="case-cardText">
+                По договору поставки юридическим лицом было уплачено 25
+                миллионов рублей за поставку и настройку мед.оборудования.
+                Оборудование поставлено не в срок. Необходимо взыскать
+                недополученную прибыль и срыв сроков
+              </p>
+              <h3 class="case-cardTitle">Решение</h3>
+              <p class="case-cardText">
+                После подготовки и анализа всех необходимых документов в
+                судебном заседании мы взыскали недополученную прибыль в размере
+                2 миллионов рублей, за срыв сроков 200 тысяч рублей для нашего
+                клиента, а также компенсацию юридических услуг
+              </p>
+            </div>
+            <div class="col-12 col-lg-4 mt-5 mt-xl-0 case-card">
+              <figure class="cases__img">
+                <img
+                  class="logo__img"
+                  src="./images/cases/Иконка.png"
+                  alt="Icon"
+                />
+              </figure>
+              <h3 class="case-cardTitle">Задача</h3>
+              <p class="case-cardText">
+                Предоставить доступ в помещение, в котором арендодатель поменял
+                все замки из-за неуплаты аренды за несколько месяцев
+              </p>
+              <h3 class="case-cardTitle">Решение</h3>
+              <p class="case-cardText m-0">
+                Направив необходимые документы арендодателю для дальнейшего
+                дела, мы приехали на место, вскрыли все замки. По прибытии
+                участкового нами были предоставлены все необходимые документы
+                сотруднику полиции, которым мы направляли ранее. Заявителю
+                (арендодателю) был отказ в возбуждении уголовного дела по факту
+                взлома с проникновением. Вопрос
+              </p>
+              <span class="expand text-center mt-1">развернуть</span>
+            </div>
+            <div class="col-12 col-lg-4 mt-5 mt-xl-0 case-card">
+              <figure class="cases__img">
+                <img
+                  class="logo__img"
+                  src="./images/cases/Иконка.png"
+                  alt="Icon"
+                />
+              </figure>
+              <h3 class="case-cardTitle">Задача</h3>
+              <p class="case-cardText">
+                Торговая сеть отказывалась идти на какие-либо уступки и
+                рассматривать договор. Необходимо было изучить договор, внести
+                корректировки, которые будут защищать нашего клиента и провести
+                переговоры
+              </p>
+              <h3 class="case-cardTitle">Решение</h3>
+              <p class="case-cardText">
+                После изучения договора со стороны торговой сети мы предоставили
+                свои корректировки, провели переговоры. Договор был заключен на
+                выгодных условиях для обеих сторон. На данный момент
+                сотрудничаем с клиентом и ведем все юридические аспекты в его
+                бизнесе
+              </p>
+            </div>
+          </div>
+          <div class="d-flex justify-content-center mt-5">
+            <button class="cases__button casses_button-text">
+              Оставить заявку
+            </button>
+          </div>
+        </section>
+        <section class="container person-services">
+          <h2 class="person-services__title">Услуги</h2>
+          <ul class="person-services__grid gap-5 mt-5">
+            <li class="person-services__item bankrotstvo-services__arrow">
+                <div class="d-flex align-items-center justify-content-center person-services__icon-container person-services__icon-container_white">
+                  <img
+                    src="./images/service/person/Group 2073.png"
+                    alt="Иконка банкротства"
+                    class="person-services__icon"
+                  />
+                </div>
+              <h3 class="w-75 w-sm-100 person-services__item-title">
+                Семейные споры
+              </h3>
+              <p class="w-75 person-services__description">
+                Взыщем алименты, разделим имущество и решим семейные споры
+                качественно, чтобы вам было спокойно.
+              </p>
+              <a
+                href="#"
+                class="d-flex flex-row align-items-center justify-content-center person-services__link"
+              >
+                <p class="m-0 person-services__link-text">Подробнее</p>
+                <div
+                  class="d-flex align-items-center justify-content-center ms-3 person-services__arrow"
+                >
+                  <img
+                    class=""
+                    src="./images/service/person/Arrow 1.png"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="person-services__item bankrotstvo-services__arrow">
+              <div class="d-flex align-items-center justify-content-center person-services__icon-container person-services__icon-container_white">
+                <img
+                  src="./images/service/person/Group 2073 (1).png"
+                  alt="Иконка защиты прав потребителей"
+                  class="person-services__icon"
+                />
+              </div>
+              <h3 class="w-75 w-sm-100 person-services__item-title">
+                Защита прав потребителей
+              </h3>
+              <p class="w-75 person-services__description">
+                Заберем, изменим, взыщем, вернем продавцу все некачественное -
+                это самая малость того, что мы можем.
+              </p>
+              <a
+                href="#"
+                class="d-flex flex-row align-items-center justify-content-center person-services__link"
+              >
+                <p class="m-0 person-services__link-text">Подробнее</p>
+                <div
+                  class="d-flex align-items-center justify-content-center ms-3 person-services__arrow"
+                >
+                  <img
+                    class=""
+                    src="./images/service/person/Arrow 1.png"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="person-services__item bankrotstvo-services__arrow">
+              <div class="d-flex align-items-center justify-content-center person-services__icon-container person-services__icon-container_white">
+                <img
+                  src="./images/service/person/Group (1).png"
+                  alt="Иконка всех услуг"
+                  class="person-services__icon"
+                />
+              </div>
+              <h3 class="w-75 w-sm-100 person-services__item-title">
+                Все услуги
+              </h3>
+              <p class="w-75 person-services__description">
+                Не нашли то, что искали? Нажмите на кнопку "Подробнее" и
+                перейдите на страницу со списком всех наших услуг
+              </p>
+              <a
+                href="#"
+                class="d-flex flex-row align-items-center justify-content-center person-services__link"
+              >
+                <p class="m-0 person-services__link-text">Подробнее</p>
+                <div
+                  class="d-flex align-items-center justify-content-center ms-3 person-services__arrow"
+                >
+                  <img
+                    class=""
+                    src="./images/service/person/Arrow 1.png"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </li>
+            <li class="person-services__consultation">
+              <h3 class="person-services__consultation-title">
+                Не нашли ответы?
+              </h3>
+              <p class="person-services__consultation-description">
+                Вы можете записаться на бесплатную консультацию, на которой мы
+                сможем разобрать вашу ситуацию
+              </p>
+              <a
+                href="#"
+                class="d-flex flex-row align-items-center justify-content-center person-services__consultation-button"
+              >
+                <p class="m-0 ms-2 person-services__consultation-button-text">
+                  Получить консультацию
+                </p>
+                <div
+                  class="d-flex align-items-center justify-content-center ms-4 person-services__arrow person-services__arrow_blue"
+                >
+                  <img
+                    class="person-services__arrow-image"
+                    src="./images/general/Line 19.png"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section class="contacts mt-5">
+          <div class="container">
+            <h1 class="heading">Контакты</h1>
+            <div class="contacts">
+              <div class="contact" id="contactOmsk">
+                <p class="contact__address">Адрес:</p>
+                <p class="contact__address">
+                  Нажмите на город, чтобы посмотреть расположение офиса
+                </p>
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-sm-center contact__detail"
+                  onclick="showMap('Omsk')"
+                >
+                  <div class="d-flex flex-row contact__city">
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 contact__icon"
+                    >
+                      <img
+                        class="logo__img"
+                        src="./images/contacts/Mask group.png"
+                        alt=""
+                      />
+                    </figure>
+                    <p class="contact__info contact__info_bold ms-2">
+                      г. Омск,
+                    </p>
+                  </div>
+                  <span class="contact__info contact__info_normal">
+                    ул. Декабристов, 45, офис 402 Б</span
+                  >
+                </div>
+                <div
+                  class="d-flex flex-column flex-sm-row align-items-sm-center mt-4 contact__detail"
+                  onclick="showMap('Moscow')"
+                >
+                  <div class="d-flex flex-row contact__city">
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 contact__icon"
+                    >
+                      <img
+                        class="logo__img"
+                        src="./images/contacts/Mask group.png"
+                        alt=""
+                      />
+                    </figure>
+                    <p class="contact__info contact__info_bold ms-2">
+                      г. Москва,
+                    </p>
+                  </div>
+                  <span class="contact__info contact__info_normal">
+                    ул. Ленинская Слобода, д. 26, офис 533.9</span
+                  >
+                </div>
+                <p class="m-0 mt-3 contact__address">Телефон:</p>
+                <div class="">
+                  <span
+                    class="contact__info contact__info_bold contact__info_phone"
+                    >+7 (995) 127-83-12</span
+                  >
+                </div>
+                <p class="m-0 mt-3 contact__address">Email:</p>
+                <div class="d-flex flex-row align-items-center">
+                  <figure
+                    class="d-flex flex-row align-items-center m-0 contact__icon"
+                  >
+                    <img
+                      class="logo__img"
+                      src="./images/contacts/Frame.png"
+                      alt=""
+                    />
+                  </figure>
+                  <span class="contact__info contact__info_normal ms-2"
+                    >52701001@mail.ru</span
+                  >
+                </div>
+                <div class="row row-cols-2 mt-3">
+                  <div class="col">
+                    <p class="contact__address">Юр. лицо</p>
+                    <span class="contact__info contact__info_normal"
+                      >ООО "Олимп"</span
+                    >
+                  </div>
+                  <div class="col">
+                    <p class="contact__address">ИНН</p>
+                    <span class="contact__info contact__info_normal"
+                      >ИНН 5501099938</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="map" class="contact__map w-100">
+              <iframe
+                src="https://maps.google.com/maps?q=55.034,73.35&z=15&output=embed"
+                width="100%"
+                height="300"
+                frameborder="0"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer pt-5">
+        <div class="container footer__container">
+          <div
+            class="d-flex flex-column flex-md-row align-items-center justify-content-between"
+          >
+            <figure class="footer__logo m-0 p-0">
+              <img class="logo__img" src="./images/header/logo.png" alt="" />
+            </figure>
+            <ul
+              class="d-flex flex-row align-items-center justify-content-between m-5 mt-md-0 p-0 header__socialMedia"
+            >
+              <li class="footer_social__icon">
+                <div
+                  class="d-flex align-items-center justify-content-center w-100 h-100"
+                >
+                  <img
+                    class="footer_social__img"
+                    src="./images/header/_Telegram_.svg.png"
+                    alt="Телеграмм"
+                  />
+                </div>
+              </li>
+              <li class="footer_social__icon ms-2">
+                <div
+                  class="d-flex align-items-center justify-content-center w-100 h-100"
+                >
+                  <img
+                    class="footer_social__img"
+                    src="./images/header/_WhatsApp_.svg fill.png"
+                    alt="Ватсап"
+                  />
+                </div>
+              </li>
+              <li class="ms-2">
+                <button class="footer_consultation footer_consultation__text">
+                  Консультация
+                </button>
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="d-flex flex-column flex-xl-row align-items-start align-items-xl-center justify-content-center w-100 mt-5 ps-3 p-sm-0 ps-xl-0"
+          >
+            <ul class="col-12 col-xl-4 ps-0 footer__list">
+              <li class="footer__title_text footer__title_color">
+                Юридическим лицам
+              </li>
+              <li class="mt-3 footer__text footer__text_color">
+                Арбитражные споры
+              </li>
+              <li class="mt-3 footer__text footer__text_color">
+                Юридическое обслуживание бизнеса
+              </li>
+              <li class="mt-3 footer__text footer__text_color">
+                Взыскание долгов
+              </li>
+              <li class="mt-3 footer__text footer__text_color">Все услуги</li>
+            </ul>
+            <ul class="col-12 col-xl-4 ps-0 footer__list">
+              <li class="footer__title_text footer__title_color mt-5 mt-xl-0">
+                Физическим лицам
+              </li>
+              <li class="mt-3 footer__text footer__text_color">
+                Банкротство физ.лиц
+              </li>
+              <li class="mt-3 footer__text footer__text_color">
+                Защита прав потребителей
+              </li>
+              <li class="mt-3 footer__text footer__text_color">
+                Семейные споры
+              </li>
+              <li class="mt-3 footer__text footer__text_color">Все услуги</li>
+            </ul>
+            <ul class="col-12 col-xl-4 ps-0 footer__list">
+              <li class="mt-5 mt-xl-0 text-center text-xl-left footer__phone">
+                +7 (995) 127-83-12
+              </li>
+              <li
+                class="mt-3 mt-xl-4 mt-xl-0 text-center text-xl-left footer__phone"
+              >
+                +7 (3812) 34-61-34
+              </li>
+              <li class="d-flex flex-column justify-content-between mt-3 h-100">
+                <p class="footer__address">Адрес:</p>
+                <span class="mt-3 footer__address">
+                  г. Москва, ул. Ленинская Слобода, д. 26, офис 533.9.
+                  Бизнес-центр "Омега 2", корпус А.
+                </span>
+                <span class="mt-3 footer__address"
+                  >г. Омск, ул. Декабристов, 45, офис 402 Б</span
+                >
+              </li>
+            </ul>
+          </div>
+          <ul
+            class="d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 pt-3 pb-md-1 pb-xl-0 footer__list footer__bottom"
+          >
+            <li class="">
+              <a class="footer__privecy-text" href="#"
+                >Политика конфиденциальности</a
+              >
+            </li>
+            <li class="mt-3 mt-xl-0">
+              <a class="footer__privecy-text" href="#">Юридические услуги</a>
+            </li>
+            <li class="mt-3 mt-xl-0 footer__privecy-text">
+              ©2007–2024 Все права защищены
+            </li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
+      type="text/javascript"
+    ></script>
+    <script src="./js/map.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
+
+<!-- Исходная секция-->
+<!-- <section class="container mt-5 advantages">
+  <h2 class="advantages__title">Преимущества работы с нами</h2>
+  <ul
+    class="d-flex flex-row flex-wrap align-items-stretch gap-5 mt-5 p-0 advantages__list"
+  >
+    <li class="col-4 advantages__item">
+      <div
+        class="advantages__item-header d-flex flex-row align-items-center"
+      >
+        <div class="advantages__item-image-wrapper">
+          <img
+            class="advantages__item-image"
+            src="./images/advantages/Group (1).png"
+            alt="Комплексное решение"
+          />
+        </div>
+        <h3 class="ms-5 advantages__item-title">
+          Комплексное решение:
+        </h3>
+      </div>
+      <span class="mt-5 advantages__item-description">
+        Мы стремимся к полному и всестороннему решению семейных споров,
+        учитывая все аспекты и интересы наших клиентов.
+      </span>
+    </li>
+    <li class="col-6 advantages__item">
+      <div
+        class="advantages__item-header d-flex flex-row align-items-center"
+      >
+        <div class="advantages__item-image-wrapper">
+          <img
+            class="advantages__item-image"
+            src="./images/advantages/Vector.png"
+            alt="Опыт и профессионализм"
+          />
+        </div>
+        <h3 class="ms-5 advantages__item-title">
+          Опыт и профессионализм:
+        </h3>
+      </div>
+      <span class="mt-5 advantages__item-description">
+        Уже более 17 лет мы предоставляем нашим клиентам юридическую
+        помощь в сфере семейных споров. Мы рвемся в бой, чтобы применить
+        свои знания и навыки для защиты ваших интересов.
+      </span>
+    </li>
+    <li class="col-6 advantages__item">
+      <div
+        class="advantages__item-header d-flex flex-row align-items-center"
+      >
+        <div class="advantages__item-image-wrapper">
+          <img
+            class="advantages__item-image"
+            src=""
+            alt="Конфиденциальность"
+          />
+        </div>
+        <h3 class="ms-5 advantages__item-title">Конфиденциальность:</h3>
+      </div>
+      <span class="mt-5 advantages__item-description">
+        Мы ценим доверие, которое нам оказывают наши клиенты, и
+        обеспечиваем абсолютную конфиденциальность всей информации,
+        касающейся семейных споров. Все обсуждения и документы
+        рассматриваются строго конфиденциально.
+      </span>
+    </li>
+    <li class="col-4 advantages__item">
+      <div
+        class="advantages__item-header d-flex flex-row align-items-center"
+      >
+        <div class="advantages__item-image-wrapper">
+          <img
+            class="advantages__item-image"
+            src=""
+            alt="Гарантия результатов"
+          />
+        </div>
+        <h3 class="ms-5 advantages__item-title">
+          Гарантия результатов:
+        </h3>
+      </div>
+      <span class="mt-5 advantages__item-description">
+        Мы стремимся к достижению конкретных результатов и гарантируем
+        нашим клиентам этот результат в суде.
+      </span>
+    </li>
+  </ul>
+</section> -->
+        <!-- <section class="container mt-5 p-5 aim">
+          <h2 class="d-flex flex-row align-items-center aim__title">
+            Наша цель - обеспечить
+            <p class="m-0 ms-2 me-2 aim__highlight">защиту</p>
+            клиентов
+          </h2>
+          <ul class="d-flex flex-row gap-5 mt-5 p-0 aim__list">
+            <li class="col d-flex flex-column ps-4 pt-4 aim__item">
+              <p class="aim__value">>1000</p>
+              <p class="aim__description">
+                наших клиентов ежегодно выигрывают в суде
+              </p>
+              <div class="aim__image-wrapper">
+                <img
+                  class="aim__image"
+                  src="./images/aim/Group (1).png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="col d-flex flex-column ps-4 pt-4 aim__item">
+              <p class="aim__value">>1,5 млрд.р</p>
+              <p class="aim__description">сумма списанных долгов</p>
+              <div class="aim__image-wrapper">
+                <img
+                  class="aim__image"
+                  src="./images/aim/Group (2).png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="col d-flex flex-column ps-4 pt-4 aim__item">
+              <p class="aim__value">>1200</p>
+              <p class="aim__description">
+                консультаций предоставляем ежегодно
+              </p>
+              <div class="aim__image-wrapper">
+                <img
+                  class="aim__image"
+                  src="./images/aim/Group (3).png"
+                  alt=""
+                />
+              </div>
+            </li>
+            <li class="col d-flex flex-column ps-4 pt-4 aim__item">
+              <p class="aim__value">>17</p>
+              <p class="aim__description">лет решаем юридические вопросы</p>
+              <div class="aim__image-wrapper">
+                <img
+                  class="aim__image"
+                  src="./images/aim/Group (4).png"
+                  alt=""
+                />
+              </div>
+            </li>
+          </ul>
+        </section> -->
+
+        <!-- <-- <h2 class="attorneys-section-title">
+                <!-- <section class="container mt-5 solutions-for-clients">
+          <div
+            class="d-flex flex-row align-items-center justify-content-between solutions-for-clients-header"
+          >
+            <h2 class="w-75 solutions-for-clients-title">
+              Проблемы, которые мы решаем для наших клиентов
+            </h2>
+            <span class="w-25 solutions-for-clients-subtitle">
+              Мы предоставляем комплексные юридические услуги для обеспечения
+              вашего права на качественный товар и справедливое возмещение
+              ущерба
+            </span>
+          </div>
+
+          <div
+            class="d-flex flex-row align-items-center justify-content-between mt-5 solutions-for-clients-list"
+          >
+            <div class="ps-3 pt-3 solutions-for-clients-item">
+              <p class="solutions-for-clients-item-title">
+                Возврат товара или услуги
+              </p>
+              <span class="solutions-for-clients-item-description">
+                Вам продали некачественный товар или некачественно оказали
+                услугу? НЕ думайте, что Ваши деньги потеряны. Мы поможем Вам
+                вернуть денежные средства или добиться обмена товара на
+                качественный, а услугу переделать.
+              </span>
+            </div>
+
+            <div class="ps-3 pt-3 solutions-for-clients-item">
+              <p class="solutions-for-clients-item-title">
+                Нарушение гарантийных обязательств
+              </p>
+              <span class="solutions-for-clients-item-description">
+                Вы, как потребитель, не получили те гарантийные обязательства,
+                которые были заявлены продавцом или поставщиком? Вы можете
+                вернуть потраченные деньги. Оставьте заявку, чтобы оценить Ваши
+                шансы на победу.
+              </span>
+            </div>
+          </div>
+
+          <div
+            class="d-flex flex-row align-items-center justify-content-between mt-5 solutions-for-clients-list"
+          >
+            <div class="ps-3 pt-3 solutions-for-clients-item">
+              <p class="solutions-for-clients-item-title">
+                Недостаточная информация о товаре или услуге
+              </p>
+              <span class="solutions-for-clients-item-description">
+                Получили недостаточную информацию о товаре или услуге? В итоге
+                вы, как потребитель, не имеете полного представления о продукте
+                или услуге, что может привести к разочарованию после покупки.
+              </span>
+            </div>
+
+            <div class="ps-3 pt-3 solutions-for-clients-item">
+              <p class="solutions-for-clients-item-title">
+                Качество товара не соответствует заявленному
+              </p>
+              <span class="solutions-for-clients-item-description">
+                Продукт не соответствует тем характеристикам, которые были
+                заявлены при его приобретении? Это может означать, что товар
+                имеет дефекты, не работает должным образом или не соответствует
+                вашим ожиданиям.
+              </span>
+            </div>
+          </div>
+        </section> -->

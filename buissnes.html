@@ -17,14 +17,13 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
       rel="stylesheet"
     />
-    <!-- <link rel="stylesheet" href="./styles/styles.css" /> -->
     <link rel="stylesheet" href="./styles/legalservices.css" />
   </head>
   <body>
     <div class="wrapper">
       <header class="header mb-5">
         <div
-          class="container d-flex flex-column align-items-center justify-content-between h-100"
+          class="container d-flex flex-column align-items-center justify-content-end justify-content-xl-between h-100 flex-grow-1"
         >
           <div
             class="d-none d-xl-flex flex-row align-items-center justify-content-between ps-3 pe-3 time"
@@ -64,25 +63,25 @@
             <nav
               class="d-none d-xl-flex flex-row align-items-center justify-content-between"
             >
-            <ul
-            class="d-flex flex-row align-items-center justify-content-between nav"
-          >
-            <li class="">
-              <a class="nav__text" href="./uslugi.html"> Услуги </a>
-            </li>
-            <li class="">
-              <a class="nav__text" href="./okompanii.html"> О компании </a>
-            </li>
-            <li class="">
-              <a class="nav__text" href="./buissnes.html">Юр. услуги</a>
-            </li>
-            <li class="">
-              <a class="nav__text" href="./news.html">Новости</a>
-            </li>
-            <li class="">
-              <a class="nav__text" href="./contacts.html">Контакты</a>
-            </li>
-          </ul>
+              <ul
+                class="d-flex flex-row align-items-center justify-content-between nav"
+              >
+                <li class="">
+                  <a class="nav__text" href="./uslugi.html"> Услуги </a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./okompanii.html"> О компании </a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./buissnes.html">Юр. услуги</a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./news.html">Новости</a>
+                </li>
+                <li class="">
+                  <a class="nav__text" href="./contacts.html">Контакты</a>
+                </li>
+              </ul>
             </nav>
             <div
               class="d-none d-md-flex flex-row align-items-center ms-0 ms-lg-5 header_contacts"
@@ -270,148 +269,133 @@
         <article class="service mt-5">
           <div class="container">
             <h2 class="mb-4 service-title">Услуги</h2>
-            <div class="row row-cols-1 row-cols-md-2 gap-5 service-container">
-              <div
-                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
-              >
-                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+            <ul class="d-flex flex-row flex-wrap align-items-center justify-content-between gap-5 p-0 service-list">
+              <li class="service-list__item">
+                <h5 class="h-25 service-list__title ms-5 me-5 mt-4 mb-4">
                   Арбитражные споры
                 </h5>
-                <div
-                  class="row row-cols-2 d-flex flex-row align-items-center justify-content-between w-100 service-card"
-                >
-                  <figure class="p-0 service__img">
+                <div class="h-50 d-flex flex-row align-items-center justify-content-center service-content">
+                  <div class="service-image-wrapper m-0 p-0">
                     <img
-                      class="logo__img"
+                      class="service-image"
                       src="./images/service/money (2).png"
                       alt="Арбитражные споры"
                     />
-                  </figure>
-                  <div
-                    class="row row-cols-2 col h-100 d-flex flex-row align-items-end mb-5"
-                  >
-                    <p class="service-more">Подробнее</p>
+                  </div>
+                  <div class="d-flex flex-row align-items-center justify-content-between pe-3 pe-xl-0 service-item-container">
+                    <p class="service-more m-0 ms-3">Подробнее</p>
                     <figure
-                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
-                    >
-                      <img class="" src="./images/service/arrow.png" alt="" />
+                      class="service-arrow-container d-flex align-items-center justify-content-center m-0 ms-4 service__background__blue"                   
+                      >
+                      <img class="service-arrow" src="./images/service/arrow.png" alt="" />
                     </figure>
                   </div>
                 </div>
-              </div>
-
-              <div
-                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              </li>
+              <li class="service-list__item">
+              <h5 class="h-25 service-list__title ms-5 me-5 mt-4 mb-4"
               >
-                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
-                  Взыскание долгов
-                </h5>
-                <div
-                  class="d-flex flex-row align-items-center justify-content-between w-100 service-card"
-                >
+                Взыскание долгов 
+              </h5>
+              <div class="h-50 d-flex flex-row align-items-center justify-content-center service-content">
+                <div class="service-image-wrapper m-0 p-0">
+                  <img
+                    class="service-image"
+                    src="./images/service/money (1).png"
+                    alt="Арбитражные споры"
+                  />
+                </div>
+                <div class="d-flex flex-row align-items-center justify-content-between pe-3 pe-xl-0 service-item-container">
+                  <p class="service-more  m-0 ms-3">Подробнее</p>
                   <figure
-                    class="mb-0 p-0 service__img service__imgMargin_second"
-                  >
-                    <img
-                      class="logo__img"
-                      src="./images/service/money (1).png"
-                      alt="Арбитражные споры"
-                    />
-                  </figure>
-                  <div class="col h-100 d-flex flex-row align-items-end mb-5">
-                    <p class="service-more">Подробнее</p>
-                    <figure
-                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    class="service-arrow-container d-flex align-items-center justify-content-center m-0 ms-4 service__background__blue"
                     >
-                      <img class="" src="./images/service/arrow.png" alt="" />
-                    </figure>
-                  </div>
+                    <img class="service-arrow" src="./images/service/arrow.png" alt="" />
+                  </figure>
                 </div>
               </div>
-              <div
-                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
-              >
-                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
-                  Юридичекое обслуживание бизнеса
-                </h5>
-                <div
-                  class="d-flex flex-row align-items-center justify-content-between w-100 service-card"
-                >
-                  <figure class="p-0 service__img">
-                    <img
-                      class="logo__img service__imgMargin_therd"
-                      src="./images/service/money (4).png"
-                      alt="Арбитражные споры"
-                    />
-                  </figure>
-                  <div class="col h-100 d-flex flex-row align-items-end mb-5">
-                    <p class="service-more">Подробнее</p>
-                    <figure
-                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
-                    >
-                      <img class="" src="./images/service/arrow.png" alt="" />
-                    </figure>
-                  </div>
-                </div>
+              </li>
+              <li class="service-list__item">
+            <h5 class="h-25 service-list__title ms-5 me-5 mt-4 mb-4"
+          
+            >
+              Юридичекое обслуживание бизнеса
+            </h5>
+            <div class="h-50 d-flex flex-row align-items-center justify-content-center service-content">
+              <div class="service-image-wrapper m-0 p-0">
+                <img
+                  class="service-image"
+                  src="./images/service/money (4).png"
+                  alt="Арбитражные споры"
+                />
               </div>
-              <div
-                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
-              >
-                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">Все услуги</h5>
-
-                <div
-                  class="row row-cols-2 d-flex flex-row align-items-center justify-content-between w-100 service-card"
+              <div class="d-flex flex-row align-items-center justify-content-between pe-3 pe-xl-0 service-item-container">
+                <p class="service-more  m-0 ms-3">Подробнее</p>
+                <figure
+                  class="service-arrow-container d-flex align-items-center justify-content-center m-0 ms-4 service__background__blue"
+                  style="
+                  width: 50px;
+                  height: 50px;
+                  border-radius: 50%;
+                  "
                 >
-                  <figure class="p-0 service__img">
-                    <img
-                      class="logo__img"
-                      src="./images/service/money (3).png"
-                      alt="Арбитражные споры"
-                    />
-                  </figure>
-
-                  <div
-                    class="row row-cols-2 col h-100 d-flex flex-row align-items-end mb-5"
-                  >
-                    <p class="service-more">Подробнее</p>
-                    <figure
-                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
-                    >
-                      <img class="" src="./images/service/arrow.png" alt="" />
-                    </figure>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12 col-xl-8 ps-0 pe-0">
-                <div
-                  class="d-flex flex-column flex-xl-row align-items-center p-5 cta-card"
-                >
-                  <div class="col pe-0 pe-md-5">
-                    <h5 class="col service-formText">
-                      Не знаете, что выбрать - оставьте заявку
-                    </h5>
-                    <p class="col service-formSubText">
-                      Мы подскажем, как можно справиться с вашим запросом и
-                      ответим на все вопросы
-                    </p>
-                  </div>
-                  <div class="col-12 col-xl-6 mt-3 mt-lg-5 mt-md-0">
-                    <input
-                      type="text"
-                      class="col form-control service__input"
-                      placeholder="Номер телефона"
-                    />
-                    <button class="col w-100 mt-3 service-btn">
-                      Отправить
-                    </button>
-                    <p class="col mt-2 service-formPrivacyText">
-                      Нажимая кнопку “Оставить” Вы соглашаетесь с политикой
-                      конфиденциальности
-                    </p>
-                  </div>
-                </div>
+                  <img class="service-arrow" src="./images/service/arrow.png" alt="" />
+                </figure>
               </div>
             </div>
+              </li>
+              <li class="service-list__item service-list__item_short">
+          <h5 class="h-25 service-list__title ms-5 me-5 mt-4 mb-4">
+            Все услуги
+          </h5>
+          <div class="h-50 d-flex flex-row align-items-center justify-content-center service-content">
+            <div class="service-image-wrapper m-0 p-0">
+              <img
+                class="service-image"
+                src="./images/service/money (3).png"
+                alt="Арбитражные споры"
+              />
+            </div>
+            <div class="d-flex flex-row align-items-center justify-content-between pe-3 pe-xl-0 service-item-container">
+              <p class="service-more  m-0 ms-3">Подробнее</p>
+              <figure
+                class="service-arrow-container d-flex align-items-center justify-content-center m-0 ms-4 service__background__blue"
+                >
+                <img class="service-arrow" src="./images/service/arrow.png" alt="" />
+              </figure>
+            </div>
+          </div>
+              </li>
+              <li class="service-list__item_long">
+          <div
+            class="d-flex flex-column flex-xl-row align-items-center p-5"
+          >
+            <div class="col pe-0 pe-md-5">
+              <h5 class="col service-formText">
+                Не знаете, что выбрать - оставьте заявку
+              </h5>
+              <p class="col service-formSubText">
+                Мы подскажем, как можно справиться с вашим запросом и
+                ответим на все вопросы
+              </p>
+            </div>
+            <div class="mt-3">
+              <input
+                type="text"
+                class="col form-control service__input"
+                placeholder="Номер телефона"
+              />
+              <button class="col w-100 mt-3 service-btn">
+                Отправить
+              </button>
+              <p class="col mt-2 service-formPrivacyText">
+                Нажимая кнопку “Оставить” Вы соглашаетесь с политикой
+                конфиденциальности
+              </p>
+            </div>
+          </div>
+              </li>
+            </ul>
           </div>
         </article>
         <article class="mt-5 p-1 p-sm-5 reviews">
@@ -469,47 +453,47 @@
                 />
               </figure>
               <ul
-                class="col-12 col-lg-8 protect__items row row-cols-1 row-cols-xl-2 d-flex justify-content-center g-4 m-0 ms-0 ms-sm-4 p-3 p-sm-5 gap-5"
+                class="col-12 col-lg-8 protect__items row row-cols-1 row-cols-xl-2 d-flex justify-content-center g-4 m-0 ms-0 ms-дп-4 p-3 p-sm-5 gap-5"
               >
                 <li
                   class="col-12 col-xl-4 d-flex align-items-center justify-content-center protect__item"
                 >
-                  <span class="col-8 col-xl-12 protect__text"
+                  <span class="col-8 col-xxl-12 protect__text"
                     >Более 200 клиентов доверили свой бизнес</span
                   >
                   <figure class="m-0 protect__icon">
-                    <img class="" src="./images/protect/Group (1).png" alt="" />
+                    <img class="protect-image" src="./images/protect/Group (1).png" alt="" />
                   </figure>
                 </li>
                 <li
                   class="col-12 col-xl-4 d-flex align-items-center justify-content-center protect__item"
                 >
-                  <span class="col-8 col-xl-12 protect__text"
+                  <span class="col-8 col-xxl-12 protect__text"
                     >Взыскали более 700 млн. рублей долгов</span
                   >
                   <figure class="m-0 protect__icon">
-                    <img class="" src="./images/protect/Group (2).png" alt="" />
+                    <img class="protect-image" src="./images/protect/Group (2).png" alt="" />
                   </figure>
                 </li>
                 <li
                   class="col-12 col-xl-4 d-flex align-items-center justify-content-center protect__item"
                 >
-                  <span class="col-8 col-xl-12 protect__text"
+                  <span class="col-8 col-xxl-12 protect__text"
                     >Ежегодно предоставляем не менее 1200 консультаций</span
                   >
                   <figure class="m-0 protect__icon">
-                    <img class="" src="./images/protect/Group (3).png" alt="" />
+                    <img class="protect-image" src="./images/protect/Group (3).png" alt="" />
                   </figure>
                 </li>
                 <li
                   class="col-12 col-xl-4 d-flex align-items-center justify-content-center protect__item"
                 >
-                  <span class="col-8 col-xl-12 protect__text"
+                  <span class="col-8 col-xxl-12 protect__text"
                     >Более 17 лет помогаем разрешать сложные юридические
                     вопросы</span
                   >
                   <figure class="m-0 protect__icon">
-                    <img class="" src="./images/protect/Group (4).png" alt="" />
+                    <img class="protect-image" src="./images/protect/Group (4).png" alt="" />
                   </figure>
                 </li>
               </ul>
@@ -518,7 +502,7 @@
               class="d-flex d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 gap-5 protect__rules"
             >
               <li
-                class="col-12 col-xl-4 d-flex flex-row justify-content-between p-3 ps-5 protect__rule"
+                class="col-12 col-xl-4 d-flex flex-row align-items-center justify-content-between p-3 ps-5 protect__rule"
               >
                 <span class="protect__rule-text"
                   >Индивидуальный подход к каждому клиенту</span
@@ -528,7 +512,7 @@
                 </ul>
               </li>
               <li
-                class="col-12 col-xl-4 d-flex flex-row justify-content-between p-3 ps-5 protect__rule"
+                class="col-12 col-xl-4 d-flex flex-row align-items-center justify-content-between p-3 ps-5 protect__rule"
               >
                 <span class="protect__rule-text"
                   >Прозрачные условия сотрудничества</span
@@ -539,7 +523,7 @@
                 </ul>
               </li>
               <li
-                class="col-12 col-xl-4 d-flex flex-row justify-content-between p-3 ps-5 protect__rule"
+                class="col-12 col-xl-4 d-flex flex-row align-items-center justify-content-between p-3 ps-5 protect__rule"
               >
                 <span class="protect__rule-text"
                   >Высокое качество услуг и результаты</span
@@ -639,10 +623,10 @@
           </div>
         </section>
 
-        <section class="container cases">
+        <section class="container pt-5 pb-5 cases">
           <h2 class="cases__title">Кейсы</h2>
           <div class="d-flex flex-column flex-lg-row cases-section mt-5">
-            <div class="col-12 col-lg-4 case-card">
+            <div class="col-12 col-lg-4 mt-5 mt-xl-0 case-card">
               <figure class="cases__img">
                 <img
                   class="logo__img"
@@ -665,7 +649,7 @@
                 клиента, а также компенсацию юридических услуг
               </p>
             </div>
-            <div class="col-12 col-lg-4 case-card">
+            <div class="col-12 col-lg-4 mt-5 mt-xl-0 case-card">
               <figure class="cases__img">
                 <img
                   class="logo__img"
@@ -689,7 +673,7 @@
               </p>
               <span class="expand text-center mt-1">развернуть</span>
             </div>
-            <div class="col-12 col-lg-4 case-card">
+            <div class="col-12 col-lg-4 mt-5 mt-xl-0 case-card">
               <figure class="cases__img">
                 <img
                   class="logo__img"
@@ -1266,3 +1250,288 @@
                 </li>
               </ul>
             </article> -->
+<!-- Старая секция -->
+             <!-- <div class="row row-cols-1 row-cols-md-2 gap-5 service-container">
+              <div
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+                  Арбитражные споры
+                </h5>
+                <div
+                  class="row row-cols-2 d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure class="p-0 service__img">
+                    <img
+                      class="logo__img"
+                      src="./images/service/money (2).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+                  <div
+                    class="row row-cols-2 col h-100 d-flex flex-row align-items-end mb-5"
+                  >
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+                  Взыскание долгов
+                </h5>
+                <div
+                  class="d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure
+                    class="mb-0 p-0 service__img service__imgMargin_second"
+                  >
+                    <img
+                      class="logo__img"
+                      src="./images/service/money (1).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+                  <div class="col h-100 d-flex flex-row align-items-end mb-5">
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+                  Юридичекое обслуживание бизнеса
+                </h5>
+                <div
+                  class="d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure class="p-0 service__img">
+                    <img
+                      class="logo__img service__imgMargin_therd"
+                      src="./images/service/money (4).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+                  <div class="col h-100 d-flex flex-row align-items-end mb-5">
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">Все услуги</h5>
+
+                <div
+                  class="row row-cols-2 d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure class="p-0 service__img">
+                    <img
+                      class="logo__img"
+                      src="./images/service/money (3).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+
+                  <div
+                    class="row row-cols-2 col h-100 d-flex flex-row align-items-end mb-5"
+                  >
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-xl-8 ps-0 pe-0">
+                <div
+                  class="d-flex flex-column flex-xl-row align-items-center p-5 cta-card"
+                >
+                  <div class="col pe-0 pe-md-5">
+                    <h5 class="col service-formText">
+                      Не знаете, что выбрать - оставьте заявку
+                    </h5>
+                    <p class="col service-formSubText">
+                      Мы подскажем, как можно справиться с вашим запросом и
+                      ответим на все вопросы
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-6 mt-3 mt-lg-5 mt-md-0">
+                    <input
+                      type="text"
+                      class="col form-control service__input"
+                      placeholder="Номер телефона"
+                    />
+                    <button class="col w-100 mt-3 service-btn">
+                      Отправить
+                    </button>
+                    <p class="col mt-2 service-formPrivacyText">
+                      Нажимая кнопку “Оставить” Вы соглашаетесь с политикой
+                      конфиденциальности
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+            <!-- <ul class="">
+              <li
+                class=""
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+                  Арбитражные споры
+                </h5>
+                <div
+                  class=""
+                >
+                  <figure class="p-0 service__img">
+                    <img
+                      class="logo__img"
+                      src="./images/service/money (2).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+                  <div
+                    class="row row-cols-2 col h-100 d-flex flex-row align-items-end mb-5"
+                  >
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </li> -->
+
+              <!-- <li
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+                  Взыскание долгов
+                </h5>
+                <div
+                  class="d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure
+                    class="mb-0 p-0 service__img service__imgMargin_second"
+                  >
+                    <img
+                      class="logo__img"
+                      src="./images/service/money (1).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+                  <div class="col h-100 d-flex flex-row align-items-end mb-5">
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">
+                  Юридичекое обслуживание бизнеса
+                </h5>
+                <div
+                  class="d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure class="p-0 service__img">
+                    <img
+                      class="logo__img service__imgMargin_therd"
+                      src="./images/service/money (4).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+                  <div class="col h-100 d-flex flex-row align-items-end mb-5">
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </li>
+              <li
+                class="col-12 col-md-6 d-flex flex-column justify-content-between service__box service-cardContainer general-card__background_grey"
+              >
+                <h5 class="ms-5 me-5 mt-4 mb-4 service-cardText">Все услуги</h5>
+
+                <div
+                  class="row row-cols-2 d-flex flex-row align-items-center justify-content-between w-100 service-card"
+                >
+                  <figure class="p-0 service__img">
+                    <img
+                      class="logo__img"
+                      src="./images/service/money (3).png"
+                      alt="Арбитражные споры"
+                    />
+                  </figure>
+
+                  <div
+                    class="row row-cols-2 col h-100 d-flex flex-row align-items-end mb-5"
+                  >
+                    <p class="service-more  m-0 ms-3">Подробнее</p>
+                    <figure
+                      class="d-flex align-items-center justify-content-center m-0 ms-4 arrow-container service__background__blue"
+                    >
+                      <img class="" src="./images/service/arrow.png" alt="" />
+                    </figure>
+                  </div>
+                </div>
+              </li>
+              <li class="col-12 col-xl-8 ps-0 pe-0">
+                <div
+                  class="d-flex flex-column flex-xl-row align-items-center p-5 cta-card"
+                >
+                  <div class="col pe-0 pe-md-5">
+                    <h5 class="col service-formText">
+                      Не знаете, что выбрать - оставьте заявку
+                    </h5>
+                    <p class="col service-formSubText">
+                      Мы подскажем, как можно справиться с вашим запросом и
+                      ответим на все вопросы
+                    </p>
+                  </div>
+                  <div class="col-12 col-xl-6 mt-3 mt-lg-5 mt-md-0">
+                    <input
+                      type="text"
+                      class="col form-control service__input"
+                      placeholder="Номер телефона"
+                    />
+                    <button class="col w-100 mt-3 service-btn">
+                      Отправить
+                    </button>
+                    <p class="col mt-2 service-formPrivacyText">
+                      Нажимая кнопку “Оставить” Вы соглашаетесь с политикой
+                      конфиденциальности
+                    </p>
+                  </div>
+                </div>
+              </li> -->
+            </ul>
