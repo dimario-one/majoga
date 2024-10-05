@@ -1,0 +1,82 @@
+.advantages__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.advantages__list {
+    list-style: none;
+}
+
+.advantages__item {
+    border-radius: 12px;
+    background: hsl(0, 0%, 97%);
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.advantages__item-image-wrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background: #193867;
+
+}
+
+.advantages__item-title {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.advantages__item-description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.advantages__item-header {
+    display: flex;
+    align-items: center;
+}
+
+.advantages__item-image {
+    width: 40px;
+    height: 40px;
+}
+
+/* Для экранов шириной до 390px */
+@media (max-width: 390px) {
+    .advantages__item-image-wrapper {
+        width: 40px;
+        height: 40px;
+    }
+
+    .advantages__item-image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .advantages__item-title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .advantages__item-description {
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+}

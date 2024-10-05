@@ -1,0 +1,133 @@
+.arbitrazhnyespory-service-title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 48.41px;
+    text-align: left;
+    color: #1e2f49;
+}
+
+.arbitrazhnyespory-service-list {
+    list-style: none;
+}
+
+.arbitrazhnyespory-service-list__item {
+    position: relative;
+    background: #E5ECF6;
+    flex-basis: 360px;
+    flex-grow: 1;
+    height: 270px;
+    border-radius: 20px;
+}
+
+.arbitrazhnyespory-service-list__item_short {
+    flex-basis: 320px;
+}
+
+.arbitrazhnyespory-service-list__item_long {
+    flex-basis: 760px;
+    flex-grow: 1;
+    height: 270px;
+    border-radius: 20px;
+    background: linear-gradient(96.87deg, #1E2F49 43.64%, #4871AF 97.83%);
+}
+
+.arbitrazhnyespory-service-item-container {
+    align-self: end;
+}
+
+.arbitrazhnyespory-service-image-wrapper {
+    width: 180px;
+    height: 184px;
+    border-radius: 20px;
+}
+
+.arbitrazhnyespory-service-image {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.arbitrazhnyespory-service-arrow-container {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.arbitrazhnyespory-service__background__blue {
+    background: #1e2f49;
+}
+
+.arbitrazhnyespory-service-more {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #303030;
+    z-index: 100;
+}
+
+.arbitrazhnyespory-service-formText {
+    font-family: Inter;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31.47px;
+    text-align: left;
+    color: #fdfdfd;
+}
+
+.arbitrazhnyespory-service-formSubText {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #fdfdfd;
+}
+
+.arbitrazhnyespory-service-formPrivacyText {
+    font-family: Inter;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 10px;
+    text-align: left;
+    color: #e8e9ea;
+}
+
+.arbitrazhnyespory-service-btn {
+    height: 44px;
+    border-radius: 5px;
+    background: #f8b514;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    text-align: center;
+    color: #ffffff;
+}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .arbitrazhnyespory-service-list__item {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    .arbitrazhnyespory-service-list__item_long {
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
+
+@media (max-width: 390px) {}

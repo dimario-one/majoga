@@ -1,0 +1,159 @@
+.bankrotstvo-advantages__title {
+    font-family: Inter;
+    font-size: 46px;
+    font-weight: 500;
+    line-height: 50px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.bankrotstvo-advantages__list {
+    list-style: none;
+}
+
+.bankrotstvo-advantages__item {
+    border-radius: 12px;
+    background: hsl(0, 0%, 97%);
+    padding: 20px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bankrotstvo-advantages__item_blue {
+    background: linear-gradient(93.51deg, #1E2F49 29.15%, #4871AF 98.41%);
+}
+
+.bankrotstvo-advantages__image-wrapper {
+    width: 60px;
+    height: 60px;
+    border-radius: 16px;
+    background: #193867;
+}
+
+.bankrotstvo-advantages__image {
+    width: 30px;
+    height: 30px;
+}
+
+.bankrotstvo-advantages__subTitle {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 22px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.bankrotstvo-advantages__description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.bankrotstvo-advantages__description_white {
+    color: #FDFDFD;
+}
+
+.bankrotstvo-advantages__header {
+    display: flex;
+    align-items: center;
+}
+
+.bankrotstvo-advantages__button-wrapper {
+    width: 240px;
+    height: 60px;
+    align-self: flex-end;
+    border-radius: 300px;
+    border: 1px solid #FDFDFD;
+}
+
+.bankrotstvo-advantages__button-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.bankrotstvo-advantages__button-icon-wrapper {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: #FDFDFD;
+}
+
+.bankrotstvo-advantages__button-icon {
+    width: 25px;
+    height: 20px;
+}
+
+
+@media (max-width: 1400px) {}
+
+/* Для экранов шириной до 1200px */
+@media (max-width: 1200px) {}
+
+/* Для экранов шириной до 992px */
+@media (max-width: 992px) {
+    .bankrotstvo-advantages__button-wrapper {
+        width: 200px;
+        height: 60px;
+    }
+
+    .bankrotstvo-advantages__button-text {
+        font-size: 16px;
+        line-height: 18px;
+    }
+
+    .bankrotstvo-advantages__button-icon-wrapper {
+        width: 30px;
+        height: 30px;
+    }
+
+    .bankrotstvo-advantages__button-icon {
+        width: 20px;
+        height: 15px;
+    }
+}
+
+/* Для экранов шириной до 768px */
+@media (max-width: 768px) {}
+
+/* Для экранов шириной до 576px */
+@media (max-width: 576px) {
+    .bankrotstvo-advantages__subTitle {
+        font-size: 20px;
+        line-height: 20px;
+    }
+
+}
+
+/* Для экранов шириной до 390px */
+@media (max-width: 390px) {
+    .bankrotstvo-advantages__image-wrapper {
+        width: 40px;
+        height: 40px;
+    }
+
+    .bankrotstvo-advantages__image {
+        width: 20px;
+        height: 20px;
+    }
+
+    .bankrotstvo-advantages__subTitle {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .bankrotstvo-advantages__description {
+        font-size: 16px;
+        line-height: 16px;
+
+    }
+}

@@ -1,0 +1,98 @@
+.aim {
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 0px #63697326;
+    background: linear-gradient(93.51deg, #1E2F49 29.15%, #4871AF 98.41%);
+}
+
+.aim__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.aim__highlight {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 44px;
+    text-align: left;
+    color: #F8B514;
+}
+
+.aim__list {
+    /* align-items: stretch; */
+    list-style: none;
+}
+
+.aim__item {
+    position: relative;
+    height: 100%;
+    flex: 1 1 0;
+    min-height: 160px;
+    border-radius: 16px;
+    background: #F7F7F7;
+}
+
+.aim__value {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.05px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.aim__description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #303030;
+}
+
+.aim__image-wrapper {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+}
+
+.aim__image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+
+    .aim__title,
+    .aim__highlight {
+        font-size: 34px;
+        line-height: 36px;
+    }
+
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 390px) {
+
+    .aim__title,
+    .aim__highlight {
+        font-size: 28px;
+        line-height: 26px;
+    }
+
+}

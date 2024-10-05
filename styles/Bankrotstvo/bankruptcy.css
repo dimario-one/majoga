@@ -1,0 +1,182 @@
+/* Основные стили для заголовка и текста */
+.bankruptcy-process__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.bankruptcy-process__text {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.2px;
+    text-align: left;
+    color: #424249;
+}
+
+.bankruptcy-process__duration {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    text-align: left;
+    color: #5F5F5F;
+}
+
+.bankruptcy-process__consultation-section {
+    border-radius: 16px;
+    background: #F7F7F7;
+
+}
+
+.bankruptcy-process__consultation-title {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.bankruptcy-process__consultation-step {
+    font-family: Inter;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 96px;
+    text-align: left;
+    color: #1E304C4D;
+}
+
+.bankruptcy-process__consultation-description {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #424249;
+}
+
+/* Стили для элементов шагов процесса банкротства */
+.bankruptcy-process__step-duration-text {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31.2px;
+    text-align: center;
+    color: #1E2F49;
+}
+
+.bankruptcy-process__step-date {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.2px;
+    text-align: left;
+    color: #8D8D8D;
+}
+
+.bankruptcy-process__step-description {
+    flex: 1;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17.6px;
+    text-align: left;
+    color: #424249;
+}
+
+.bankruptcy-process__steps {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    /* Распределяет элементы по высоте */
+}
+
+.bankruptcy-process__step {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* Распределяет блоки по высоте карточки */
+    align-items: center;
+    height: 200px;
+    /* Устанавливаем высоту карточек */
+    padding: 10px;
+    /* Добавьте отступы, если необходимо */
+}
+
+.bankruptcy-process__step_long {
+    width: 380px;
+}
+
+.bankruptcy-process__step-duration {
+    width: 100%;
+    height: 80px;
+    border-radius: 12px;
+}
+
+.bankruptcy-process__step-duration_eff5ff {
+    background: #EFF5FF;
+}
+
+.bankruptcy-process__step-duration_e7f0ff {
+    background: #E7F0FF;
+}
+
+.bankruptcy-process__step-duration_c8dcfd {
+    background: #C8DCFD;
+}
+
+.bankruptcy-process__step-duration_93bcff {
+    background: #93BCFF;
+}
+
+.bankruptcy-process__step-duration_25d366 {
+    background: #25D366;
+}
+
+.bankruptcy-process__button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #1E2F49;
+}
+
+.bankruptcy-process__button-image {
+    width: 30px;
+    height: 20px;
+}
+
+
+@media (max-width: 1400px) {}
+
+/* Для экранов шириной до 1200px */
+@media (max-width: 1200px) {
+    .bankruptcy-process__step {
+        width: 75%;
+        height: 200px; 
+    }
+}
+
+/* Для экранов шириной до 992px */
+@media (max-width: 992px) {
+    .bankruptcy-process__step {
+        width: 100%;
+        height: 200px; 
+    }
+}
+
+/* Для экранов шириной до 768px */
+@media (max-width: 768px) {}
+
+/* Для экранов шириной до 576px */
+@media (max-width: 576px) {}
+
+/* Для экранов шириной до 390px */
+@media (max-width: 390px) {}

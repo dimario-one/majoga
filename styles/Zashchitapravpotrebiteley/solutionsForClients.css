@@ -1,0 +1,74 @@
+.solutions-for-clients {
+  /* Стили для основной секции */
+}
+
+.solutions-for-clients-header {
+  /* Стили для обертки заголовка и подзаголовка */
+}
+
+.solutions-for-clients-title {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+  color: #1E2F49;
+}
+
+.solutions-for-clients-subtitle {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  color: #424249;
+
+}
+
+.solutions-for-clients-list {
+  /* Стили для обертки списка проблем */
+}
+
+.solutions-for-clients-item {
+  /* width: 520px; */
+  height: 200px;
+  border-radius: 12px;
+  background: #F7F7F7;
+}
+
+.solutions-for-clients-item-title {
+  font-family: Inter;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+
+  color: #1E2F49;
+}
+
+.solutions-for-clients-item-description {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  text-align: left;
+  color: #424249;
+}
+
+@media (max-width: 1200px) {}
+
+@media (max-width: 992px) {
+  .solutions-for-clients-item {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+  .solutions-for-clients-item {
+    height: auto;
+  }
+}
+
+@media (max-width: 390px) {}

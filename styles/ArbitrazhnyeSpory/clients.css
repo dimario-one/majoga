@@ -1,0 +1,53 @@
+.clients {
+    background: #E5ECF6;
+}
+
+.clients__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+
+}
+
+.clients__cards {
+    list-style: none;
+}
+
+.clients__card {
+    position: relative;
+    width: 100%;
+    height: 140px;
+    border-radius: 20px;
+    background: #FDFDFD;
+}
+
+.clients__card_text {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    text-align: left;
+    color: #303030;
+}
+
+.clients__number {
+    position: absolute;
+    bottom: -20px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #FDFDFD;
+}
+
+.clients__number_text {
+    margin: 0;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 52px;
+    text-align: left;
+
+}

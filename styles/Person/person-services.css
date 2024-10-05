@@ -1,0 +1,179 @@
+.person-services {}
+
+.person-services__title {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.person-services__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.person-services__item,
+.person-services__consultation {
+    width: 100%;
+    height: 240px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.person-services__item {
+    position: relative;
+    background: #F7F7F7;
+}
+
+.person-services__icon-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+}
+
+.person-services__icon-container_white {
+    border-radius: 16px;
+    background: #FDFDFD;
+}
+
+.person-services__icon {
+    width:40px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.person-services__item-title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.2px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.person-services__description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #424249;
+}
+
+.person-services__link {
+    align-self: flex-start;
+    text-decoration: none;
+}
+
+.person-services__link-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.person-services__consultation {
+    background: linear-gradient(97.26deg, #1E2F49 29.26%, #3862A2 100%);
+}
+
+.person-services__consultation-title {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.person-services__consultation-description {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20.8px;
+    text-align: left;
+    color: #F0F4FA;
+}
+
+.person-services__consultation-button {
+    width: 320px;
+    height: 60px;
+    border-radius: 300px;
+    border: 2px solid #FDFDFD;
+    background: #FDFDFD;
+    text-decoration: none;
+}
+
+.person-services__consultation-button-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #424249;
+
+}
+
+.person-services__arrow {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.person-services__arrow_blue {
+    background: #1E2F49;
+}
+
+/* .person-services__arrow-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+} */
+
+.person-services__arrow-image {
+    width: 25px;
+    height: 20px;
+}
+
+
+@media (max-width: 1400px) {}
+
+/* Для экранов шириной до 1200px */
+@media (max-width: 1200px) {
+    .person-services__grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Для экранов шириной до 992px */
+@media (max-width: 992px) {}
+
+/* Для экранов шириной до 768px */
+@media (max-width: 768px) {}
+
+/* Для экранов шириной до 576px */
+@media (max-width: 576px) {}
+
+/* Для экранов шириной до 390px */
+@media (max-width: 390px) {
+
+    .person-services__item {
+        height: auto;
+    }
+
+    .person-services__consultation-button {
+        width: 300px;
+        height: 60px;
+    }
+}
