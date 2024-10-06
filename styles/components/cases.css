@@ -16,15 +16,16 @@
 }
 
 .case-card {
+    max-width: 400px;
     height: 500px;
     border-radius: 20px;
     background: #FBF2DC;
     margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    /* padding: 20px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     position: relative;
 }
 

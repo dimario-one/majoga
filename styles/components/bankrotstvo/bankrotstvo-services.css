@@ -1,6 +1,6 @@
 .bankrotstvo-services {
     position: relative;
-    height: 400px;
+    height: 450px;
     background: #F3F3F3;
     border-radius: 20px;
 }
@@ -127,7 +127,7 @@
 .bankrotstvo-services__main-image {
     position: absolute;
     bottom: 0;
-    height: 450px;
+    height: 500px;
     z-index: 100;
 }
 
@@ -144,6 +144,35 @@
     height: 100%;
     overflow: hidden;
     z-index: 0;
+}
+
+.bankrotstvo-services__consultation-button {
+    width: 320px;
+    height: 60px;
+    border-radius: 300px;
+    border: 2px solid #FDFDFD;
+    background: #1E2F49;
+    text-decoration: none;
+}
+
+.bankrotstvo-services__consultation-button-text {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.bankrotstvo-services__arrow {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.bankrotstvo-services__arrow_blue {
+ 
+    background: #FDFDFD;
 }
 
 @media (max-width: 1200px) {
@@ -258,6 +287,17 @@
     .bankrotstvo-services__testimonial-count {
         font-size: 10px;
         line-height: 14px;
+    }
+
+    
+    .bankrotstvo-services__consultation-button {
+        width: 260px;
+        height: 60px;
+    }
+
+    .bankrotstvo-services__consultation-button-text {
+        font-size: 14px;
+        line-height: 16px;
     }
     
 }
