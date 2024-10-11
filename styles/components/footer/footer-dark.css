@@ -30,7 +30,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../../../images/header/HeaderLogoGrey.svg");
+    background-image: url("../../../images/logo/LogoGrey.svg");
 }
 
 .footer__main {
@@ -192,19 +192,19 @@
 }
 
 .footer__social-icon--whatsapp {
-    background-image: url('../../../images/header/WhatsAppWhite.svg');
+    background-image: url('../../../images/icons/WhatsAppWhite.svg');
 }
 
 .footer__social-icon--whatsapp:hover {
-    background-image: url('../../../images/header/WhatsAppYellow.svg');
+    background-image: url('../../../images/icons/WhatsAppYellow.svg');
 }
 
 .footer__social-icon--telegram {
-    background-image: url('../../../images/header/TelegramWhite.svg');
+    background-image: url('../../../images/icons/TelegramWhite.svg');
 }
 
 .footer__social-icon--telegram:hover {
-    background-image: url('../../../images/header/TelegramYellow.svg');
+    background-image: url('../../../images/icons/TelegramYellow.svg');
 }
 
 .footer__consult-button {
@@ -247,12 +247,22 @@
         align-items: end;
     } */
 
-    .footer__bottom-item:nth-child(2) {
-        justify-content: end;
+    .footer__bottom {
+        flex-wrap: wrap;
+        row-gap: 10px;
     }
 
+    .footer__bottom-item:nth-child(1) {
+        order: 3;
+        flex-grow: 1;
+        justify-content: end;
+        font-size: 12px;
+    }
+    .footer__bottom-item:nth-child(2) {
+        justify-content: start;
+    }
     .footer__bottom-item:nth-child(3) {
-        display: none;
+        justify-content: end;
     }
 
     .footer__contacts {
@@ -311,6 +321,10 @@
     }
     .footer__phone-number {
         font-size: 28px;
+    }
+    .footer__bottom-item:nth-child(3) {
+        width: min-content;
+        text-align: right;
     }
 }
 

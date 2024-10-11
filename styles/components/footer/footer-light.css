@@ -16,7 +16,7 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../../../images/header/HeaderLogoBlue.svg");
+    background-image: url("../../../images/logo/LogoBlue.svg");
 }
 
 .footer__main {
@@ -195,19 +195,19 @@
 }
 
 .footer__social-icon--whatsapp {
-    background-image: url('../../../images/footer/WhatsAppBlue.svg');
+    background-image: url('../../../images/icons/WhatsAppBorderlessBlue.svg');
 }
 
 .footer__social-icon--whatsapp:hover {
-    background-image: url('../../../images/footer/WhatsAppBlueLight.svg');
+    background-image: url('../../../images/icons/WhatsAppBorderlessBlueLight.svg');
 }
 
 .footer__social-icon--telegram {
-    background-image: url('../../../images/footer/TelegramBlue.svg');
+    background-image: url('../../../images/icons/TelegramBorderlessBlue.svg');
 }
 
 .footer__social-icon--telegram:hover {
-    background-image: url('../../../images/footer/TelegramBlueLight.svg');
+    background-image: url('../../../images/icons/TelegramBorderlessBlueLight.svg');
 }
 
 .footer__consult-button {
@@ -264,9 +264,9 @@
     }
 }
 
-.footer__container {
+/* .footer__container {
     outline: 1px solid red;
-}
+} */
 
 @media (max-width:768px) {
     .footer__list-link {

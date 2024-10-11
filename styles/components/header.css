@@ -38,12 +38,12 @@
     width: 23px;
     height: 23px;
     flex-shrink: 0;
-    background-image: url('../../images/header/MapPinBlue.svg');
+    background-image: url('../../images/icons/MapPinBlue.svg');
     margin-right: .5rem;
 }
 
 .header--light .header__map-pin {
-    background-image: url('../../images/header/MapPinGrey.svg');
+    background-image: url('../../images/icons/MapPinGrey.svg');
 }
 
 .header__address {
@@ -74,11 +74,11 @@
     height: 23px;
     flex-shrink: 0;
     margin-right: .5rem;
-    background-image: url('../../images/header/ClockYellow.svg');
+    background-image: url('../../images/icons/ClockYellow.svg');
 }
 
 .header--light .header__clock {
-    background-image: url('../../images/header/ClockGrey.svg');
+    background-image: url('../../images/icons/ClockGrey.svg');
 }
 
 .header__time-text {
@@ -111,11 +111,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../../images/header/HeaderLogoGrey.svg");
+    background-image: url("../../images/logo/LogoGrey.svg");
 }
 
 .header--light .header__logo {
-    background-image: url("../../images/header/HeaderLogoBlue.svg");
+    background-image: url("../../images/logo/LogoBlue.svg");
 }
 
 .header__logo::after {
@@ -165,7 +165,8 @@
 }
 
 .header--light .header__menu-link:hover {
-    color: #193867
+    /* color: #1938678; */
+    color: #8CA7D0
 }
 
 .header__contacts {
@@ -176,13 +177,13 @@
 .header__phone-icon {
     width: 22px;
     height: 22px;
-    background-image: url('../../images/header/PhoneYellow.svg');
+    background-image: url('../../images/icons/PhoneYellow.svg');
 
     margin-bottom: 1rem;
 }
 
 .header--light .header__phone-icon {
-    background-image: url('../../images/header/PhoneBlack.svg');
+    background-image: url('../../images/icons/PhoneBlack.svg');
 }
 
 .header__phone-container{
@@ -200,7 +201,7 @@
 
 .header--light .header__phone-container:hover .header__contacts-caption{
     /* color: #8CA7D0; */
-    color: #193867;
+    color: #8CA7D0;
 }
 
 .header__phone-number {
@@ -214,7 +215,7 @@
 }
 
 .header--light .header__phone-number:hover {
-    color: #193867;
+    color: #8CA7D0;
 }
 
 .header__contacts-caption {
@@ -244,35 +245,35 @@
 }
 
 .header__social-icon--whatsapp {
-    background-image: url('../../images/header/WhatsAppWhite.svg');
+    background-image: url('../../images/icons/WhatsAppWhite.svg');
 }
 
 .header__social-icon--whatsapp:hover {
-    background-image: url('../../images/header/WhatsAppYellow.svg');
+    background-image: url('../../images/icons/WhatsAppYellow.svg');
 }
 
 .header--light .header__social-icon--whatsapp {
-    background-image: url('../../images/header/WhatsAppBlack.svg');
+    background-image: url('../../images/icons/WhatsAppBlack.svg');
 }
 
 .header--light .header__social-icon--whatsapp:hover {
-    background-image: url('../../images/header/WhatsAppBlue.svg');
+    background-image: url('../../images/icons/WhatsAppBlueLight.svg');
 }
 
 .header__social-icon--telegram {
-    background-image: url('../../images/header/TelegramWhite.svg');
+    background-image: url('../../images/icons/TelegramWhite.svg');
 }
 
 .header__social-icon--telegram:hover {
-    background-image: url('../../images/header/TelegramYellow.svg');
+    background-image: url('../../images/icons/TelegramYellow.svg');
 }
 
 .header--light .header__social-icon--telegram {
-    background-image: url('../../images/header/TelegramBlack.svg');
+    background-image: url('../../images/icons/TelegramBlack.svg');
 }
 
 .header--light .header__social-icon--telegram:hover {
-    background-image: url('../../images/header/TelegramBlue.svg');
+    background-image: url('../../images/icons/TelegramBlueLight.svg');
 }
 
 .header__consult-button {
@@ -302,8 +303,8 @@
 }
 
 .header--light .header__consult-button:hover {
-    border-color: #193867;
-    color: #193867;
+    border-color: #8CA7D0;
+    color: #8CA7D0;
 }
 
 .header__burger {
@@ -316,13 +317,20 @@
 .header__burger-icon{
     width: 44px;
     height: 44px;
-    flex-shrink: 0;
     background-size: contain;
-    background-image: url('../../images/header/BurgerWhite.svg');
+    background-image: url('../../images/icons/BurgerWhite.svg');
+}
+
+.header__burger-icon:hover {
+    background-image: url('../../images/icons/BurgerYellow.svg');
 }
 
 .header--light .header__burger-icon {
-    background-image: url('../../images/header/BurgerBlack.svg');
+    background-image: url('../../images/icons/BurgerBlack.svg');
+}
+
+.header--light .header__burger-icon:hover {
+    background-image: url('../../images/icons/BurgerBlueLight.svg');
 }
 
 .sidebar__nav {
@@ -357,6 +365,68 @@
 
 .sidebar__phone-number {
     color: #000000;
+}
+
+.sidebar__socials {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.sidebar__social-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+    background-size: contain;
+}
+
+.sidebar__social-icon--whatsapp {
+    background-image: url('../../images/icons/WhatsAppBlack.svg');
+}
+
+.sidebar__social-icon--whatsapp:hover {
+    background-image: url('../../images/icons/WhatsAppYellow.svg');
+}
+
+.header--light .sidebar__social-icon--whatsapp:hover {
+    background-image: url('../../images/icons/WhatsAppBlueLight.svg');
+}
+
+.sidebar__social-icon--telegram {
+    background-image: url('../../images/icons/TelegramBlack.svg');
+}
+
+.sidebar__social-icon--telegram:hover {
+    background-image: url('../../images/icons/TelegramYellow.svg');
+}
+
+.header--light .sidebar__social-icon--telegram:hover {
+    background-image: url('../../images/icons/TelegramBlueLight.svg');
+}
+
+.sidebar__consult-button {
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #424249;
+    background-color: #FDFDFD;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #424249;
+}
+
+.sidebar__consult-button:hover {
+    border-color: #F8B514;
+    color: #F8B514;
+}
+
+.header--light .sidebar__consult-button:hover {
+    border-color: #8CA7D0;
+    color: #8CA7D0;
 }
 
 /* Для экранов шириной до 1200px */
@@ -448,27 +518,18 @@
     }
 }
 
-/* Для экранов шириной до 390px */
-@media (max-width: 390px) {
-    /* .header__social-icon {
-        width: 20px;
-        height: 20px;
-    } */
-
-    .header__logo {
+@media (max-width: 450px) {
+    .header__consult-button {
         display: none;
     }
-
-    .header__social-icon {
-        margin-right: 5px;
+    .header__socials {
+        flex-grow: 1;
+        justify-content: end;
     }
+}
 
-    .header__consult-button {
-        padding-left: 5px;
-        padding-right: 5px;
-        /* max-width: 100px; */
-        /* height: 30px; */
-        font-size: 12px;
-        /* line-height: 14px; */
+@media (max-width: 300px) {
+    .header__socials {
+        display: none;
     }
 }
