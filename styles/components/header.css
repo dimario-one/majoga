@@ -1,305 +1,474 @@
 .header {
     width: 100%;
-    height: 150px;
-    padding-top: 25px;
     background: #E8E9EA;
 }
 
-.time {
-    width: 100%;
-    height: 20px;
+.header__container {
+    height: 100%;
 }
 
-.header__address {
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    text-align: left;
+.header * {
+    /* outline: solid 2px red; */
 }
 
 .header__wrapper {
     width: 100%;
-    height: 87px;
-    padding: 15px;
-    background: #1E2F49;
     border-radius: 20px;
 }
 
-.logo {
-    width: 60px;
-    height: 40px;
-    margin: 0;
+.header--light .header__wrapper {
+    background-color: #FDFDFD;
 }
 
-.logo__img {
+.header__top { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__location {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.header__map-pin {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    background-image: url('../../images/header/MapPinBlue.svg');
+    margin-right: .5rem;
+}
+
+.header--light .header__map-pin {
+    background-image: url('../../images/header/MapPinGrey.svg');
+}
+
+.header__address {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header__address-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    color: #262829;
+}
+
+.header--light .header__address-text {
+    color: #8D8D8D;
+}
+
+.header__time {
+    display: flex;
+    align-items: center;
+}
+
+.header__clock {
+    width: 34px;
+    height: 23px;
+    flex-shrink: 0;
+    margin-right: .5rem;
+    background-image: url('../../images/header/ClockYellow.svg');
+}
+
+.header--light .header__clock {
+    background-image: url('../../images/header/ClockGrey.svg');
+}
+
+.header__time-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    text-wrap: nowrap;
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 87px;
+    padding: 15px;
+    background-color: #1E2F49;
+    border-radius: 20px;
+}
+
+.header--light .header__main {
+    background-color: #FDFDFD;
+}
+
+.header__logo {
+    width: 90px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../images/header/HeaderLogoGrey.svg");
+}
+
+.header--light .header__logo {
+    background-image: url("../../images/header/HeaderLogoBlue.svg");
+}
+
+.header__logo::after {
     width: 100%;
     height: 100%;
     object-fit: contain;
 }
 
-.nav {
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
     width: 431px;
     height: 19px;
 }
 
-.nav__text {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 19.36px;
-    text-align: left;
-    color: #FDFDFD;
-}
-
-.header__phoneNumber {
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 31px;
-    text-align: left;
-    color: #FDFDFD;
-}
-
-.header__call {
-    font-family: Inter;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14.52px;
-    text-align: left;
-    color: #E8E9EA;
-}
-
-.header__socialMedia {
+.header__menu-item {
     list-style: none;
 }
 
-.social__btn {
-    border: 1px solid #838F9F;
+/* .header__menu-item:hover {
+    transform: translateY(-5px);
+} */
+
+.header__menu-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+
+    text-align: left;
+    color: #FDFDFD;
 }
 
-.social__icon {
+.header__menu-link:hover {
+    color: #F8B514;
+}
+
+.header--light .header__menu-link {
+    color: #424249
+}
+
+.header--light .header__menu-link:hover {
+    color: #193867
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+}
+
+.header__phone-icon {
+    width: 22px;
+    height: 22px;
+    background-image: url('../../images/header/PhoneYellow.svg');
+
+    margin-bottom: 1rem;
+}
+
+.header--light .header__phone-icon {
+    background-image: url('../../images/header/PhoneBlack.svg');
+}
+
+.header__phone-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: .5rem;
+}
+
+.header__phone-container:hover .header__contacts-caption{
+    color: #F8B514;
+}
+
+.header--light .header__phone-container:hover .header__contacts-caption{
+    /* color: #8CA7D0; */
+    color: #193867;
+}
+
+.header__phone-number {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FDFDFD;
+}
+
+.header__phone-number:hover {
+    color: #F8B514;
+}
+
+.header--light .header__phone-number:hover {
+    color: #193867;
+}
+
+.header__contacts-caption {
+    font-size: 12px;
+    font-weight: 400;
+    color: #E8E9EA;
+
+    cursor: default;
+}
+
+.header--light .header__phone-number,
+.header--light .header__contacts-caption {
+    color: #424249
+}
+
+.header__socials {
+    display: flex;
+    align-items: center;
+}
+
+.header__social-icon {
+    flex-shrink: 0;
     width: 44px;
     height: 44px;
-    border-radius: 6px;
-    border: 1px solid #838F9F;
+    margin-right: 10px;
+    background-size: contain;
 }
 
-.social__img {
-    width: 28.71px;
-    height: 28.71px;
+.header__social-icon--whatsapp {
+    background-image: url('../../images/header/WhatsAppWhite.svg');
 }
 
-.consultation {
+.header__social-icon--whatsapp:hover {
+    background-image: url('../../images/header/WhatsAppYellow.svg');
+}
+
+.header--light .header__social-icon--whatsapp {
+    background-image: url('../../images/header/WhatsAppBlack.svg');
+}
+
+.header--light .header__social-icon--whatsapp:hover {
+    background-image: url('../../images/header/WhatsAppBlue.svg');
+}
+
+.header__social-icon--telegram {
+    background-image: url('../../images/header/TelegramWhite.svg');
+}
+
+.header__social-icon--telegram:hover {
+    background-image: url('../../images/header/TelegramYellow.svg');
+}
+
+.header--light .header__social-icon--telegram {
+    background-image: url('../../images/header/TelegramBlack.svg');
+}
+
+.header--light .header__social-icon--telegram:hover {
+    background-image: url('../../images/header/TelegramBlue.svg');
+}
+
+.header__consult-button {
     width: 200px;
     height: 44px;
     text-align: center;
     border-radius: 6px;
-    background: #F8B514;
-}
+    border: 1px solid #F8B514;
+    background-color: #F8B514;
 
-.consultation__text {
-    font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 19.36px;
     color: #FDFDFD;
 }
 
+.header__consult-button:hover {
+    border-color: #F9F9F9;
+    background-color: #F9F9F9;
+    color: #F8B514;
+}
 
+.header--light .header__consult-button{
+    border-color: #59595F;
+    background-color: #FFFFFF;
+    color: #59595F;
+}
 
-@media (max-width: 1400px) {
-    .header__address {
-        font-size: 10px;
-        line-height: 1px;
-    }
+.header--light .header__consult-button:hover {
+    border-color: #193867;
+    color: #193867;
+}
 
+.header__burger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.header__burger-icon{
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    background-size: contain;
+    background-image: url('../../images/header/BurgerWhite.svg');
+}
+
+.header--light .header__burger-icon {
+    background-image: url('../../images/header/BurgerBlack.svg');
+}
+
+.sidebar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar__menu-item {
+    list-style: none;
+}
+
+.sidebar__menu-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+
+    color: #000000;
+}
+
+.sidebar__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.sidebar__phone-number {
+    color: #000000;
 }
 
 /* Для экранов шириной до 1200px */
 @media (max-width: 1200px) {
-
-    .header__phoneNumber {
-        font-size: 16px;
+    .header__top, .header__nav{
+        display: none;
+    }
+    
+    .header__burger{
+        display: block;
     }
 
-    .header__call {
-        font-size: 12px;
-    }
-
-    .consultation {
-        width: 200px;
-        height: 44px;
-    }
-
-    .header__socialMedia {
-        width: 308px;
-        height: 44px;
-        list-style: none;
-    }
-
-    .social__icon {
-        width: 44px;
-        height: 44px;
-    }
-
-    .social__img {
-        width: 28.71px;
-        height: 28.71px;
+    .header {
+        height: 87px;
     }
 }
 
 /* Для экранов шириной до 992px */
 @media (max-width: 992px) {
-    .time {
+    .header__nav {
         display: none;
     }
 
-    .header_contacts {
-        width: auto;
-        height: 39px;
+    .header__phone-number {
+        font-size: 14px;
     }
 
-    .header__phoneNumber {
+    .header__contacts-caption {
         font-size: 10px;
-    }
-
-    .header__call {
-        font-size: 12px;
     }
 }
 
 /* Для экранов шириной до 768px */
 @media (max-width: 768px) {
-    .header__phoneNumber {
+    .header__contacts {
+        display: none;
+    }
+    
+    .header__phone-number {
         font-size: 12px;
     }
 
-    .header__call {
+    .header__contacts-caption {
         font-size: 10px;
     }
 
-    .header__socialMedia {
-        width: 200px;
-        height: 40px;
-        list-style: none;
-    }
-
-
-    .social__icon {
+    /* .header__social-icon {
         width: 40px;
         height: 40px;
-    }
-
-    .social__img {
-        width: 20px;
-        height: 20px;
-    }
-
-    .consultation {
+    } */
+/* 
+    .header__consult-button {
         width: 100%;
         height: 40px;
-        text-align: center;
-        border-radius: 6px;
-        background: #F8B514;
-    }
-
-    .consultation__text {
         font-size: 14px;
-    }
-
+    } */
 }
 
 /* Для экранов шириной до 576px */
 @media (max-width: 576px) {
-    .header__phoneNumber {
-        font-size: 12px;
+    .header__container {
+        padding: 0;
+    }
+    
+    .header__main {
+        border-radius: 0;
     }
 
-    .header__call {
+    .header__contacts-caption {
         font-size: 18px;
     }
 
-    .header__socialMedia {
-        width: 200px;
-        height: 30px;
-        list-style: none;
-    }
-
-
-    .social__icon {
+    /* .header__social-icon {
         width: 30px;
         height: 30px;
+    } */
+
+    .header__logo {
+        max-width: 90px;
+        margin-right: .5rem;
     }
 
-    .social__img {
-        width: 15px;
-        height: 15px;
-    }
-
-    .consultation {
-        min-width: 120px;
-        height: 30px;
-        text-align: center;
-        border-radius: 6px;
-        background: #F8B514;
-    }
-
-    .consultation__text {
-        font-size: 10px;
+    .header__consult-button {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* height: 30px; */
+        /* font-size: 10px; */
     }
 }
 
 /* Для экранов шириной до 390px */
 @media (max-width: 390px) {
-    .header__phoneNumber {
-        font-size: 10px;
-    }
-
-    .header__call {
-        font-size: 8px;
-        font-weight: 400;
-        line-height: 14.52px;
-        text-align: left;
-        color: #E8E9EA;
-    }
-
-    .header__socialMedia {
-        list-style: none;
-    }
-
-    .social__btn {
-        border: 1px solid #838F9F;
-    }
-
-    .header__socialMedia {
-        width: 100%;
-        height: 30px;
-        list-style: none;
-    }
-
-
-    .social__icon {
+    /* .header__social-icon {
         width: 20px;
         height: 20px;
+    } */
+
+    .header__logo {
+        display: none;
     }
 
-    .social__img {
-        width: 10px;
-        height: 10px;
+    .header__social-icon {
+        margin-right: 5px;
     }
 
-    .consultation {
-        max-width: 100px;
-        height: 30px;
-        text-align: center;
-        border-radius: 6px;
-        background: #F8B514;
-    }
-
-    .consultation__text {
+    .header__consult-button {
+        padding-left: 5px;
+        padding-right: 5px;
+        /* max-width: 100px; */
+        /* height: 30px; */
         font-size: 12px;
-        font-weight: 400;
-        line-height: 14px;
-        color: #FDFDFD;
+        /* line-height: 14px; */
     }
 }
