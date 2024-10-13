@@ -3,6 +3,10 @@
     background: #E8E9EA;
 }
 
+.header--light {
+    background: transparent;
+}
+
 .header__container {
     height: 100%;
 }
@@ -241,7 +245,6 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    background-size: contain;
 }
 
 .header__social-icon--whatsapp {
@@ -317,7 +320,6 @@
 .header__burger-icon{
     width: 44px;
     height: 44px;
-    background-size: contain;
     background-image: url('../../images/icons/BurgerWhite.svg');
 }
 
@@ -378,7 +380,6 @@
     width: 44px;
     height: 44px;
     margin-right: 10px;
-    background-size: contain;
 }
 
 .sidebar__social-icon--whatsapp {

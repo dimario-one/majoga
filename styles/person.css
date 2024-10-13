@@ -8,4 +8,8 @@
 @import url('./components/cases.css');
 @import url('./components/start__form.css');
 @import url('./components/contacts.css');
-@import url('./components/footer.css');
+@import url('./components/footer/footer-light.css');
+
+body {
+    background-color: #EFF3F9;
+}
