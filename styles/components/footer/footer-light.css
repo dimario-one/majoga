@@ -6,6 +6,8 @@
 .footer__container {
     background-color: #FDFDFD;
     border-radius: 20px;
+
+    padding: 20px;                     
 }
 
 .footer__logo {
@@ -22,8 +24,6 @@
 .footer__main {
     display: flex;
     justify-content: space-between;
-
-    padding-top: 2rem;
 }
 
 .footer__main-item {
@@ -127,15 +127,15 @@
 }
 
 .footer__bottom {
-    width: calc(100% + 1.5rem);
-    margin-left: -0.75rem;
+    width: calc(100% + 40px);
+    margin-left: -20px;
     display: flex;
     align-items: end;
     justify-content: space-between;
-    border-top: 1px solid #B8CCE0;
+    border-top: 1px solid #DBDBDB;
     gap: 40px;
-    margin-top: 3rem;
-    padding: 1rem 2rem;
+    margin-top: 20px;
+    padding: 10px 40px 0 40px;
 }
 
 .footer__bottom-item {
@@ -236,9 +236,11 @@
     }
     .footer__main-item:nth-child(1),
     .footer__main-item:nth-child(2) {
-        width: 50%;
+        width: calc(50% - 5px);
     }
-
+    .footer__main-item:nth-child(2) {
+        justify-content: end;
+    }
     .footer__main-item:nth-child(3) {
         width: 100%;
         margin-top: 2rem;
@@ -272,9 +274,11 @@
     .footer__list-link {
         text-wrap: wrap;
     }
+    .footer__main {
+        gap: 10px;
+    }
     .footer__main-item > * {
         width: max-content;
-        padding: 0 10px;
     }
     .footer__list-link,
     .footer__address-text {
@@ -318,12 +322,10 @@
         gap: 1rem;
     }
 
-    .footer__main-item > * {
-        padding: 0 10px;
-    }
-
     .footer__bottom {
-        padding: 1rem 0.75rem;
+        /* padding: 1rem 0.75rem; */
+        padding-left: 20px;
+        padding-right: 20px;
     }
     .footer__bottom-item,
     .footer__bottom-link {
