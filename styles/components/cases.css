@@ -1,7 +1,7 @@
 .cases-section {
     display: flex;
     justify-content: space-between;
-    /* gap: 20px; */
+    gap: 20px;
     /* padding: 40px; */
 }
 
@@ -16,14 +16,16 @@
 }
 
 .case-card {
-    max-width: 400px;
     height: 500px;
+    border-radius: 20px;
     background: #FBF2DC;
+    margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
     position: relative;
-    border-radius: 16px;
 }
 
 .cases__img {
@@ -45,11 +47,11 @@
 }
 
 .case-cardText {
-    height: 40%;
+    /* height: 30%; */
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
-    line-height: 19px;
+    line-height: 19.36px;
     text-align: justified;
     color: #303030;
 
@@ -84,13 +86,6 @@
 
 @media (max-width: 1200px) {
     .case-card {
-        height: 600px;
-    }
-}
-
-@media (max-width: 992px) {
-    .case-card {
-        max-width: 100%;
         height: auto;
     }
 }
