@@ -7,16 +7,6 @@
     color: #1E2F49;
 }
 
-.protect__subTitle {
-    height: auto;
-    font-family: Inter;
-    font-size: 22px;
-    font-weight: 400;
-    line-height: 28.6px;
-    text-align: left;
-
-}
-
 .protect__text {
     font-family: Inter;
     font-size: 22px;
@@ -26,7 +16,7 @@
     color: #303030;
 }
 
-.protect__text_bold {
+.protect__text_bold{
     width: auto;
     font-weight: 900;
 }
@@ -173,7 +163,7 @@
 
 @media (max-width: 450px) {
     .protect__title {
-        font-size: 30px;
+        font-size: 20px;
         line-height: 32px;
     }
 
