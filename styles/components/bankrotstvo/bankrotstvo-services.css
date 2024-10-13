@@ -299,5 +299,16 @@
         font-size: 14px;
         line-height: 16px;
     }
+
+    
+    .bankrotstvo-services__consultation-button {
+        width: 260px;
+        height: 60px;
+    }
+
+    .bankrotstvo-services__consultation-button-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
     
 }
