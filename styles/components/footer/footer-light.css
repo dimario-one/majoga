@@ -77,7 +77,8 @@
 }
 
 .footer__list-link:hover {
-    color: #1E2F49;
+    /* color: #1E2F49; */
+    color: #8CA7D0;
 }
 
 .footer__contacts {
