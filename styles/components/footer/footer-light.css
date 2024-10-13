@@ -53,7 +53,7 @@
     gap: 20px;
 }
 
-.footer__list-title {
+.footer__list-title a{
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
@@ -61,7 +61,7 @@
     color: #B8CCE0;
 }
 
-.footer__list-title:hover {
+.footer__list-title a:hover {
     color: #1E2F49;
 }
 
@@ -335,7 +335,7 @@
 }
 
 @media (max-width: 400px) {
-    .footer__list-title,
+    .footer__list-title a,
     .footer__list-link,
     .footer__address-text {
         font-size: 14px;

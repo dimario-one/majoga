@@ -68,7 +68,7 @@
     gap: 1rem;
 }
 
-.footer__list-title {
+.footer__list-title a{
     font-size: 18px;
     font-weight: 600;
     line-height: 24px;
@@ -77,7 +77,7 @@
     color: #B8CCE0;
 }
 
-.footer__list-title:hover {
+.footer__list-title a:hover {
     color: #8CA7D0;
 }
 
@@ -320,7 +320,7 @@
 }
 
 @media (max-width: 400px) {
-    .footer__list-title {
+    .footer__list-title a{
         font-size: 16px;
     }
 
