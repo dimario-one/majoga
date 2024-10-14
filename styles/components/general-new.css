@@ -1,0 +1,244 @@
+.general {
+    width: 100%;
+    margin-top: 40px;
+    padding: 30px 20px 0 20px;
+
+    position: relative;
+    height: 490px;
+}
+
+.general__wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 60px;
+
+    position: absolute;
+    bottom: 0;
+}
+
+.general__background {
+    position: absolute;
+    background-color: #ECECEC;
+    width: calc(100% - 40px);
+    height: calc(100% - 30px);
+    border-radius: 20px;
+    z-index: -1;
+}
+
+.general__content {
+    width:  50%;
+}
+
+.general__picture {
+    width:  50%;
+}
+
+.general-title {
+    font-size: 50px;
+    font-weight: 500;
+    /* line-height: 60.51px; */
+    line-height: 30px;
+    text-align: left;
+    color: #1E2F49;
+}
+
+.general-subTitle {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #303030;
+}
+
+.general__consult {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 320px;
+    height: 60px;
+    padding: 6px;
+    padding-left: 26px;
+    border-radius: 300px;
+    background-color: #1E304C;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.general__consult-text {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    color: #FFFFFF;
+}
+
+.general__consult-arrow {
+    width: 48px;
+    height: 48px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #E9C979;
+    object-fit: contain;
+}
+
+.general-ImgConrainer {
+    position: relative;
+    width: auto;
+    height: 100%;
+}
+
+.general-cards {
+    list-style: none;
+}
+
+.general-card {
+    position: relative;
+    /* width: 260px; */
+    height: 160px;
+    border-radius: 20px;
+    opacity: 0px;
+    border-radius: 20px;
+
+}
+
+.general-card__background_grey {
+    background: #E5ECF6;
+}
+
+.general-card__background_pink {
+    background: #FBF2DC;
+}
+
+.general-cardText {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 26.63px;
+    text-align: left;
+    color: #303030;
+}
+
+.general-cardImgBox {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.general-cardImgBox__background_blue {
+    background: #1E2F49;
+}
+
+.general-cardImgBox__background_orange {
+    background: #F8B514;
+}
+
+.general-cardImg {
+    width: 20px;
+    height: 20px;
+}
+
+
+@media (max-width: 576px) {
+    .general-link {
+        background: #E9C979 !important;
+    }
+
+    .general-cardText {
+        font-size: 24px !important;
+        line-height: 26px !important;
+    }
+
+    .general-cardImgBox {
+        width: 60px !important;
+        height: 60px !important;
+    }
+
+    .general-cardImg {
+        width: 20px !important;
+        height: 20px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .general-title {
+        font-size: 30px;
+        line-height: 30px !important;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .general-baner {
+        overflow: hidden;
+    }
+
+    .general-mainImg {
+        right: -250px;
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    /* .general-baner {
+        overflow: visible;
+    } */
+
+    .general-card {
+        width: 100%;
+    }
+
+
+    .general-title {
+        line-height: 60.51px;
+    }
+
+    .general-subTitle {
+        font-size: 18px;
+    }
+
+    .general-link {
+        background: #1E304C;
+    }
+
+    .general-cardText {
+        font-size: 32px;
+        line-height: 36px;
+    }
+
+    .general-cardImgBox {
+        width: 90px;
+        height: 90px;
+    }
+
+    .general-cardImg {
+        width: 40px;
+        height: 40px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .general-title {
+        line-height: 60.51px;
+    }
+
+    .general-card {
+        width: 100%;
+        height: 160px;
+    }
+
+    .general-subTitle {
+        font-size: 18px;
+    }
+
+    .general-link {
+        background: #1E304C;
+    }
+}
