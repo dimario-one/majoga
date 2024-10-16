@@ -1,6 +1,7 @@
 @import url('./components/header.css');
-@import url('./components/general.css');
-@import url('./components/vziskaniedolgov/general_dolgi.css');
+@import url('./components/general-new.css');
+@import url('./components/obsluzhivaniebiznesa/general.css');
+@import url('./components/advantages.css');
 @import url('./components/vziskaniedolgov/backmoney.css');
 @import url('./components/vziskaniedolgov/legalservices.css');
 @import url('./components/reviews.css');

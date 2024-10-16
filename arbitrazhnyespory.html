@@ -126,76 +126,68 @@
         </div>
     </header>
     <main>
-        <section class="container general mt-5">
-            <div
-                class="d-flex flex-row align-items-center justify-content-between ps-3 ps-lg-5 pe-0 pe-xl-5 general-baner">
-                <div
-                    class="col h-75 d-flex flex-column justify-content-none justify-content-lg-between general-textHolder">
-                    <div class="w-75 w-sm-100 general-titleContainer">
-                        <h1 class="general-title">Арбитражные споры</h1>
-                        <h3 class="general-subTitle mt-4">
+        <section class="container general">
+            <div class="general__wrapper">
+                <div class="general__background">
+                    <img class="general__background-image" src="./images/general/Mask group.png" alt="" />
+                </div>
+                <div class="general__main">
+                    <div class="general__content">
+                        <h1 class="general__title">Арбитражные споры</h1>
+                        <p class="general__text">
                             Грамотно и оперативно возвращаем деньги по договорам
-                        </h3>
-                    </div>
-                    <a class="d-flex align-items-center justify-content-between mt-3 mt-md-5 mt-lg-0 pe-2 general-link">
-                        <p class="m-0 p-0 ps-4 general-buttonText">
-                            Получить консультацию
                         </p>
-                    </a>
+                    </div>
+                    <div class="general__consult">
+                        <button class="general__consult-button">
+                            <p class="general__consult-text">Получить консультацию</p>
+                            <img class="general__consult-arrow" src="./images/general/Line 19.png" alt="" />
+                        </button>
+                    </div>
                 </div>
-                <div class="col d-flex justify-content-end general-ImgConrainer">
-                    <figure class="m-0 general-mainImg">
-                        <img class="" src="./images/general/arbitrazhnyespory.png" alt="" />
-                    </figure>
+                <div class="general__picture">
+                    <img class="general__picture-image" src="./images/general/arbitrazhnyespory.png" alt="" />
                 </div>
-                <figure class="m-0 general-backImg">
-                    <img class="" src="./images/general/Mask group.png" alt="" />
-                </figure>
             </div>
-            <ul
-                class="d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 gap-5 general-cards">
-                <li
-                    class="d-flex align-items-center justify-content-center p-3 general-card general-card__background_grey">
-                    <p class="m-0 w-75 w-xl-100 text-center general-cardText">
-                        Свой арбитражный управляющий
-                    </p>
-                    <figure
-                        class="d-flex align-items-center justify-content-center m-0 general-cardImgBox general-cardImgBox__background_blue">
-                        <img class="general-cardImg" src="./images//general/Frame1.png" alt="" />
-                    </figure>
-                </li>
-                <li
-                    class="d-flex align-items-center justify-content-center p-3 general-card general-card__background_grey">
-                    <p class="m-0 w-75 w-xl-100 text-center general-cardText">
+        </section>
+
+        <section class="container advantages">
+            <div class="advantages__cards">
+                <div class="advantages__card advantages__card--blue">
+                    <p class="advantages__card-text">
                         Гарантия получения результата
                     </p>
-                    <figure
-                        class="d-flex align-items-center justify-content-center m-0 general-cardImgBox general-cardImgBox__background_blue">
-                        <img class="general-cardImg" src="./images//general/Frame.png" alt="" />
+                    <figure class="advantages__badge advantages__badge--blue">
+                        <img class="advantages__badge-icon" src="./images//general/Frame.png" alt="" />
                     </figure>
-                </li>
-                <li
-                    class="d-flex align-items-center justify-content-center p-3 general-card general-card__background_pink">
-                    <p class="m-0 w-75 w-xl-100 text-center general-cardText">
-                        Стоимость работ прописывается в договоре
+                </div>
+                <div class="advantages__card advantages__card--blue">
+                    <p class="advantages__card-text">
+                        Свой арбитражный управляющий
                     </p>
-                    <figure
-                        class="d-flex align-items-center justify-content-center m-0 general-cardImgBox general-cardImgBox__background_orange">
-                        <img class="general-cardImg" src="./images//general/Frame2.png" alt="" />
+                    <figure class="advantages__badge advantages__badge--blue">
+                        <img class="advantages__badge-icon" src="./images//general/Frame1.png" alt="" />
                     </figure>
-                </li>
-                <li
-                    class="d-flex align-items-center justify-content-center p-3 general-card general-card__background_pink">
-                    <p class="m-0 w-75 w-xl-100 text-center general-cardText">
-                        Всегда на связи и экономим ваше время
+                </div>
+                <div class="advantages__card advantages__card--orange">
+                    <p class="advantages__card-text">
+                        Стоимость работ прописывается в&nbsp;договоре
                     </p>
-                    <figure
-                        class="d-flex align-items-center justify-content-center m-0 general-cardImgBox general-cardImgBox__background_orange">
-                        <img class="general-cardImg" src="./images//general/Frame3.png" alt="" />
+                    <figure class="advantages__badge advantages__badge--orange">
+                        <img class="advantages__badge-icon" src="./images//general/Frame2.png" alt="" />
                     </figure>
-                </li>
-            </ul>
+                </div>
+                <div class="advantages__card advantages__card--orange">
+                    <p class="advantages__card-text">
+                        Всегда на&nbsp;связи и&nbsp;экономим ваше время
+                    </p>
+                    <figure class="advantages__badge advantages__badge--orange">
+                        <img class="advantages__badge-icon" src="./images//general/Frame3.png" alt="" />
+                    </figure>
+                </div>
+            </div>
         </section>
+        
         <section class="container mt-5 situation">
             <h2 class="mt-3 situation__title">
                 Оперативно решаем спорные ситуации между юридическими лицами
@@ -249,7 +241,7 @@
                             Задать свой вопрос юристу
                         </p>
                         <figure
-                            class="d-flex align-items-center justify-content-center m-0 ms-5 p-0 arrow-container general__background">
+                            class="d-flex align-items-center justify-content-center m-0 ms-5 p-0 arrow-container general__background1">
                             <img class="" src="./images/general/Line 19.png" alt="" />
                         </figure>
                     </li>

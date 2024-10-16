@@ -1,0 +1,53 @@
+.general__title {
+    text-wrap: wrap;
+}
+
+.general__wrapper {
+    align-items: start;
+}
+.general__main {
+    padding-top: 60px;
+}
+
+.general__consult {
+    margin-top: 40px;
+}
+
+/* TODO  main positioning by flex */
+@media (max-width: 1400px) {
+    .general__title{
+        font-size: 40px;
+    }
+    
+}
+
+@media (max-width: 1200px) {
+    .general__picture {
+        width: 50%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+}
+
+@media (max-width: 576px) {
+    .general__main {
+        padding-bottom: 10px;
+        padding-right: 100px;
+    }
+    .general__picture {
+        width: auto;
+        align-self: center;
+        padding-left: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .general__main {
+        padding-right: 30px;
+    }
+}
