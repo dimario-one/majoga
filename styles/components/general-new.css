@@ -29,6 +29,10 @@
     left: 0;
     border-radius: 20px;
     z-index: -1;
+    overflow: hidden;
+}
+.general__background-image {
+    height: 100%;
 }
 
 .general__main {
@@ -38,7 +42,6 @@
     display: flex;
     flex-direction: column;
     align-items: start;
-    justify-content: space-between;
 }
 
 .general__picture {
@@ -64,6 +67,10 @@
     font-size: 22px;
     font-weight: 400;
     color: #303030;
+}
+
+.general__consult {
+    margin-top: 100px;
 }
 
 .general__consult-button {
@@ -122,22 +129,87 @@
         align-items: start;
     }
     .general__main {
-        margin-top: 30px;
-        padding-left: 30px;
-    }
-    .general__consult-button {
-        font-size: 16px;
+        padding: 30px;
     }
 }
 
 @media (max-width: 768px) {
+    .general{
+        height: 320px;
+    }
     .general-title {
         font-size: 30px;
+    }
+    .general__title {
+        font-size: 30px;
+    }
+    .general__text {
+        font-size: 14px;
+    }
+    .general__consult {
+        margin-top: 40px;
+    }
+    .general__consult-text {
+        font-size: 14px;
+    }
+    .general__consult-button {
+        width: 240px;
+        height: 40px;
+        
+        padding: 4px;
+        padding-left: 20px;
+    }
+    .general__consult-arrow {
+        width: 32px;
+        height: 32px;
     }
 }
 
 @media (max-width: 576px) {
+    .general{
+        height: auto;
+    }
+    .general__main{
+        width: 100%;
+        height: auto;
+    }
+    .general__title{
+        text-wrap: wrap;
+    }
+    .general__wrapper{
+        flex-direction: column;
+        align-items: start;
+    }
+    .general__picture{
+        position: initial;
+    }
 }
 
 @media (max-width: 400px) {
+    .general__wrapper {
+        margin: 0 10px;
+    }
+    .general__main {
+        padding: 20px;
+    }
+    .general__title {
+        font-size: 26px;
+    }
+    .general__text {
+        font-size: 12px;
+    }
+    .general__consult-text {
+        font-size: 12px;
+    }
+    .general__consult-button {
+        width: 200px;
+        height: 40px;
+        
+        padding: 4px;
+        padding-left: 10px;
+    }
+    .general__consult-arrow {
+        width: 32px;
+        height: 32px;
+    }
 }

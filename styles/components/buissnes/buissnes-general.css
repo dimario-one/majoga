@@ -19,6 +19,11 @@
 }
 
 @media (max-width: 576px) {
+    .general__picture {
+        width: auto;
+        align-self: center;
+        padding: 0 30px;
+    }
 }
 
 @media (max-width: 400px) {
