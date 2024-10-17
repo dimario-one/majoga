@@ -13,6 +13,9 @@
         width: 50%;
         padding-right: 30px;
     }
+    .general__main {
+        padding-bottom: 100px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -21,8 +24,11 @@
 @media (max-width: 576px) {
     .general__picture {
         width: auto;
-        align-self: center;
+        align-self: end;
         padding: 0 30px;
+    }
+    .general__main {
+        padding-bottom: 20px;
     }
 }
 
