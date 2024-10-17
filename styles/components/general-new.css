@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.general--light{
+    height: 520px;
+}
+
 .general__wrapper {
     margin: 0 20px;
     width: 100%;
@@ -17,7 +21,9 @@
 
     position: relative;
     display: flex;
-    align-items: center;
+}
+.general--light .general__wrapper{
+    margin: 0;
 }
 
 .general__background {
@@ -29,9 +35,16 @@
     left: 0;
     border-radius: 20px;
     z-index: -1;
+    overflow: hidden;
+}
+.general--light .general__background{
+    background-color: #FDFDFD;
 }
 .general__background-image {
     height: 100%;
+}
+.general--light .general__background-image{
+    height: auto;
 }
 
 .general__main {
@@ -43,16 +56,8 @@
     align-items: start;
     justify-content: space-between;
 }
-
-.general__picture {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.general__picture-image {
-    width: 100%;
-    height: 100%;
+.general--light .general__main{
+    padding: 75px 0 75px 40px;
 }
 
 .general__title {
@@ -63,10 +68,35 @@
     color: #1E2F49;
 }
 
+.general--light .general__title {
+    font-size: 46px;
+}
+
 .general__text {
     font-size: 22px;
     font-weight: 400;
     color: #303030;
+}
+
+.general__list {
+    list-style-position: inside;
+    line-height: 1.6em;
+}
+
+.general__picture {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.general--light .general__picture{
+    height: 100%;
+}
+
+.general__picture-image {
+    width: 100%;
+    height: 100%;
 }
 
 .general__consult {
@@ -88,6 +118,9 @@
     cursor: pointer;
     text-decoration: none;
 }
+.general--light .general__consult-button{
+    background-color: #193867;
+}
 
 .general__consult-text {
     font-size: 18px;
@@ -102,6 +135,9 @@
     border-radius: 50%;
     background-color: #E9C979;
     object-fit: contain;
+}
+.general--light .general__consult-arrow {
+    background-color: #FDFDFD;
 }
 
 @media (max-width: 1200px) {
@@ -177,10 +213,9 @@
     }
     .general__wrapper{
         flex-direction: column;
-        align-items: start;
     }
     .general__picture{
-        position: initial;
+        position: static;
     }
 }
 

@@ -1,17 +1,25 @@
-.general__title {
-    text-wrap: wrap;
-}
-
-.general__wrapper {
-    align-items: start;
-}
 .general__main {
+    width: 50%;
     padding: 60px;
     padding-right: 0;
 }
 
+.general__title{
+    text-wrap: wrap;
+}
+
 .general__consult {
     margin-top: 40px;
+}
+
+.general__picture {
+    padding-right: 20px;
+}
+
+.general__picture-image {
+    background-image: url("../../../images/general/Group\ 1957.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 @media (max-width: 1400px) {

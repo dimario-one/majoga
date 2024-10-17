@@ -1,5 +1,6 @@
 @import url('./components/header.css');
-@import url('./components/person/general_person.css');
+@import url('./components/general-new.css');
+@import url('./components/person/general.css');
 @import url('./components/bankrotstvo/bankrotstvo-services.css');
 @import url('./components/person/person-services.css');
 @import url('./components/person/aim.css');

@@ -19,6 +19,9 @@
 }
 
 @media (max-width: 768px) {
+    .general__text {
+        width: 70%;
+    }
 }
 
 @media (max-width: 576px) {
@@ -29,6 +32,9 @@
     }
     .general__main {
         padding-bottom: 10px;
+    }
+    .general__text {
+        width: 100%;
     }
 }
 

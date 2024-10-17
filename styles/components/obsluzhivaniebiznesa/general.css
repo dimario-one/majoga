@@ -40,12 +40,21 @@
 }
 
 @media (max-width: 768px) {
+    .general__title {
+        font-size: 36px;
+    }
+    .general__picture {
+        width: 45%;
+    }
 }
 
 @media (max-width: 576px) {
     .general__main {
         padding: 30px;
         padding-bottom: 10px;
+    }
+    .general__title {
+        font-size: 30px;
     }
     .general__text {
         width: 100%;
