@@ -42,7 +42,8 @@
 .mission__section {}
 
 .mission__text-block {
-    width: 100%;
+    position: relative;
+    /* width: 100%; */
     height: 235px;
     border-radius: 20px;
 }
@@ -57,19 +58,35 @@
 }
 
 .mission__image-block {
-    width: 100%;
+    width: calc(50vw - 1rem); /* Пробелы вокруг "-" */
     height: 510px;
     border-radius: 20px;
+    background: #F3F7FD;
+}
+
+.mission__ourAim{
+width: calc(50vw - 1rem);
 }
 
 .mission__image-block_icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
     width: 41px;
     height: 41px;
+    background: #FDFDFD;
+    border-radius: 50%;
+}
+
+.mission__image_logo{
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
 }
 
 .mission__image {
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
     object-fit: contain;
 }
 
@@ -82,7 +99,8 @@
 }
 
 .mission__service {
-    width: 260px;
+    /* width: 260px; */
+    width: 100%;
     height: 225px;
     border-radius: 20px;
 }
@@ -137,3 +155,37 @@
 }
 
 .mission__subservice {}
+
+@media (max-width: 1400px) {}
+
+@media (max-width: 1200px) {
+    .mission__list-item {
+        flex: 0 0 48%; /* Карточки занимают 50% ширины родителя */
+    }
+    .mission__service {
+       width: 100%;
+    }
+
+    .mission__image-block ,.mission__ourAim{
+        width: 100%;
+        }
+        
+}
+ 
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {
+    .mission__text-block {
+        height: auto;
+    }
+}
+
+@media (max-width: 390px) {
+    
+.mission__image-block {
+    height: 235px;
+
+}
+}

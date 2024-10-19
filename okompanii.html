@@ -162,42 +162,42 @@
       </header>
       <main>
         <section
-          class="container d-flex flex-row justify-content-between general_oKompanii"
+          class="container d-flex flex-column flex-lg-row justify-content-between general_oKompanii"
         >
-          <div class="w-50 general-imgContainer_oKompanii">
+          <div class="col-12 col-lg-6 general-imgContainer_oKompanii">
             <img
               class="image_oKompanii"
               src="./images/general/Rectangle 4758.png"
               alt=""
             />
           </div>
-          <div class="w-50 h-100 ms-4">
+          <div class=" cards-list_oKompanii col-12 col-lg-6 d-flex flex-column justify-content-between ms-0 ms-lg-4 mt-5 mt-lg-0">
             <div
-              class="col-12 d-flex flex-row align-items-center justify-content-center ps-4 cardWithIcon_oKompanii"
+              class=" col-12 d-flex flex-row align-items-center justify-content-center ps-4 cardWithIcon_oKompanii"
             >
               <p class="m-0 w-75 cardText_oKompanii">
                 17 лет помогаем разрешать сложные юридические вопросы
               </p>
               <div class="icon_oKompanii">
                 <img
-                  class=""
+                  class="image_oKompanii"
                   src="./images/general/icon-oKompanii.png"
                   alt=""
                 />
               </div>
             </div>
             <div
-              class="col-12 d-flex flex-row align-items-center justify-content-between mt-5"
+              class="col-12 d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 "
             >
               <div
-                class="col-6 d-flex flex-row align-items-center justify-content-center ps-4 card_oKompanii card_oKompanii_yellow"
+                class="col-12 col-xl-6 d-flex flex-row align-items-center justify-content-center card_oKompanii card_oKompanii_yellow"
               >
                 <p class="m-0 w-75 cardText_oKompanii">
                   200 клиентов уже с нами
                 </p>
               </div>
               <div
-                class="col-6 d-flex flex-row align-items-center justify-content-center ps-4 card_oKompanii card_oKompanii_grey"
+                class="col-12 col-xl-6 d-flex flex-row align-items-center justify-content-center ms-0 ms-xl-1 mt-5 mt-xl-0 ps-4 card_oKompanii card_oKompanii_grey"
               >
                 <p class="m-0 w-75 cardText_oKompanii">
                   1200 консультаций в год
@@ -207,48 +207,60 @@
           </div>
         </section>
 
-        <section class="container mt-5 mission">
+        <section class="container mt-5 p-0 mission">
           <h2 class="mission__title">О юридической компании Мажуга&Мажуга</h2>
-          <div class="d-flex flex-row align-items-center justify-content-between mt-5 mission__content">
-            <div class="mission__section">
-              <div class="mission__text-block mission__text-block_light">
-                <h3 class="mission__subtitle">Наша миссия</h3>
-                <p class="m-0 mission__description">
-                  Обеспечить грамотную юридическую помощь для граждан и бизнеса,
-                  защищая интересы людей в судебных процессах и за пределами
-                  их проведения. 
-                  <p class="m-0 mission__description_bold">
-                    Мы стремимся к достижению успеха в каждом деле,
-                    используя наш многолетний опыт и экспертизу для обеспечения
-                    полной защиты прав и интересов.
+          <div class="d-flex flex-column align-items-center justify-content-between mt-5 mission__content">
+            <div class="mission__section d-flex flex-column flex-xl-row align-items-center">
+              <div class="col-12 col-xl-6">
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center  p-5 mission__text-block mission__text-block_light">
+                  <h3 class="mission__subtitle">Наша миссия</h3>
+                  <p class="m-0 mission__description">
+                    Обеспечить грамотную юридическую помощь для граждан и бизнеса,
+                    защищая интересы людей в судебных процессах и за пределами
+                    их проведения. 
+                    <p class="m-0 mt-2 mission__description_bold">
+                      Мы стремимся к достижению успеха в каждом деле,
+                      используя наш многолетний опыт и экспертизу для обеспечения
+                      полной защиты прав и интересов.
+                    </p>
+  
                   </p>
-
-                </p>
+                </div>
+                <ul class="d-flex flex-column flex-md-row align-items-center justify-content-between  mt-5 mb-0 p-0 mission__list">
+                  <li class="col-12 col-lg-6 pe-xl-2 d-flex flex-row align-items-center justify-content-between mission__list-item">
+                    <div class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
+                      <p class="w-75 mission__service-description mission__service-description_white">
+                        Комплексное сопровождение дел с гарантией результата
+                      </p>
+                      <div class="mission__service-number">
+                        <p class="mission__number">01</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-12 col-lg-6 mt-5 mt-xl-0 ps-xl-2 d-flex flex-row align-items-center justify-content-between mission__list-item">
+                    <div class="d-flex align-items-center justify-content-center mission__service mission__service_light">
+                      <p class="w-75 mission__service-description mission__service-description_black">
+                        В штате опытные арбитражные юристы по арбитражным спорам
+                      </p>
+                      <div class="mission__service-number">
+                        <p class="mission__number">02</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
               </div>
-              <ul class="d-flex flex-row align-items-center justify-content-between mt-5 p-0 mission__list">
-                <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
-                  <div class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
-                    <p class="w-75 mission__service-description mission__service-description_white">
-                      Комплексное сопровождение дел с гарантией результата
-                    </p>
-                    <div class="mission__service-number">
-                      <p class="mission__number">01</p>
-                    </div>
-                  </div>
-                </li>
-                <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
-                  <div class="d-flex align-items-center justify-content-center mission__service mission__service_light">
-                    <p class="w-75 mission__service-description mission__service-description_black">
-                      В штате опытные арбитражные юристы по арбитражным спорам
-                    </p>
-                    <div class="mission__service-number">
-                      <p class="mission__number">02</p>
-                    </div>
-                  </div>
-                </li>
-              </ul>
-              <ul class="d-flex flex-row align-items-center justify-content-between mt-5 p-0 mission__list">
-                <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
+              <div class=" mission__image-block d-flex align-items-center justify-content-center mt-5 mt-xl-0  ms-xl-5 ">
+                <img
+                  class="mission__image_logo"
+                  src="./images/mission/Group 2062.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            
+            <div class="mission__section d-flex flex-column flex-xl-row align-items-center mt-5">
+              <ul class="col-12 col-xl-6 d-flex flex-column flex-md-row align-items-center justify-content-between mb-0 p-0 mission__list">
+                <li class="col-12 col-lg-6 pe-xl-2 d-flex flex-row align-items-center justify-content-between mission__list-item">
                   <div class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
                     <p class="w-75 mission__service-description">
                       80% клиентов повторно обращаются в нашу компанию
@@ -258,7 +270,7 @@
                     </div>
                   </div>
                 </li>
-                <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
+                <li class="col-12 col-lg-6 mt-5 mt-xl-0 ps-xl-2  d-flex flex-row align-items-center justify-content-between mission__list-item">
                   <div class="d-flex align-items-center justify-content-center  mission__service mission__service_light">
                     <p class="w-75 mission__service-description mission__service-description_black">
                       Индивидуальный подход к каждому клиенту
@@ -269,23 +281,14 @@
                   </div>
                 </li>
               </ul>
-            </div>
-            <div class="d-flex flex-column justify-content-between ms-5 mission__section">
-              <div class="mission__image-block">
-                <img
-                  class="mission__image"
-                  src="./images/mission/Group 2062.png"
-                  alt=""
-                />
-              </div>
-              <div class="d-flex flex-column justify-content-center ps-5 mission__text-block mission__text-block_dark ">
+              <div class="d-flex flex-column align-items-start justify-content-between mt-5 mt-xl-0 ms-0 ms-xl-5 p-5 mission__text-block mission__ourAim  mission__text-block_dark ">
                 <h3 class="mission__subtitle mission__subtitle_white">Наша цель</h3>
-                <p class="w-75 mission__description mission__description_white">
+                <p class="m-0 mission__description mission__description_white">
                   Не просто получать вознаграждение за нашу работу,
                   а делать ее качественно, добиваясь для наших клиентов максимально
                   лучшего исхода в любом деле.
                 </p>
-                <div class="mission__image-block_icon">
+                <div class="mission__image-block_icon d-flex align-items-center justify-content-center">
                   <img
                     class="mission__image"
                     src="./images/mission/Frame.png"
@@ -298,31 +301,33 @@
         </section>
 
         <article
-          class="container d-flex flex-row align-items-center justify-content-between mt-5 manager"
+        class="manager container d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0"
+      >
+        <div class="manager__image">
+          <img
+            class="manager__image-element"
+            src="./images/company/telegram-cloud-document-2-5192795613267250931 1.png"
+            alt="Мажуга Татьяна Леонидовна"
+          />
+        </div>
+        <div
+          class="manager__content d-flex flex-column align-items-start justify-content-start h-100 ms-0 ms-xl-5 mt-5 mt-xl-0 ps-0 ps-xl-5 pt-0 pt-xl-5"
         >
-          <div class="">
-            <img
-              class=""
-              src="./images/company/telegram-cloud-document-2-5192795613267250931 1.png"
-              alt=""
-            />
-          </div>
-          <div
-            class="ms-5 d-flex flex-column align-items-start justify-content-start h-100 ps-5 pt-5 manager__textContainer"
-          >
-            <p class="manager__subTitle">Арбитражный управляющий</p>
-            <h2 class="manager__title">Мажуга Татьяна Леонидовна</h2>
-            <p class="manager__text mt-5">
-              Юридический стаж с 2006 года. Опыт работы в банкротстве физических
-              лиц с 2015 года (как приняли закон о банкротстве физ лиц).
-            </p>
-            <p class="manager__text mt-3">
-              С 2011 года опыт работы по банкротству юридических лиц, взысканию
-              долгов, защита от привлечения к субсидиарной ответственности
-              и привлечению к субсидиарной ответственности.
-            </p>
-          </div>
-        </article>
+          <p class="manager__role">Арбитражный управляющий</p>
+          <h2 class="manager__name">Мажуга Татьяна Леонидовна</h2>
+          <p class="manager__description mt-5">
+            Юридический стаж с 2006 года. Опыт работы в банкротстве физических лиц с
+            2015 года (как приняли закон о банкротстве физ лиц).
+          </p>
+          <p class="manager__description mt-3">
+            С 2011 года опыт работы по банкротству юридических лиц, взысканию долгов,
+            защита от привлечения к субсидиарной ответственности и привлечению к
+            субсидиарной ответственности.
+          </p>
+        </div>
+      </article>
+      
+      
 
         <article class="container mt-5 p-5 consultationSmallForm">
           <h2 class="consultationSmallForm__title">
@@ -367,6 +372,7 @@
             />
           </div>
         </article>
+        
         <section class="contacts mt-5">
           <div class="container">
             <h1 class="heading">Контакты</h1>

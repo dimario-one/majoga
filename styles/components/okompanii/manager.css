@@ -1,39 +1,66 @@
 .manager {
-    height: 549px;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch; /* Растягивает дочерние элементы по высоте родителя */
+    height: 100%; /* Установите явную высоту для родителя */
 }
 
-
-.manager__textContainer {
+.manager__content {
+    flex-basis: calc(50% - 50px); /* Половина ширины родителя с отступом */
     background: #F3F7FD;
+    display: flex; /* Добавляем flex для дочерних элементов */
+    flex-direction: column; /* Вертикальное расположение содержимого */
+    justify-content: space-between; /* Растягиваем содержимое равномерно */
 }
 
-.manager__subTitle {
+.manager__image {
+    flex-basis: 50%;
+}
+
+.manager__image-element {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+}
+
+.manager__role {
     font-family: Inter;
     font-size: 22px;
     font-weight: 400;
     line-height: 28.6px;
     text-align: left;
-
 }
 
-.manager__title {
+.manager__name {
     font-family: Inter;
     font-size: 22px;
     font-weight: 600;
     line-height: 28.6px;
     text-align: left;
-
 }
 
-.manager__text {
+.manager__description {
     font-family: Inter;
     font-size: 22px;
     font-weight: 400;
     line-height: 28.6px;
     text-align: left;
-
 }
 
-.manager__text_italic {
+.manager__description_italic {
     font-style: italic;
 }
+
+@media (max-width: 1200px) {
+    .manager {
+        height: auto;
+    }
+}
+
+@media (max-width: 992px) {}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}
+
+@media (max-width: 390px) {}
