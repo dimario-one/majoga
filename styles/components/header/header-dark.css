@@ -1,0 +1,344 @@
+@import url('../sidebar/sidebar-dark.css');
+
+.header {
+    width: 100%;
+    background: #E8E9EA;
+}
+
+.header__container {
+    height: 100%;
+    padding: 0;
+}
+
+.header * {
+    /* outline: solid 2px red; */
+}
+
+.header__wrapper {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.header__top { 
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.header__location {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.header__map-pin {
+    width: 23px;
+    height: 23px;
+    flex-shrink: 0;
+    background-image: url('../../../images/icons/MapPinBlue.svg');
+    margin-right: .5rem;
+}
+
+.header__address {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header__address-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    color: #262829;
+}
+
+.header__time {
+    display: flex;
+    align-items: center;
+}
+
+.header__clock {
+    width: 34px;
+    height: 23px;
+    flex-shrink: 0;
+    margin-right: .5rem;
+    background-image: url('../../../images/icons/ClockYellow.svg');
+}
+
+.header__time-text {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+
+    text-wrap: nowrap;
+}
+
+.header__main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 87px;
+    padding: 20px;
+    background-color: #1E2F49;
+    border-radius: 20px;
+}
+
+.header__logo {
+    width: 90px;
+    height: 60px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../../../images/logo/LogoGrey.svg");
+}
+
+.header__logo::after {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 431px;
+    height: 19px;
+}
+
+.header__menu-item {
+    list-style: none;
+}
+
+/* .header__menu-item:hover {
+    transform: translateY(-5px);
+} */
+
+.header__menu-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+
+    text-align: left;
+    color: #FDFDFD;
+}
+
+.header__menu-link:hover {
+    color: #F8B514;
+}
+
+.header__contacts {
+    display: flex;
+    align-items: center;
+}
+
+.header__phone-icon {
+    width: 22px;
+    height: 22px;
+    background-image: url('../../../images/icons/PhoneYellow.svg');
+
+    margin-bottom: 1rem;
+}
+
+.header__phone-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    margin-left: .5rem;
+}
+
+.header__phone-container:hover .header__contacts-caption{
+    color: #F8B514;
+}
+
+.header__phone-number {
+    font-size: 16px;
+    font-weight: 400;
+    color: #FDFDFD;
+}
+
+.header__phone-number:hover {
+    color: #F8B514;
+}
+
+.header__contacts-caption {
+    font-size: 12px;
+    font-weight: 400;
+    color: #E8E9EA;
+
+    cursor: default;
+}
+
+.header__socials {
+    display: flex;
+    align-items: center;
+}
+
+.header__social-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.header__social-icon--whatsapp {
+    background-image: url('../../../images/icons/WhatsAppWhite.svg');
+}
+
+.header__social-icon--whatsapp:hover {
+    background-image: url('../../../images/icons/WhatsAppYellow.svg');
+}
+
+.header__social-icon--telegram {
+    background-image: url('../../../images/icons/TelegramWhite.svg');
+}
+
+.header__social-icon--telegram:hover {
+    background-image: url('../../../images/icons/TelegramYellow.svg');
+}
+
+.header__consult-button {
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #F8B514;
+    background-color: #F8B514;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #FDFDFD;
+}
+
+.header__consult-button:hover {
+    border-color: #F9F9F9;
+    background-color: #F9F9F9;
+    color: #F8B514;
+}
+
+.header__burger {
+    display: none;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.header__burger-icon{
+    width: 44px;
+    height: 44px;
+    background-image: url('../../../images/icons/BurgerWhite.svg');
+    background-size: contain;
+}
+
+.header__burger-icon:hover {
+    background-image: url('../../../images/icons/BurgerYellow.svg');
+}
+
+
+/* Для экранов шириной до 1200px */
+@media (max-width: 1200px) {
+    .header__top, .header__nav{
+        display: none;
+    }
+    
+    .header__burger{
+        display: block;
+    }
+
+    .header {
+        height: 87px;
+    }
+}
+
+/* Для экранов шириной до 992px */
+@media (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__phone-number {
+        font-size: 14px;
+    }
+
+    .header__contacts-caption {
+        font-size: 10px;
+    }
+}
+
+/* Для экранов шириной до 768px */
+@media (max-width: 768px) {
+    .header__contacts {
+        display: none;
+    }
+    
+    .header__phone-number {
+        font-size: 12px;
+    }
+
+    .header__contacts-caption {
+        font-size: 10px;
+    }
+
+    /* .header__social-icon {
+        width: 40px;
+        height: 40px;
+    } */
+/* 
+    .header__consult-button {
+        width: 100%;
+        height: 40px;
+        font-size: 14px;
+    } */
+}
+
+/* Для экранов шириной до 576px */
+@media (max-width: 576px) {
+    .header__container {
+        padding: 0;
+    }
+    
+    .header__main {
+        border-radius: 0;
+    }
+
+    .header__contacts-caption {
+        font-size: 18px;
+    }
+
+    /* .header__social-icon {
+        width: 30px;
+        height: 30px;
+    } */
+
+    .header__logo {
+        max-width: 90px;
+        margin-right: .5rem;
+    }
+
+    .header__consult-button {
+        width: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* height: 30px; */
+        /* font-size: 10px; */
+    }
+    
+    .header__socials {
+        display: none;
+    }
+}

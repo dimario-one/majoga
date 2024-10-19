@@ -1,5 +1,8 @@
-@import url('./components/header.css');
-@import url('./components/bankrotstvo/bankrotstvo-services.css');
+@import url('./components/header/header-light.css');
+
+@import url('./components/general/general-light.css');
+@import url('./components/semeinyespory/general.css');
+
 @import url('./components/zashchitapravpotrebiteley/solutionsForClients.css');
 @import url('./components/person/aim.css');
 @import url('./components/zashchitapravpotrebiteley/consumerSolutions.css');

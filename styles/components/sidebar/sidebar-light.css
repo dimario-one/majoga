@@ -1,0 +1,81 @@
+.sidebar__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidebar__menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar__menu-item {
+    list-style: none;
+}
+
+.sidebar__menu-link {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+
+    color: #000000;
+}
+
+.sidebar__contacts {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3rem;
+}
+
+.sidebar__phone-number {
+    color: #000000;
+}
+
+.sidebar__socials {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.sidebar__social-icon {
+    flex-shrink: 0;
+    width: 44px;
+    height: 44px;
+    margin-right: 10px;
+}
+
+.sidebar__social-icon--whatsapp {
+    background-image: url('../../../images/icons/WhatsAppBlack.svg');
+}
+
+.sidebar__social-icon--whatsapp:hover {
+    background-image: url('../../../images/icons/WhatsAppBlueLight.svg');
+}
+
+.sidebar__social-icon--telegram {
+    background-image: url('../../../images/icons/TelegramBlack.svg');
+}
+
+.sidebar__social-icon--telegram:hover {
+    background-image: url('../../../images/icons/TelegramBlueLight.svg');
+}
+
+.sidebar__consult-button {
+    width: 200px;
+    height: 44px;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #424249;
+    background-color: #FDFDFD;
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    color: #424249;
+}
+
+.sidebar__consult-button:hover {
+    border-color: #8CA7D0;
+    color: #8CA7D0;
+}

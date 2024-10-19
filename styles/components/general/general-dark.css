@@ -10,10 +10,6 @@
     align-items: center;
 }
 
-.general--light{
-    height: 520px;
-}
-
 .general__wrapper {
     margin: 0 20px;
     width: 100%;
@@ -21,9 +17,6 @@
 
     position: relative;
     display: flex;
-}
-.general--light .general__wrapper{
-    margin: 0;
 }
 
 .general__background {
@@ -37,14 +30,9 @@
     z-index: -1;
     overflow: hidden;
 }
-.general--light .general__background{
-    background-color: #FDFDFD;
-}
+
 .general__background-image {
     height: 100%;
-}
-.general--light .general__background-image{
-    height: auto;
 }
 
 .general__main {
@@ -56,9 +44,6 @@
     align-items: start;
     justify-content: space-between;
 }
-.general--light .general__main{
-    padding: 75px 0 75px 40px;
-}
 
 .general__title {
     font-size: 50px;
@@ -68,10 +53,6 @@
     color: #1E2F49;
 }
 
-.general--light .general__title {
-    font-size: 46px;
-}
-
 .general__text {
     font-size: 22px;
     font-weight: 400;
@@ -79,8 +60,12 @@
 }
 
 .general__list {
-    list-style-position: inside;
-    line-height: 1.6em;
+    /* list-style-position: inside; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 25px;
+    line-height: 1em;
 }
 
 .general__picture {
@@ -90,13 +75,23 @@
     overflow: hidden;
 }
 
-.general--light .general__picture{
+.general__picture-wrapper {
+    position: relative;
+    
+    width: 100%;
     height: 100%;
 }
 
 .general__picture-image {
     width: 100%;
     height: 100%;
+}
+
+.general__picture-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 .general__consult {
@@ -118,9 +113,6 @@
     cursor: pointer;
     text-decoration: none;
 }
-.general--light .general__consult-button{
-    background-color: #193867;
-}
 
 .general__consult-text {
     font-size: 18px;
@@ -135,9 +127,6 @@
     border-radius: 50%;
     background-color: #E9C979;
     object-fit: contain;
-}
-.general--light .general__consult-arrow {
-    background-color: #FDFDFD;
 }
 
 @media (max-width: 1200px) {

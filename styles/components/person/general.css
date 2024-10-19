@@ -1,7 +1,5 @@
 .general__main {
-    width: 50%;
-    padding: 60px;
-    padding-right: 0;
+    width: 40%;
 }
 
 .general__title{
@@ -9,84 +7,79 @@
 }
 
 .general__consult {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .general__picture {
     padding-right: 20px;
 }
 
-.general__picture-image {
-    background-image: url("../../../images/general/Group\ 1957.png");
-    background-repeat: no-repeat;
-    background-position: center;
+.general__picture-background {
+    top: 50%;
+    translate: 0 -50%;
 }
 
 @media (max-width: 1400px) {
+    .general__main {
+        width: 45%;
+    }
     .general__title{
         font-size: 40px;
     }
 }
 
 @media (max-width: 1200px) {
-    .general__picture {
-        top: 0;
-        padding: 30px;
-    }
     .general__main {
-        padding: 30px;
+        width: 45%;
+        padding: 60px 0 60px 40px;
+    }
+    .general__text {
+        width: 120%;
+    }
+    .general__title{
+        font-size: 36px;
+    }
+    .general__picture-background {
+        width: 95%;
     }
 }
 
 @media (max-width: 992px) {
     .general__main {
-        width: 100%;
-        padding: 20px;
-    }
-    .general__title {
-        font-size: 36px;
-        margin-bottom: 40px;
+        width: 55%;
     }
     .general__text {
-        width: 50%;
+        width: 100%;
     }
-    .general__picture {
-        height: 73%;
-        top: unset;
-        padding: 20px;
-    }
-}
-
-@media (max-width: 768px) {
     .general__title {
         font-size: 30px;
     }
     .general__picture {
-        height: 65%;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .general__main {
+        width: 60%;
+        padding: 40px 0 40px 20px;
+    }
+    .general__title{
+        font-size: 26px;
+    }
+    .general__picture {
+        height: 90%;
     }
 }
 
 @media (max-width: 576px) {
     .general__main {
-        padding-bottom: 0;
-    }
-    .general__title {
-        margin-bottom: 20px;
-    }
-    .general__text {
         width: 100%;
+        padding: 30px 20px 0 20px;
     }
     .general__picture {
         width: auto;
         align-self: center;
-    }
-    .general__consult {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 400px) {
-    .general__main {
-        padding-right: 10px;
+        padding: 0 30px 0 50px;
     }
 }

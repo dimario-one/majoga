@@ -54,9 +54,6 @@
         height: auto;
         padding-bottom: 0;
     }
-    .general__text{
-        width: 80%;
-    }
     .general__trust {
         position: static;
         padding: 30px;
@@ -89,11 +86,11 @@
     .general__main {
         padding: 30px 20px 0 20px;
     }
-    .general__text {
-        width: 90%;
-    }
     .general__title {
         margin-bottom: 20px;
+    }
+    .general__text {
+        width: 100%;
     }
     .general__picture {
         width: 100%;
@@ -112,11 +109,5 @@
     .general__trust {
         padding: 20px;
         padding-top: 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .general__text {
-        width: 100%;
     }
 }
