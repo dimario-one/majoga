@@ -1,8 +1,6 @@
 .cases-section {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    /* padding: 40px; */
 }
 
 .cases__title {
@@ -19,11 +17,12 @@
     height: 500px;
     border-radius: 20px;
     background: #FBF2DC;
-    margin-top: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     padding: 20px;
+    padding-top: 40px;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     /* justify-content: space-between; */
     position: relative;
 }

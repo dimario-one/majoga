@@ -55,6 +55,24 @@ main {
     flex-grow: 1;
 }
 
-*{
-    /* outline: 1px red solid; */
+.default-wrapper {
+    background-color: #FDFDFD;
+    padding: 40px;
+    padding-top: 60px;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+    .default-wrapper {
+        padding: 30px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .default-wrapper {
+        padding: 20px;
+        padding-top: 30px;
+        margin: 0 20px;
+    }
 }
