@@ -72,7 +72,7 @@
 
 @media (max-width: 768px) {
     .general{
-        height: 430px;
+        height: 450px;
     }
     .general__title {
         font-size: 30px;
@@ -84,7 +84,7 @@
 
 @media (max-width: 576px) {
     .general{
-        height: 540px;
+        height: 500px;
     }
     .general__main {
         padding: 30px 20px 0 20px;
