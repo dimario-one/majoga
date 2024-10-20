@@ -18,6 +18,7 @@
     width: 100%;
     border-radius: 20px;
     background-color: #FDFDFD;
+    box-shadow: 0px 0px 10px 0px #63697326;
 }
 
 
@@ -315,7 +316,8 @@
         padding: 0;
     }
     
-    .header__main {
+    .header__main,
+    .header__wrapper {
         border-radius: 0;
     }
 

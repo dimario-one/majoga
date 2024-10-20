@@ -101,3 +101,10 @@
     }
 }
 
+@media (max-width: 576px) {
+    .start__form {
+        width: auto;
+        margin: 0 20px;
+    }
+}
+
