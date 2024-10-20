@@ -1,0 +1,133 @@
+.general__background {
+    background-color: #ECECEC;
+}
+
+.general__main {
+    width: 45%;
+}
+
+.general__title{
+    text-wrap: wrap;
+}
+
+.general__text {
+    font-size: 18px;
+    width: 90%;
+}
+
+.general__consult {
+    margin-top: 20px;
+}
+
+.general__trust {
+    left: 55%;
+}
+
+.general__picture-background {
+    top: unset;
+    width: 60%;
+    left: 10%;
+    bottom: 13%;
+}
+
+@media (max-width: 1400px) {
+    .general__title{
+        font-size: 40px;
+    }
+    .general__text {
+        width: 100%;
+    }
+    .general__trust {
+        left: 48%;
+    }
+}
+
+@media (max-width: 1200px) {
+    .general__trust {
+        top: 60px;
+        left: 45%;
+    }
+    .general__main {
+        padding: 30px;
+        padding-right: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .general__wrapper{
+        flex-direction: column;
+    }
+    .general{
+        height: 470px;
+    }
+    .general__main{
+        width: 100%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .general__text {
+        font-size: 16px;
+    }
+    .general__trust {
+        position: static;
+        padding: 30px;
+        padding-top: 40px;
+    }
+    .general__title {
+        font-size: 36px;
+    }
+    .general__picture {
+        height: 75%;
+    }
+}
+
+@media (max-width: 768px) {
+    .general{
+        height: 400px;
+    }
+    .general__text {
+        font-size: 14px;
+    }
+    .general__title {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .general{
+        height: 540px;
+    }
+    .general__main {
+        padding: 30px 20px 0 20px;
+    }
+    .general__title {
+        margin-bottom: 20px;
+    }
+    .general__text {
+        width: 100%;
+    }
+    .general__picture {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        padding-left: 50px;
+        right: -15%;
+    }
+    .general__trust {
+        padding: 20px;
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .general{
+        height: 480px;
+    }
+    .general__text {
+        font-size: 12px;
+    }
+    .general__picture {
+        bottom: -5%;
+        right: -20%;
+    }
+}

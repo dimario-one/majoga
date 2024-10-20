@@ -34,7 +34,7 @@
     z-index: -1;
 }
 .general__background-image {
-    height: auto;
+    height: 100%;
 }
 
 .general__main {
