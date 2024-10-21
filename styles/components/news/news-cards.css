@@ -1,0 +1,121 @@
+.news-title {
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60.51px;
+    text-align: left;
+}
+
+.news-cards {}
+
+.cards-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.news-card {
+    background: #F3F7FD;
+    border-radius: 20px;
+    max-height: 1000px;
+    flex: 1 1 calc(33.333% - 50px);
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    min-height: 50%;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.news-date {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #717171;
+}
+
+.card-title {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26.63px;
+    text-align: left;
+    color: #303030;
+}
+
+.card-description {
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 26.63px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #4C4C4C;
+}
+
+.card-title, .card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* Ограничиваем текст двумя строками */
+}
+
+
+.card-link {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card-link:hover {
+    text-decoration: underline;
+}
+
+.news-btn {
+    width: 360px;
+    height: 44px;
+    border-radius: 6px;
+    background: #1E2F49;
+}
+
+.news-btn_text {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.36px;
+    text-align: left;
+    color: #FDFDFD;
+
+}
+
+@media (max-width: 1400px) {
+    
+}
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+    .news-card {
+        flex: 0 1 calc(50% - 30px);
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+    .news-card {
+        flex: 0 1 100%; 
+    }
+}
