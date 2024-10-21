@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Мажуга&Мажуга</title>
+    <link rel="stylesheet" href="./vendor/css/bootstrap.min.css" />
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/okompanii.css" />
+
+    <script src="./vendor/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/map.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__wrapper">
+                <div class="header__top">
+                    <div class="header__location">
+                        <div class="header__map-pin"></div>
+                        <div class="header__address">
+                            <p class="header__address-text">
+                                г. Омск, ул. Декабристов, д. 45, офис 402 Б
+                            </p>
+                            <p class="header__address-text">
+                                г. Москва, ул. Ленинская Слобода, д. 26, офис 533.9.
+                                Бизнес-центр "Омега 2", корпус А.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="header__time">
+                        <div class="header__clock"></div>
+                        <p class="header__time-text">
+                            Время работы офиса: ПН-ПТ с 9:00 до 20:00
+                        </p>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <a class="header__logo" href="index.html"></a>
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./uslugi.html">Услуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./okompanii.html">О компании</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./legalservices.html">Юр. услуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./news.html">Новости</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <div class="header__phone-icon"></div>
+                        <div class="header__phone-container">
+                            <a class="header__phone-number" href="tel:+7 (995) 127-83-12">+7 (995) 127-83-12</a>
+                            <a class="header__phone-number" href="tel:+7 (3812) 34-61-34">+7 (3812) 34-61-34</a>
+
+                            <p class="header__contacts-caption">Заказать звонок</p>
+                        </div>
+                    </div>
+
+                    <div class="header__socials">
+                        <a class="header__social-icon header__social-icon--telegram"
+                            href="https://t.me/+79951278312"></a>
+                        <a class="header__social-icon header__social-icon--whatsapp"
+                            href="https://wa.me/79951278312"></a>
+                        <button class="header__consult-button">Консультация</button>
+                    </div>
+
+                    <button class="header__burger" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar">
+                        <div class="header__burger-icon"></div>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title">Меню</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <nav class="sidebar__nav">
+                                <ul class="sidebar__menu">
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./uslugi.html">Услуги</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./okompanii.html">О компании</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./buissnes.html">Юр. услуги</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./news.html">Новости</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="sidebar__contacts">
+                                <a class="sidebar__phone-number" href="tel:+7 (995) 127-83-12">+7 (995) 127-83-12</a>
+                                <a class="sidebar__phone-number" href="tel:+7 (3812) 34-61-34">+7 (3812) 34-61-34</a>
+                            </div>
+
+                            <div class="sidebar__socials">
+                                <a class="sidebar__social-icon sidebar__social-icon--telegram"
+                                    href="https://t.me/+79951278312"></a>
+                                <a class="sidebar__social-icon sidebar__social-icon--whatsapp"
+                                    href="https://wa.me/79951278312"></a>
+                                <button class="sidebar__consult-button">Консультация</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+<<<<<<< HEAD
+    </header>
+    <main>
+        <section class="container mt-5 d-flex flex-row justify-content-between general_oKompanii">
+            <div class="w-50 general-imgContainer_oKompanii">
+                <img class="image_oKompanii" src="./images/general/Rectangle 4758.png" alt="" />
+            </div>
+            <div class="w-50 h-100 ms-4">
+                <div
+                    class="col-12 d-flex flex-row align-items-center justify-content-center ps-4 cardWithIcon_oKompanii">
+                    <p class="m-0 w-75 cardText_oKompanii">
+                        17 лет помогаем разрешать сложные юридические вопросы
+                    </p>
+                    <div class="icon_oKompanii">
+                        <img class="" src="./images/general/icon-oKompanii.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row align-items-center justify-content-between mt-5">
+                    <div
+                        class="col-6 d-flex flex-row align-items-center justify-content-center ps-4 card_oKompanii card_oKompanii_yellow">
+                        <p class="m-0 w-75 cardText_oKompanii">
+                            200 клиентов уже с нами
+                        </p>
+                    </div>
+                    <div
+                        class="col-6 d-flex flex-row align-items-center justify-content-center ps-4 card_oKompanii card_oKompanii_grey">
+                        <p class="m-0 w-75 cardText_oKompanii">
+                            1200 консультаций в год
+                        </p>
+                    </div>
+                </div>
+=======
+      </header>
+      <main>
+        <section
+          class="container d-flex flex-column flex-lg-row justify-content-between general_oKompanii"
+        >
+          <div class="col-12 col-lg-6 general-imgContainer_oKompanii">
+            <img
+              class="image_oKompanii"
+              src="./images/general/Rectangle 4758.png"
+              alt=""
+            />
+          </div>
+          <div class=" cards-list_oKompanii col-12 col-lg-6 d-flex flex-column justify-content-between ms-0 ms-lg-4 mt-5 mt-lg-0">
+            <div
+              class=" col-12 d-flex flex-row align-items-center justify-content-center ps-4 cardWithIcon_oKompanii"
+            >
+              <p class="m-0 w-75 cardText_oKompanii">
+                17 лет помогаем разрешать сложные юридические вопросы
+              </p>
+              <div class="icon_oKompanii">
+                <img
+                  class="image_oKompanii"
+                  src="./images/general/icon-oKompanii.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div
+              class="col-12 d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 "
+            >
+              <div
+                class="col-12 col-xl-6 d-flex flex-row align-items-center justify-content-center card_oKompanii card_oKompanii_yellow"
+              >
+                <p class="m-0 w-75 cardText_oKompanii">
+                  200 клиентов уже с нами
+                </p>
+              </div>
+              <div
+                class="col-12 col-xl-6 d-flex flex-row align-items-center justify-content-center ms-0 ms-xl-1 mt-5 mt-xl-0 ps-4 card_oKompanii card_oKompanii_grey"
+              >
+                <p class="m-0 w-75 cardText_oKompanii">
+                  1200 консультаций в год
+                </p>
+              </div>
+>>>>>>> origin/feature/about-company
+            </div>
+        </section>
+<<<<<<< HEAD
+
+        <section class="container mt-5 mission">
+            <h2 class="mission__title">О юридической компании Мажуга&Мажуга</h2>
+            <div class="d-flex flex-row align-items-center justify-content-between mt-5 mission__content">
+                <div class="mission__section">
+                    <div class="mission__text-block mission__text-block_light">
+                        <h3 class="mission__subtitle">Наша миссия</h3>
+                        <p class="m-0 mission__description">
+                            Обеспечить грамотную юридическую помощь для граждан и бизнеса,
+                            защищая интересы людей в судебных процессах и за пределами
+                            их проведения.
+                        <p class="m-0 mission__description_bold">
+                            Мы стремимся к достижению успеха в каждом деле,
+                            используя наш многолетний опыт и экспертизу для обеспечения
+                            полной защиты прав и интересов.
+                        </p>
+
+                        </p>
+                    </div>
+                    <ul class="d-flex flex-row align-items-center justify-content-between mt-5 p-0 mission__list">
+                        <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
+                            <div
+                                class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
+                                <p class="w-75 mission__service-description mission__service-description_white">
+                                    Комплексное сопровождение дел с гарантией результата
+                                </p>
+                                <div class="mission__service-number">
+                                    <p class="mission__number">01</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
+                            <div
+                                class="d-flex align-items-center justify-content-center mission__service mission__service_light">
+                                <p class="w-75 mission__service-description mission__service-description_black">
+                                    В штате опытные арбитражные юристы по арбитражным спорам
+                                </p>
+                                <div class="mission__service-number">
+                                    <p class="mission__number">02</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <ul class="d-flex flex-row align-items-center justify-content-between mt-5 p-0 mission__list">
+                        <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
+                            <div
+                                class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
+                                <p class="w-75 mission__service-description">
+                                    80% клиентов повторно обращаются в нашу компанию
+                                </p>
+                                <div class="mission__service-number">
+                                    <p class="mission__number">03</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="d-flex flex-row align-items-center justify-content-between mission__list-item">
+                            <div
+                                class="d-flex align-items-center justify-content-center  mission__service mission__service_light">
+                                <p class="w-75 mission__service-description mission__service-description_black">
+                                    Индивидуальный подход к каждому клиенту
+                                </p>
+                                <div class="mission__service-number">
+                                    <p class="mission__number">04</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="d-flex flex-column justify-content-between ms-5 mission__section">
+                    <div class="mission__image-block">
+                        <img class="mission__image" src="./images/mission/Group 2062.png" alt="" />
+                    </div>
+                    <div
+                        class="d-flex flex-column justify-content-center ps-5 mission__text-block mission__text-block_dark ">
+                        <h3 class="mission__subtitle mission__subtitle_white">Наша цель</h3>
+                        <p class="w-75 mission__description mission__description_white">
+                            Не просто получать вознаграждение за нашу работу,
+                            а делать ее качественно, добиваясь для наших клиентов максимально
+                            лучшего исхода в любом деле.
+                        </p>
+                        <div class="mission__image-block_icon">
+                            <img class="mission__image" src="./images/mission/Frame.png" alt="" />
+                        </div>
+                    </div>
+=======
+        <section class="container mt-5 p-0 mission">
+          <h2 class="mission__title">О юридической компании Мажуга&Мажуга</h2>
+          <div class="d-flex flex-column align-items-center justify-content-between mt-5 mission__content">
+            <div class="mission__section d-flex flex-column flex-xl-row align-items-center">
+              <div class="col-12 col-xl-6">
+                <div class="col-12 d-flex flex-column align-items-center justify-content-center  p-5 mission__text-block mission__text-block_light">
+                  <h3 class="mission__subtitle">Наша миссия</h3>
+                  <p class="m-0 mission__description">
+                    Обеспечить грамотную юридическую помощь для граждан и бизнеса,
+                    защищая интересы людей в судебных процессах и за пределами
+                    их проведения. 
+                    <p class="m-0 mt-2 mission__description_bold">
+                      Мы стремимся к достижению успеха в каждом деле,
+                      используя наш многолетний опыт и экспертизу для обеспечения
+                      полной защиты прав и интересов.
+                    </p>
+  
+                  </p>
+                </div>
+                <ul class="d-flex flex-column flex-md-row align-items-center justify-content-between  mt-5 mb-0 p-0 mission__list">
+                  <li class="col-12 col-lg-6 pe-xl-2 d-flex flex-row align-items-center justify-content-between mission__list-item">
+                    <div class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
+                      <p class="w-75 mission__service-description mission__service-description_white">
+                        Комплексное сопровождение дел с гарантией результата
+                      </p>
+                      <div class="mission__service-number">
+                        <p class="mission__number">01</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="col-12 col-lg-6 mt-5 mt-md-0 ps-xl-2 d-flex flex-row align-items-center justify-content-between mission__list-item">
+                    <div class="d-flex align-items-center justify-content-center mission__service mission__service_light">
+                      <p class="w-75 mission__service-description mission__service-description_black">
+                        В штате опытные арбитражные юристы по арбитражным спорам
+                      </p>
+                      <div class="mission__service-number">
+                        <p class="mission__number">02</p>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+              <div class=" mission__image-block d-flex align-items-center justify-content-center mt-5 mt-xl-0  ms-xl-5 ">
+                <img
+                  class="mission__image_logo"
+                  src="./images/mission/Group 2062.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            
+            <div class="mission__section d-flex flex-column flex-xl-row align-items-center mt-5">
+              <ul class="col-12 col-xl-6 d-flex flex-column flex-md-row align-items-center justify-content-between mb-0 p-0 mission__list">
+                <li class="col-12 col-lg-6 pe-xl-2 d-flex flex-row align-items-center justify-content-between mission__list-item">
+                  <div class="d-flex align-items-center justify-content-center mission__service mission__service_dark ">
+                    <p class="w-75 mission__service-description">
+                      80% клиентов повторно обращаются в нашу компанию
+                    </p>
+                    <div class="mission__service-number">
+                      <p class="mission__number">03</p>
+                    </div>
+                  </div>
+                </li>
+                <li class="col-12 col-lg-6 mt-5 mt-md-0 ps-xl-2  d-flex flex-row align-items-center justify-content-between mission__list-item">
+                  <div class="d-flex align-items-center justify-content-center  mission__service mission__service_light">
+                    <p class="w-75 mission__service-description mission__service-description_black">
+                      Индивидуальный подход к каждому клиенту
+                    </p>
+                    <div class="mission__service-number">
+                      <p class="mission__number">04</p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <div class="d-flex flex-column align-items-start justify-content-between mt-5 mt-xl-0 ms-0 ms-xl-5 p-5 mission__text-block mission__ourAim  mission__text-block_dark ">
+                <h3 class="mission__subtitle mission__subtitle_white">Наша цель</h3>
+                <p class="m-0 mission__description mission__description_white">
+                  Не просто получать вознаграждение за нашу работу,
+                  а делать ее качественно, добиваясь для наших клиентов максимально
+                  лучшего исхода в любом деле.
+                </p>
+                <div class="mission__image-block_icon d-flex align-items-center justify-content-center">
+                  <img
+                    class="mission__image"
+                    src="./images/mission/Frame.png"
+                    alt=""
+                  />
+>>>>>>> origin/feature/about-company
+                </div>
+            </div>
+        </section>
+<<<<<<< HEAD
+
+        <article class="container d-flex flex-row align-items-center justify-content-between mt-5 manager">
+            <div class="">
+                <img class="" src="./images/company/telegram-cloud-document-2-5192795613267250931 1.png" alt="" />
+            </div>
+            <div
+                class="ms-5 d-flex flex-column align-items-start justify-content-start h-100 ps-5 pt-5 manager__textContainer">
+                <p class="manager__subTitle">Арбитражный управляющий</p>
+                <h2 class="manager__title">Мажуга Татьяна Леонидовна</h2>
+                <p class="manager__text mt-5">
+                    Юридический стаж с 2006 года. Опыт работы в банкротстве физических
+                    лиц с 2015 года (как приняли закон о банкротстве физ лиц).
+                </p>
+                <p class="manager__text mt-3">
+                    С 2011 года опыт работы по банкротству юридических лиц, взысканию
+                    долгов, защита от привлечения к субсидиарной ответственности
+                    и привлечению к субсидиарной ответственности.
+                </p>
+            </div>
+        </article>
+
+        <article class="container mt-5 p-5 consultationSmallForm">
+            <h2 class="consultationSmallForm__title">
+                Получить консультацию юриста
+            </h2>
+            <ul class="d-flex align-items-center justify-content-between mt-5 p-0">
+                <li class="col consultationSmallForm__inputHolder">
+                    <input class="consultationSmallForm__input" type="text" placeholder="  Телефон" />
+                </li>
+                <li class="col consultationSmallForm__inputHolder">
+                    <input class="consultationSmallForm__input" type="text" placeholder="  Имя" />
+                </li>
+                <li class="col d-flex flex-column align-items-center justify-content-center">
+                    <button
+                        class="d-flex flex-column align-items-center justify-content-center consultationSmallForm__button">
+                        <p class="consultationSmallForm__buttonText">Отправить</p>
+                    </button>
+                    <label class="w-75 mt-1 consultationSmallForm__labelText">
+                        Нажимая кнопку “Оставить заявку” Вы соглашаетесь с политикой
+                        конфиденциальности
+                    </label>
+                </li>
+            </ul>
+            <div class="consultationSmallForm__imageContainer">
+                <img class="consultationSmallForm__image" src="./images/consultationSmall/Group (1).png" alt="" />
+            </div>
+        </article>
+=======
+      <article class="container mt-5 p-0">
+        <div class="row row-cols-1 row-cols-xl-2 manager">
+          <div class="col manager__image p-0">
+            <img
+              class="manager__image-element"
+              src="./images/company/telegram-cloud-document-2-5192795613267250931 1.png"
+              alt="Мажуга Татьяна Леонидовна"
+            />
+          </div>
+          <div class="col manager__content d-flex flex-column align-items-start justify-content-start mt-5 ms-xl-5 p-5">
+            <p class="manager__role">Арбитражный управляющий</p>
+            <h2 class="manager__name">Мажуга Татьяна Леонидовна</h2>
+            <p class="manager__description">
+              Юридический стаж с 2006 года. Опыт работы в банкротстве физических лиц с 2015 года (как приняли закон о банкротстве физ лиц).
+            </p>
+            <p class="manager__description">
+              С 2011 года опыт работы по банкротству юридических лиц, взысканию долгов, защита от привлечения к субсидиарной ответственности и привлечению к субсидиарной ответственности.
+            </p>
+          </div>
+        </div>
+      </article>
+      
+      <article class="container mt-5 p-5 consultationSmallForm">
+        <h2 class="consultationSmallForm__title">
+          Получить консультацию юриста
+        </h2>
+        <ul
+          class="consultationSmallForm__list d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 "
+        >
+          <li class="col-12 col-xl-4 consultationSmallForm__inputHolder d-flex align-items-center justify-content-center" >
+            <input
+              class="consultationSmallForm__input"
+              type="text"
+              placeholder="  Телефон"
+            />
+          </li>
+          <li class="col-12 col-xl-4 consultationSmallForm__inputHolder  d-flex align-items-center justify-content-center mt-5 mt-xl-0">
+            <input
+              class="consultationSmallForm__input"
+              type="text"
+              placeholder="  Имя"
+            />
+          </li>
+          <li
+            class="col-12 col-xl-4 d-flex flex-column  align-items-center justify-content-center"
+          >
+            <button
+              class="d-flex flex-column  align-items-center justify-content-center mt-5 mt-xl-0 consultationSmallForm__button"
+            >
+              <p class="consultationSmallForm__buttonText">Отправить</p>
+            </button>
+            <label class="col-lg-4 col-xl-8 mt-3 mt-sm-1 consultationSmallForm__labelText">
+              Нажимая кнопку “Оставить заявку” Вы соглашаетесь с политикой
+              конфиденциальности
+            </label>
+          </li>
+        </ul>
+        <div class="consultationSmallForm__imageContainer">
+          <img
+            class="consultationSmallForm__image"
+            src="./images/consultationSmall/Group (1).png"
+            alt=""
+          />
+        </div>
+      </article>
+>>>>>>> origin/feature/about-company
+        <section class="contacts mt-5">
+            <div class="container">
+                <h1 class="heading">Контакты</h1>
+                <div class="contacts">
+                    <div class="contact" id="contactOmsk">
+                        <p class="contact__address">Адрес:</p>
+                        <p class="contact__address">
+                            Нажмите на город, чтобы посмотреть расположение офиса
+                        </p>
+                        <div class="d-flex flex-column flex-sm-row align-items-sm-center contact__detail"
+                            onclick="showMap('Omsk')">
+                            <div class="d-flex flex-row contact__city">
+                                <figure class="d-flex align-items-center justify-content-center m-0 contact__icon">
+                                    <img class="logo__img" src="./images/contacts/Mask group.png" alt="" />
+                                </figure>
+                                <p class="contact__info contact__info_bold ms-2">
+                                    г. Омск,
+                                </p>
+                            </div>
+                            <span class="contact__info contact__info_normal">
+                                ул. Декабристов, 45, офис 402 Б</span>
+                        </div>
+                        <div class="d-flex flex-column flex-sm-row align-items-sm-center mt-4 contact__detail"
+                            onclick="showMap('Moscow')">
+                            <div class="d-flex flex-row contact__city">
+                                <figure class="d-flex align-items-center justify-content-center m-0 contact__icon">
+                                    <img class="logo__img" src="./images/contacts/Mask group.png" alt="" />
+                                </figure>
+                                <p class="contact__info contact__info_bold ms-2">
+                                    г. Москва,
+                                </p>
+                            </div>
+                            <span class="contact__info contact__info_normal">
+                                ул. Ленинская Слобода, д. 26, офис 533.9</span>
+                        </div>
+                        <p class="m-0 mt-3 contact__address">Телефон:</p>
+                        <div class="">
+                            <span class="contact__info contact__info_bold contact__info_phone">+7 (995) 127-83-12</span>
+                        </div>
+                        <p class="m-0 mt-3 contact__address">Email:</p>
+                        <div class="d-flex flex-row align-items-center">
+                            <figure class="d-flex flex-row align-items-center m-0 contact__icon">
+                                <img class="logo__img" src="./images/contacts/Frame.png" alt="" />
+                            </figure>
+                            <span class="contact__info contact__info_normal ms-2">52701001@mail.ru</span>
+                        </div>
+                        <div class="row row-cols-2 mt-3">
+                            <div class="col">
+                                <p class="contact__address">Юр. лицо</p>
+                                <span class="contact__info contact__info_normal">ООО "Олимп"</span>
+                            </div>
+                            <div class="col">
+                                <p class="contact__address">ИНН</p>
+                                <span class="contact__info contact__info_normal">ИНН 5501099938</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="map" class="contact__map w-100">
+                    <iframe src="https://maps.google.com/maps?q=55.034,73.35&z=15&output=embed" width="100%"
+                        height="300" frameborder="0" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__background" src="/images/footer/BuiltBackground.png" />
+            <div class="footer__content">
+                <div class="footer__top">
+                    <a class="footer__logo" href="index.html"></a>
+
+                    <div class="footer__socials">
+                        <a class="footer__social-icon footer__social-icon--telegram"
+                            href="https://t.me/+79951278312"></a>
+                        <a class="footer__social-icon footer__social-icon--whatsapp"
+                            href="https://wa.me/79951278312"></a>
+                        <button class="footer__consult-button">Консультация</button>
+                    </div>
+                </div>
+                <div class="footer__main">
+                    <div class="footer__main-item">
+                        <ul class="footer__list">
+                            <li class="footer__list-title">
+                                <a class="footer__list-link" href="/legalservices.html">Юридическим лицам</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/arbitrazhnyespory.html">Арбитражные споры</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/obsluzhivaniebiznesa.html">Юридическое обслуживание бизнеса</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/vziskaniedolgov.html">Взыскание долгов</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/uslugi.html">Все услуги</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__main-item">
+                        <ul class="footer__list">
+                            <li class="footer__list-title">
+                                <a class="footer__list-link" href="/person.html">Физическим лицам</a>
+                            </li>
+
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/bankrotstvo.html">Банкротство физ.лиц</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/zashchitapravpotrebiteley.html">Защита прав
+                                    потребителей</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/semeinyespory.html">Семейные споры</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/uslugi.html">Все услуги</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__main-item">
+                        <div class="footer__contacts">
+                            <div class="footer__phone">
+                                <a class="footer__phone-number" href="tel:+7 (995) 127-83-12">+7 (995) 127-83-12</a>
+                                <a class="footer__phone-number" href="tel:+7 (3812) 34-61-34">+7 (3812) 34-61-34</a>
+                            </div>
+                            <div class="footer__address">
+                                <p class="footer__address-title">Адрес:</p>
+                                <span class="footer__address-text">
+                                    <b>г. Москва,</b> ул. Ленинская Слобода, д. 26, офис&nbsp;533.9,
+                                    Бизнес&#8209центр "Омега&nbsp;2", корпус&nbsp;А.
+                                </span>
+                                <span class="footer__address-text">
+                                    <b>г. Омск,</b> ул. Декабристов, 45, офис 402&nbsp;Б
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-item">
+                        ©2007–2024 Все права защищены
+                    </div>
+                    <div class="footer__bottom-item">
+                        <a class="footer__bottom-link" href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer__bottom-item">
+                        Юридические услуги
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+    <script src="./js/map.js"></script>
+</body>
+
+</html>
