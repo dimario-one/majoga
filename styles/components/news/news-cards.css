@@ -19,7 +19,8 @@
 .news-card {
     background: #F3F7FD;
     border-radius: 20px;
-    flex: 0 1 calc(33.333% - 50px);
+    max-height: 1000px;
+    flex: 1 1 calc(33.333% - 50px);
     overflow: hidden;
 }
 
@@ -27,6 +28,7 @@
     width: 100%;
     border-radius: 20px;
     height: auto;
+    min-height: 50%;
     border-bottom: 1px solid #e0e0e0;
 }
 
@@ -59,6 +61,15 @@
     color: #4C4C4C;
 }
 
+.card-title, .card-description {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* Ограничиваем текст двумя строками */
+}
+
+
 .card-link {
     color: #007bff;
     text-decoration: none;
@@ -87,6 +98,7 @@
 }
 
 @media (max-width: 1400px) {
+    
 }
 
 @media (max-width: 1200px) {
