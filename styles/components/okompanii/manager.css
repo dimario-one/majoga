@@ -1,20 +1,22 @@
 .manager {
     display: flex;
     flex-direction: row;
-    align-items: stretch; /* Растягивает дочерние элементы по высоте родителя */
-    height: 100%; /* Установите явную высоту для родителя */
+    align-items: stretch;
+    height: 100%; 
 }
 
 .manager__content {
-    flex-basis: calc(50% - 50px); /* Половина ширины родителя с отступом */
+    flex-basis: calc(50% - 50px); 
+    height: auto;
     background: #F3F7FD;
-    display: flex; /* Добавляем flex для дочерних элементов */
-    flex-direction: column; /* Вертикальное расположение содержимого */
-    justify-content: space-between; /* Растягиваем содержимое равномерно */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
 }
 
 .manager__image {
-    flex-basis: 50%;
+    flex-basis: 50%; 
 }
 
 .manager__image-element {
@@ -53,7 +55,17 @@
 
 @media (max-width: 1200px) {
     .manager {
-        height: auto;
+        flex-direction: column; 
+        height: auto; 
+    }
+
+    .manager__content {
+        flex-basis: auto; 
+        margin-top: 20px;
+    }
+
+    .manager__image {
+        flex-basis: auto;
     }
 }
 
