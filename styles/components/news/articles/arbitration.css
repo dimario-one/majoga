@@ -1,7 +1,5 @@
 /* Основные стили для секции arbitration-disputes */
-.arbitration-disputes {
-
-}
+.arbitration-disputes {}
 
 .arbitration-disputes__title {
     font-family: Inter;
@@ -11,7 +9,8 @@
     text-align: center;
     color: #303030;
 }
-.arbitration-disputes__image-container{
+
+.arbitration-disputes__image-container {
     max-height: 500px;
     border-radius: 20px;
 }
@@ -27,7 +26,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 24.2px;
-    text-align: justified;
+    text-align: justify;
     color: #303030;
 }
 
@@ -36,34 +35,35 @@
     font-size: 20px;
     font-weight: 800;
     line-height: 24.2px;
-    text-align: justified;
+    text-align: justify;
     color: #303030;
 }
 
 .arbitration-disputes__steps {
-    list-style: decimal; 
+    list-style: decimal;
+    padding-left: 25px;
     font-size: 20px;
 }
+
+.arbitration-disputes__list {
+    list-style-position: inside;
+}
+
 .arbitration-disputes__list-item {
     list-style-type: disc;
 }
 
-.arbitration-disputes__step-title {
-
-}
+.arbitration-disputes__step-title {}
 
 .arbitration-disputes__conclusion {
     background-color: #e8e8e8;
     border-radius: 20px;
 }
 
-.arbitration-disputes__conclusion-title {
+.arbitration-disputes__conclusion-title {}
 
-}
+.arbitration-disputes__text:last-of-type {}
 
-.arbitration-disputes__text:last-of-type {
-
-}
 .news-btn {
     width: 360px;
     height: 44px;

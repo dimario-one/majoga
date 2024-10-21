@@ -58,14 +58,15 @@
 }
 
 .mission__image-block {
-    width: calc(50vw - 1rem); /* Пробелы вокруг "-" */
+    width: calc(50vw - 1rem);
+    /* Пробелы вокруг "-" */
     height: 510px;
     border-radius: 20px;
     background: #F3F7FD;
 }
 
-.mission__ourAim{
-width: calc(50vw - 1rem);
+.mission__ourAim {
+    width: calc(50vw - 1rem);
 }
 
 .mission__image-block_icon {
@@ -78,7 +79,7 @@ width: calc(50vw - 1rem);
     border-radius: 50%;
 }
 
-.mission__image_logo{
+.mission__image_logo {
     width: 80%;
     height: 80%;
     object-fit: contain;
@@ -160,18 +161,21 @@ width: calc(50vw - 1rem);
 
 @media (max-width: 1200px) {
     .mission__list-item {
-        flex: 0 0 48%; /* Карточки занимают 50% ширины родителя */
-    }
-    .mission__service {
-       width: 100%;
+        flex: 0 0 48%;
+        /* Карточки занимают 50% ширины родителя */
     }
 
-    .mission__image-block ,.mission__ourAim{
+    .mission__service {
         width: 100%;
-        }
-        
+    }
+
+    .mission__image-block,
+    .mission__ourAim {
+        width: 100%;
+    }
+
 }
- 
+
 @media (max-width: 992px) {}
 
 @media (max-width: 768px) {}
@@ -180,12 +184,15 @@ width: calc(50vw - 1rem);
     .mission__text-block {
         height: auto;
     }
+
+    .mission__title {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 390px) {
-    
-.mission__image-block {
-    height: 235px;
+    .mission__image-block {
+        height: 235px;
 
-}
+    }
 }

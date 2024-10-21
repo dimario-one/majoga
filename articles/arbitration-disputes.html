@@ -1,622 +1,473 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Мажуга&Мажуга</title>
     <link rel="stylesheet" href="../vendor/css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="../styles/styles.css" />
-    <link
-      rel="stylesheet"
-      href="../styles/components/arbitration-disputes.css"
-    />
-  </head>
-  <body>
-    <div class="wrapper">
-      <header class="header mb-5">
-        <div
-          class="container d-flex flex-column align-items-center justify-content-between h-100"
-        >
-          <div
-            class="d-none d-xl-flex flex-row align-items-center justify-content-between ps-3 pe-3 time"
-          >
-            <div class="d-flex flex-row align-items-center">
-              <img class="" src="../images/header/Mask group.png" alt="" />
-              <div class="d-flex flex-row align-items-center">
-                <p class="m-0 ms-2 p-0 header__address">
-                  г. Омск, ул. Декабристов, 45, офис 402 Б
-                </p>
-                <p class="m-0 ms-5 p-0 header__address">
-                  г. Москва, ул. Ленинская Слобода, д. 26, офис 533.9.
-                  Бизнес-центр "Омега 2", корпус А.
-                </p>
-              </div>
-              <!-- <p class="m-0 ms-2 p-0 header__address">
-                г. Омск, ул. Декабристов, 45, офис 402 Б
-              </p> -->
-            </div>
-            <div class="d-flex flex-row align-items-center">
-              <img class="" src="../images/header/Layer 2.png" alt="" />
-              <p class="m-0 ms-2 p-0 header__address">
-                Время работы офиса: ПН-ПТ с 9:00 до 20:00
-              </p>
-            </div>
-          </div>
-          <div
-            class="d-flex flex-row align-items-center justify-content-between header__wrapper"
-          >
-            <figure class="logo">
-              <img
-                class="logo__img"
-                src="../images/header/logo.png"
-                alt="Логотип"
-              />
-            </figure>
-            <nav
-              class="d-none d-xl-flex flex-row align-items-center justify-content-between"
-            >
-              <ul
-                class="d-flex flex-row align-items-center justify-content-between nav"
-              >
-                <li class="">
-                  <a class="nav__text" href="../uslugi.html"> Услуги </a>
-                </li>
-                <li class="">
-                  <a class="nav__text" href="../okompanii.html"> О компании </a>
-                </li>
-                <li class="">
-                  <a class="nav__text" href="../buissnes.html">Юр. услуги</a>
-                </li>
-                <li class="">
-                  <a class="nav__text" href="../news.html">Новости</a>
-                </li>
-                <li class="">
-                  <a class="nav__text" href="../contacts.html">Контакты</a>
-                </li>
-              </ul>
-            </nav>
-            <div
-              class="d-none d-md-flex flex-row align-items-center ms-0 ms-lg-5 header_contacts"
-            >
-              <figure class="d-none d-md-block p-0 header__phone">
-                <img
-                  class="logo__img"
-                  src="../images/header/phone__.svg.png"
-                  alt="Телефон"
-                />
-              </figure>
-              <div
-                class="d-none d-md-flex flex-column align-items-center justify-content-center ms-2"
-              >
-                <p class="m-0 p-0 header__phoneNumber">+7 (995) 127-83-12</p>
-                <p class="m-0 p-0 header__phoneNumber">+7 (3812) 34-61-34</p>
+    <link rel="stylesheet" href="../styles/components/arbitration-disputes.css" />
+</head>
 
-                <p class="m-0 p-0 header__call">Заказать звонок</p>
-              </div>
-            </div>
+<body>
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__wrapper">
+                <div class="header__top">
+                    <div class="header__location">
+                        <div class="header__map-pin"></div>
+                        <div class="header__address">
+                            <p class="header__address-text">
+                                г. Омск, ул. Декабристов, д. 45, офис 402 Б
+                            </p>
+                            <p class="header__address-text">
+                                г. Москва, ул. Ленинская Слобода, д. 26, офис 533.9.
+                                Бизнес-центр "Омега 2", корпус А.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="header__time">
+                        <div class="header__clock"></div>
+                        <p class="header__time-text">
+                            Время работы офиса: ПН-ПТ с 9:00 до 20:00
+                        </p>
+                    </div>
+                </div>
+                <div class="header__main">
+                    <a class="header__logo" href="index.html"></a>
+                    <nav class="header__nav">
+                        <ul class="header__menu">
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./uslugi.html">Услуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./okompanii.html">О компании</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./legalservices.html">Юр. услуги</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./news.html">Новости</a>
+                            </li>
+                            <li class="header__menu-item">
+                                <a class="header__menu-link" href="./contacts.html">Контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__contacts">
+                        <div class="header__phone-icon"></div>
+                        <div class="header__phone-container">
+                            <a class="header__phone-number" href="tel:+7 (995) 127-83-12">+7 (995) 127-83-12</a>
+                            <a class="header__phone-number" href="tel:+7 (3812) 34-61-34">+7 (3812) 34-61-34</a>
 
-            <div class="d-flex flex-column">
-              <ul
-                class="d-flex flex-row align-items-center justify-content-between m-0 p-0 header__socialMedia"
-              >
-                <li class="social__icon">
-                  <div
-                    class="d-flex align-items-center justify-content-center w-100 h-100"
-                  >
-                    <img
-                      class="social__img"
-                      src="../images/header/_Telegram_.svg.png"
-                      alt="Телеграмм"
-                    />
-                  </div>
-                </li>
-                <li class="social__icon ms-2">
-                  <div
-                    class="d-flex align-items-center justify-content-center w-100 h-100"
-                  >
-                    <img
-                      class="social__img"
-                      src="../images/header/_WhatsApp_.svg fill.png"
-                      alt="Ватсап"
-                    />
-                  </div>
-                </li>
-                <li class="ms-2">
-                  <button class="consultation consultation__text">
-                    Консультация
-                  </button>
-                </li>
-              </ul>
-              <!-- <div
-              class="d-flex d-sm-none flex-column align-items-center justify-content-center ms-2"
-            >
-              <p class="m-0 p-0 header__phoneNumber">+7 (995) 127-83-12</p>
-            </div> -->
-            </div>
+                            <p class="header__contacts-caption">Заказать звонок</p>
+                        </div>
+                    </div>
 
-            <nav class="navbar navbar-expand-xl navbar-dark d-xl-none">
-              <div class="container-fluid">
-                <button
-                  class="navbar-toggler border border-white"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-              </div>
-            </nav>
-          </div>
+                    <div class="header__socials">
+                        <a class="header__social-icon header__social-icon--telegram"
+                            href="https://t.me/+79951278312"></a>
+                        <a class="header__social-icon header__social-icon--whatsapp"
+                            href="https://wa.me/79951278312"></a>
+                        <button class="header__consult-button">Консультация</button>
+                    </div>
+
+                    <button class="header__burger" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasNavbar">
+                        <div class="header__burger-icon"></div>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title">Меню</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <nav class="sidebar__nav">
+                                <ul class="sidebar__menu">
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./uslugi.html">Услуги</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./okompanii.html">О компании</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./buissnes.html">Юр. услуги</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./news.html">Новости</a>
+                                    </li>
+                                    <li class="sidebar__menu-item">
+                                        <a class="sidebar__menu-link" href="./contacts.html">Контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="sidebar__contacts">
+                                <a class="sidebar__phone-number" href="tel:+7 (995) 127-83-12">+7 (995) 127-83-12</a>
+                                <a class="sidebar__phone-number" href="tel:+7 (3812) 34-61-34">+7 (3812) 34-61-34</a>
+                            </div>
+
+                            <div class="sidebar__socials">
+                                <a class="sidebar__social-icon sidebar__social-icon--telegram"
+                                    href="https://t.me/+79951278312"></a>
+                                <a class="sidebar__social-icon sidebar__social-icon--whatsapp"
+                                    href="https://wa.me/79951278312"></a>
+                                <button class="sidebar__consult-button">Консультация</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </header>
-      <main>
-        <article class="arbitration-disputes container">
-          <h1 class="arbitration-disputes__title">
-            Арбитражные споры: что нужно знать и как себя защитить
-          </h1>
+    </header>
+    <main>
+        <article class="arbitration-disputes container mt-5 p-sm-0">
+            <h1 class="arbitration-disputes__title">
+                Арбитражные споры: что нужно знать и как себя защитить
+            </h1>
 
-          <div class="arbitration-disputes__image-container mt-5">
-            <img
-              src="../images/news/articles/femida.png"
-              alt="Изображение фемиды"
-              class="arbitration-disputes__image"
-            />
-          </div>
+            <div class="arbitration-disputes__image-container mt-5">
+                <img src="../images/news/articles/femida.png" alt="Изображение фемиды"
+                    class="arbitration-disputes__image" />
+            </div>
 
-          <div class="d-flex flex-row align-items-center mt-5">
-            <p class="arbitration-disputes__intro m-0">
-              <span class="arbitration-disputes__subtitle"
-                >Арбитражные споры</span
-              >
-              являются неотъемлемой частью деловой жизни. Они возникают в
-              результате разногласий между юридическими лицами или
-              индивидуальными предпринимателями по вопросам, связанным с
-              коммерческой деятельностью. В данной статье мы рассмотрим основные
-              аспекты арбитражных споров и дадим рекомендации по защите ваших
-              интересов.
-            </p>
-          </div>
+            <div class="d-flex flex-row align-items-center mt-5">
+                <p class="arbitration-disputes__intro m-0">
+                    <span class="arbitration-disputes__subtitle">Арбитражные споры</span>
+                    являются неотъемлемой частью деловой жизни. Они возникают в
+                    результате разногласий между юридическими лицами или
+                    индивидуальными предпринимателями по вопросам, связанным с
+                    коммерческой деятельностью. В данной статье мы рассмотрим основные
+                    аспекты арбитражных споров и дадим рекомендации по защите ваших
+                    интересов.
+                </p>
+            </div>
 
-          <h2 class="arbitration-disputes__subtitle mt-5">
-            Что такое арбитражный спор?
-          </h2>
-          <p class="arbitration-disputes__intro">
-            Арбитражный спор – это разногласие между сторонами, которое
-            рассматривается в арбитражном суде. Такие споры могут касаться
-            различных вопросов, включая:
-          </p>
-
-          <ul class="arbitration-disputes__list">
-            <li
-              class="arbitration-disputes__list-item arbitration-disputes__intro"
-            >
-              Нарушение условий договора
-            </li>
-            <li
-              class="arbitration-disputes__list-item arbitration-disputes__intro"
-            >
-              Неисполнение обязательств по контракту
-            </li>
-            <li
-              class="arbitration-disputes__list-item arbitration-disputes__intro"
-            >
-              Споры о собственности
-            </li>
-            <li
-              class="arbitration-disputes__list-item arbitration-disputes__intro"
-            >
-              Взыскание задолженности
-            </li>
-            <li
-              class="arbitration-disputes__list-item arbitration-disputes__intro"
-            >
-              Корпоративные споры
-            </li>
-          </ul>
-
-          <h2 class="arbitration-disputes__subtitle">
-            Основные этапы арбитражного процесса
-          </h2>
-          <ol class="arbitration-disputes__steps">
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Консультация: полностью изучим, поймем и проанализируем ситуацию
-                на вероятность достижения поставленной задачи.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Подготовка и подача иска: Первый шаг в арбитражном процессе –
-                это подготовка и подача искового заявления в арбитражный суд.
-                Важно правильно оформить иск и приложить все необходимые
-                документы.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Предварительное заседание: На этом этапе судья изучает материалы
-                дела и определяет, готово ли дело к рассмотрению по существу.
-                Также могут быть назначены экспертизы и другие процессуальные
-                действия.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Рассмотрение дела по существу: На этом этапе стороны
-                представляют свои доказательства и аргументы. Судья выслушивает
-                стороны, изучает материалы дела и принимает решение.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Вынесение решения: После рассмотрения дела судья выносит
-                решение, которое может быть обжаловано в установленном порядке.
-              </p>
-            </li>
-          </ol>
-          <h2 class="arbitration-disputes__subtitle">
-            Как защитить свои интересы в арбитражном споре?
-          </h2>
-          <ol class="arbitration-disputes__steps">
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Обратитесь к профессионалам: Юридическая помощь на всех этапах
-                арбитражного процесса значительно увеличивает шансы на успешное
-                разрешение спора. Мы поможем правильно оформить документы,
-                подготовить доказательства и представить Ваши интересы в суде.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Собирайте доказательства: Важно иметь все необходимые документы
-                и доказательства, подтверждающие Вашу позицию. Это могут быть
-                договоры, акты выполненных работ, переписка с контрагентами и
-                другие материалы.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Соблюдайте сроки: В арбитражном процессе важно соблюдать все
-                установленные сроки. Пропуск сроков может привести к негативным
-                последствиям, включая отказ в удовлетворении иска.
-              </p>
-            </li>
-            <li class="arbitration-disputes__step">
-              <p class="arbitration-disputes__intro">
-                Будьте готовы к переговорам: В некоторых случаях стороны могут
-                прийти к соглашению до вынесения судебного решения. Переговоры и
-                медиация могут помочь урегулировать спор без длительного судебного
-                разбирательства.
-              </p>
-            </li>
-          </ol>
-
-          <div class="arbitration-disputes__conclusion mt-5 p-5">
-            <h2 class="arbitration-disputes__subtitle">Заключение</h2>
+            <h2 class="arbitration-disputes__subtitle mt-5">
+                Что такое арбитражный спор?
+            </h2>
             <p class="arbitration-disputes__intro">
-              Арбитражные споры – это сложный и многоэтапный процесс, требующий
-              профессионального подхода и тщательной подготовки. Обращение к
-              опытным юристам поможет вам защитить свои интересы и добиться
-              справедливого решения.
+                Арбитражный спор – это разногласие между сторонами, которое
+                рассматривается в арбитражном суде. Такие споры могут касаться
+                различных вопросов, включая:
             </p>
-            <p class="arbitration-disputes__intro">
-              Юридическая компания “Мажуга & Мажуга" готова предоставить вам
-              квалифицированную помощь на всех этапах арбитражного процесса. Не
-              откладывайте решение ваших юридических проблем – свяжитесь с нами
-              уже сегодня!
-            </p>
-          </div>
-          <div class="d-flex align-items-center justify-content-center">
-            <button class="news-btn news-btn_text text-center mt-5"  data-url="/news.html">
-              Все новости
-            </button>
-          </div>
+
+            <ul class="arbitration-disputes__list">
+                <li class="arbitration-disputes__list-item arbitration-disputes__intro">
+                    Нарушение условий договора
+                </li>
+                <li class="arbitration-disputes__list-item arbitration-disputes__intro">
+                    Неисполнение обязательств по контракту
+                </li>
+                <li class="arbitration-disputes__list-item arbitration-disputes__intro">
+                    Споры о собственности
+                </li>
+                <li class="arbitration-disputes__list-item arbitration-disputes__intro">
+                    Взыскание задолженности
+                </li>
+                <li class="arbitration-disputes__list-item arbitration-disputes__intro">
+                    Корпоративные споры
+                </li>
+            </ul>
+
+            <h2 class="arbitration-disputes__subtitle mt-5">
+                Основные этапы арбитражного процесса
+            </h2>
+            <ol class="arbitration-disputes__steps">
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Консультация: полностью изучим, поймем и проанализируем ситуацию
+                        на вероятность достижения поставленной задачи.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Подготовка и подача иска: Первый шаг в арбитражном процессе –
+                        это подготовка и подача искового заявления в арбитражный суд.
+                        Важно правильно оформить иск и приложить все необходимые
+                        документы.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Предварительное заседание: На этом этапе судья изучает материалы
+                        дела и определяет, готово ли дело к рассмотрению по существу.
+                        Также могут быть назначены экспертизы и другие процессуальные
+                        действия.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Рассмотрение дела по существу: На этом этапе стороны
+                        представляют свои доказательства и аргументы. Судья выслушивает
+                        стороны, изучает материалы дела и принимает решение.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Вынесение решения: После рассмотрения дела судья выносит
+                        решение, которое может быть обжаловано в установленном порядке.
+                    </p>
+                </li>
+            </ol>
+            <h2 class="arbitration-disputes__subtitle mt-5">
+                Как защитить свои интересы в арбитражном споре?
+            </h2>
+            <ol class="arbitration-disputes__steps">
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Обратитесь к профессионалам: Юридическая помощь на всех этапах
+                        арбитражного процесса значительно увеличивает шансы на успешное
+                        разрешение спора. Мы поможем правильно оформить документы,
+                        подготовить доказательства и представить Ваши интересы в суде.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Собирайте доказательства: Важно иметь все необходимые документы
+                        и доказательства, подтверждающие Вашу позицию. Это могут быть
+                        договоры, акты выполненных работ, переписка с контрагентами и
+                        другие материалы.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Соблюдайте сроки: В арбитражном процессе важно соблюдать все
+                        установленные сроки. Пропуск сроков может привести к негативным
+                        последствиям, включая отказ в удовлетворении иска.
+                    </p>
+                </li>
+                <li class="arbitration-disputes__step">
+                    <p class="arbitration-disputes__intro">
+                        Будьте готовы к переговорам: В некоторых случаях стороны могут
+                        прийти к соглашению до вынесения судебного решения. Переговоры и
+                        медиация могут помочь урегулировать спор без длительного судебного
+                        разбирательства.
+                    </p>
+                </li>
+            </ol>
+
+            <div class="arbitration-disputes__conclusion mt-5 p-5">
+                <h2 class="arbitration-disputes__subtitle">Заключение</h2>
+                <p class="arbitration-disputes__intro">
+                    Арбитражные споры – это сложный и многоэтапный процесс, требующий
+                    профессионального подхода и тщательной подготовки. Обращение к
+                    опытным юристам поможет вам защитить свои интересы и добиться
+                    справедливого решения.
+                </p>
+                <p class="arbitration-disputes__intro">
+                    Юридическая компания “Мажуга & Мажуга" готова предоставить вам
+                    квалифицированную помощь на всех этапах арбитражного процесса. Не
+                    откладывайте решение ваших юридических проблем – свяжитесь с нами
+                    уже сегодня!
+                </p>
+            </div>
+            <div class="d-flex align-items-center justify-content-center">
+                <button class="news-btn news-btn_text text-center mt-5" data-url="/news.html">
+                    Все новости
+                </button>
+            </div>
         </article>
-        <article class="container mt-5 p-5 consultationSmallForm">
-          <h2 class="consultationSmallForm__title">
-            Получить консультацию юриста
-          </h2>
-          <!-- flex-wrap -->
-          <ul
-            class="consultationSmallForm__list d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 "
-          >
-            <li class="col-12 col-xl-4 consultationSmallForm__inputHolder d-flex align-items-center justify-content-center" >
-              <input
-                class="consultationSmallForm__input"
-                type="text"
-                placeholder="  Телефон"
-              />
-            </li>
-            <li class="col-12 col-xl-4 consultationSmallForm__inputHolder  d-flex align-items-center justify-content-center mt-5 mt-xl-0">
-              <input
-                class="consultationSmallForm__input"
-                type="text"
-                placeholder="  Имя"
-              />
-            </li>
-            <li
-              class="col-12 col-xl-4 d-flex flex-column  align-items-center justify-content-center"
-            >
-              <button
-                class="d-flex flex-column  align-items-center justify-content-center mt-5 mt-xl-0 consultationSmallForm__button"
-              >
-                <p class="consultationSmallForm__buttonText">Отправить</p>
-              </button>
-              <label class="col-lg-4 col-xl-8 mt-3 mt-sm-1 consultationSmallForm__labelText">
-                Нажимая кнопку “Оставить заявку” Вы соглашаетесь с политикой
-                конфиденциальности
-              </label>
-            </li>
-          </ul>
-          <div class="consultationSmallForm__imageContainer">
-            <img
-              class="consultationSmallForm__image"
-              src="../images/consultationSmall/Group (1).png"
-              alt=""
-            />
-          </div>
+
+        <article class="container mt-5 p-sm-0">
+            <div class="p-5 consultationSmallForm">
+                <h2 class="consultationSmallForm__title">
+                    Получить консультацию юриста
+                </h2>
+                <ul
+                    class="consultationSmallForm__list d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 ">
+                    <li
+                        class="col-12 col-xl-4 consultationSmallForm__inputHolder d-flex align-items-center justify-content-center">
+                        <input class="consultationSmallForm__input" type="text" placeholder="  Телефон" />
+                    </li>
+                    <li
+                        class="col-12 col-xl-4 consultationSmallForm__inputHolder  d-flex align-items-center justify-content-center mt-5 mt-xl-0">
+                        <input class="consultationSmallForm__input" type="text" placeholder="  Имя" />
+                    </li>
+                    <li class="col-12 col-xl-4 d-flex flex-column  align-items-center justify-content-center">
+                        <button
+                            class="d-flex flex-column  align-items-center justify-content-center mt-5 mt-xl-0 consultationSmallForm__button">
+                            <p class="consultationSmallForm__buttonText">Отправить</p>
+                        </button>
+                        <label class="col-lg-4 col-xl-8 mt-3 mt-sm-1 consultationSmallForm__labelText">
+                            Нажимая кнопку “Оставить заявку” Вы соглашаетесь с политикой
+                            конфиденциальности
+                        </label>
+                    </li>
+                </ul>
+                <div class="consultationSmallForm__imageContainer">
+                    <img class="consultationSmallForm__image" src="../images/consultationSmall/Group (1).png" alt="" />
+                </div>
+            </div>
         </article>
+
         <section class="contacts mt-5">
-          <div class="container">
-            <h1 class="heading">Контакты</h1>
-            <div class="contacts">
-              <div class="contact" id="contactOmsk">
-                <p class="contact__address">Адрес:</p>
-                <p class="contact__address">
-                  Нажмите на город, чтобы посмотреть расположение офиса
-                </p>
-                <div
-                  class="d-flex flex-column flex-sm-row align-items-sm-center contact__detail"
-                  onclick="showMap('Omsk')"
-                >
-                  <div class="d-flex flex-row contact__city">
-                    <figure
-                      class="d-flex align-items-center justify-content-center m-0 contact__icon"
-                    >
-                      <img
-                        class="logo__img"
-                        src="../images/contacts/Mask group.png"
-                        alt=""
-                      />
-                    </figure>
-                    <p class="contact__info contact__info_bold ms-2">
-                      г. Омск,
-                    </p>
-                  </div>
-                  <span class="contact__info contact__info_normal">
-                    ул. Декабристов, 45, офис 402 Б</span
-                  >
+            <div class="container">
+                <h1 class="heading mb-3">Контакты</h1>
+                <div class="contacts">
+                    <div class="contact" id="contactOmsk">
+                        <p class="contact__address">Адрес:</p>
+                        <p class="contact__address">
+                            Нажмите на город, чтобы посмотреть расположение офиса
+                        </p>
+                        <div class="d-flex flex-column flex-sm-row align-items-sm-center contact__detail"
+                            onclick="showMap('Omsk')">
+                            <div class="d-flex flex-row contact__city">
+                                <figure class="d-flex align-items-center justify-content-center m-0 contact__icon">
+                                    <img class="logo__img" src="../images/contacts/Mask group.png" alt="" />
+                                </figure>
+                                <p class="contact__info contact__info_bold ms-2">
+                                    г. Омск,
+                                </p>
+                            </div>
+                            <span class="contact__info contact__info_normal">
+                                ул. Декабристов, 45, офис 402 Б</span>
+                        </div>
+                        <div class="d-flex flex-column flex-sm-row align-items-sm-center mt-4 contact__detail"
+                            onclick="showMap('Moscow')">
+                            <div class="d-flex flex-row contact__city">
+                                <figure class="d-flex align-items-center justify-content-center m-0 contact__icon">
+                                    <img class="logo__img" src="../images/contacts/Mask group.png" alt="" />
+                                </figure>
+                                <p class="contact__info contact__info_bold ms-2">
+                                    г. Москва,
+                                </p>
+                            </div>
+                            <span class="contact__info contact__info_normal">
+                                ул. Ленинская Слобода, д. 26, офис 533.9</span>
+                        </div>
+                        <p class="m-0 mt-3 contact__address">Телефон:</p>
+                        <div class="">
+                            <span class="contact__info contact__info_bold contact__info_phone">+7 (995) 127-83-12</span>
+                        </div>
+                        <p class="m-0 mt-3 contact__address">Email:</p>
+                        <div class="d-flex flex-row align-items-center">
+                            <figure class="d-flex flex-row align-items-center m-0 contact__icon">
+                                <img class="logo__img" src="../images/contacts/Frame.png" alt="" />
+                            </figure>
+                            <span class="contact__info contact__info_normal ms-2">52701001@mail.ru</span>
+                        </div>
+                        <div class="row row-cols-2 mt-3">
+                            <div class="col">
+                                <p class="contact__address">Юр. лицо</p>
+                                <span class="contact__info contact__info_normal">ООО "Олимп"</span>
+                            </div>
+                            <div class="col">
+                                <p class="contact__address">ИНН</p>
+                                <span class="contact__info contact__info_normal">ИНН 5501099938</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div
-                  class="d-flex flex-column flex-sm-row align-items-sm-center mt-4 contact__detail"
-                  onclick="showMap('Moscow')"
-                >
-                  <div class="d-flex flex-row contact__city">
-                    <figure
-                      class="d-flex align-items-center justify-content-center m-0 contact__icon"
-                    >
-                      <img
-                        class="logo__img"
-                        src="../images/contacts/Mask group.png"
-                        alt=""
-                      />
-                    </figure>
-                    <p class="contact__info contact__info_bold ms-2">
-                      г. Москва,
-                    </p>
-                  </div>
-                  <span class="contact__info contact__info_normal">
-                    ул. Ленинская Слобода, д. 26, офис 533.9</span
-                  >
+                <div id="map" class="contact__map w-100">
+                    <iframe src="https://maps.google.com/maps?q=55.034,73.35&z=15&output=embed" width="100%"
+                        height="300" frameborder="0" allowfullscreen></iframe>
                 </div>
-                <p class="m-0 mt-3 contact__address">Телефон:</p>
-                <div class="">
-                  <span
-                    class="contact__info contact__info_bold contact__info_phone"
-                    >+7 (995) 127-83-12</span
-                  >
-                </div>
-                <p class="m-0 mt-3 contact__address">Email:</p>
-                <div class="d-flex flex-row align-items-center">
-                  <figure
-                    class="d-flex flex-row align-items-center m-0 contact__icon"
-                  >
-                    <img
-                      class="logo__img"
-                      src="../images/contacts/Frame.png"
-                      alt=""
-                    />
-                  </figure>
-                  <span class="contact__info contact__info_normal ms-2"
-                    >52701001@mail.ru</span
-                  >
-                </div>
-                <div class="row row-cols-2 mt-3">
-                  <div class="col">
-                    <p class="contact__address">Юр. лицо</p>
-                    <span class="contact__info contact__info_normal"
-                      >ООО "Олимп"</span
-                    >
-                  </div>
-                  <div class="col">
-                    <p class="contact__address">ИНН</p>
-                    <span class="contact__info contact__info_normal"
-                      >ИНН 5501099938</span
-                    >
-                  </div>
-                </div>
-              </div>
             </div>
-            <div id="map" class="contact__map w-100">
-              <iframe
-                src="https://maps.google.com/maps?q=55.034,73.35&z=15&output=embed"
-                width="100%"
-                height="300"
-                frameborder="0"
-                allowfullscreen
-              ></iframe>
-            </div>
-          </div>
         </section>
-      </main>
-      <footer class="footer pt-5">
-        <div class="container footer__container">
-          <div
-            class="d-flex flex-column flex-md-row align-items-center justify-content-between"
-          >
-            <figure class="footer__logo m-0 p-0">
-              <img class="logo__img" src="../images/header/logo.png" alt="" />
-            </figure>
-            <ul
-              class="d-flex flex-row align-items-center justify-content-between m-5 mt-md-0 p-0 header__socialMedia"
-            >
-              <li class="footer_social__icon">
-                <div
-                  class="d-flex align-items-center justify-content-center w-100 h-100"
-                >
-                  <img
-                    class="footer_social__img"
-                    src="../images/header/_Telegram_.svg.png"
-                    alt="Телеграмм"
-                  />
-                </div>
-              </li>
-              <li class="footer_social__icon ms-2">
-                <div
-                  class="d-flex align-items-center justify-content-center w-100 h-100"
-                >
-                  <img
-                    class="footer_social__img"
-                    src="../images/header/_WhatsApp_.svg fill.png"
-                    alt="Ватсап"
-                  />
-                </div>
-              </li>
-              <li class="ms-2">
-                <button class="footer_consultation footer_consultation__text">
-                  Консультация
-                </button>
-              </li>
-            </ul>
-          </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container container">
+            <img class="footer__background" src="/images/footer/BuiltBackground.png" />
+            <div class="footer__content">
+                <div class="footer__top">
+                    <a class="footer__logo" href="index.html"></a>
 
-          <div
-            class="d-flex flex-column flex-xl-row align-items-start align-items-xl-center justify-content-center w-100 mt-5 ps-3 p-sm-0 ps-xl-0"
-          >
-            <ul class="col-12 col-xl-4 ps-0 footer__list">
-              <li class="footer__title_text footer__title_color">
-                Юридическим лицам
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a
-                  href="/arbitrazhnyespory.html"
-                  class="footer__text footer__text_color"
-                  >Арбитражные споры</a
-                >
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a href="/buissnes.html" class="footer__text footer__text_color"
-                  >Юридическое обслуживание бизнеса</a
-                >
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a
-                  href="/vziskaniedolgov.html"
-                  class="footer__text footer__text_color"
-                  >Взыскание долгов</a
-                >
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a href="/uslugi.html" class="footer__text footer__text_color"
-                  >Все услуги</a
-                >
-              </li>
-            </ul>
-            <ul class="col-12 col-xl-4 ps-0 footer__list">
-              <li class="footer__title_text footer__title_color mt-5 mt-xl-0">
-                Физическим лицам
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a
-                  href="/bankrotstvo.html"
-                  class="footer__text footer__text_color"
-                  >Банкротство физ.лиц</a
-                >
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a
-                  href="/zashchitapravpotrebiteley.html"
-                  class="footer__text footer__text_color"
-                  >Защита прав потребителей</a
-                >
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a
-                  href="/semeinyespory.html"
-                  class="footer__text footer__text_color"
-                  >Семейные споры</a
-                >
-              </li>
-              <li class="mt-3 footer__text footer__text_color">
-                <a href="/uslugi.html" class="footer__text footer__text_color"
-                  >Все услуги</a
-                >
-              </li>
-            </ul>
+                    <div class="footer__socials">
+                        <a class="footer__social-icon footer__social-icon--telegram"
+                            href="https://t.me/+79951278312"></a>
+                        <a class="footer__social-icon footer__social-icon--whatsapp"
+                            href="https://wa.me/79951278312"></a>
+                        <button class="footer__consult-button">Консультация</button>
+                    </div>
+                </div>
+                <div class="footer__main">
+                    <div class="footer__main-item">
+                        <ul class="footer__list">
+                            <li class="footer__list-title">
+                                <a class="footer__list-link" href="/legalservices.html">Юридическим лицам</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/arbitrazhnyespory.html">Арбитражные споры</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/obsluzhivaniebiznesa.html">Юридическое обслуживание
+                                    бизнеса</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/vziskaniedolgov.html">Взыскание долгов</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/uslugi.html">Все услуги</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__main-item">
+                        <ul class="footer__list">
+                            <li class="footer__list-title">
+                                <a class="footer__list-link" href="/person.html">Физическим лицам</a>
+                            </li>
 
-            <ul class="col-12 col-xl-4 ps-0 footer__list">
-              <li class="mt-5 mt-xl-0 text-center text-xl-left footer__phone">
-                +7 (995) 127-83-12
-              </li>
-              <li
-                class="mt-3 mt-xl-4 mt-xl-0 text-center text-xl-left footer__phone"
-              >
-                +7 (3812) 34-61-34
-              </li>
-              <li class="d-flex flex-column justify-content-between mt-3 h-100">
-                <p class="footer__address">Адрес:</p>
-                <span class="mt-3 footer__address">
-                  г. Москва, ул. Ленинская Слобода, д. 26, офис 533.9.
-                  Бизнес-центр "Омега 2", корпус А.
-                </span>
-                <span class="mt-3 footer__address"
-                  >г. Омск, ул. Декабристов, 45, офис 402 Б</span
-                >
-              </li>
-            </ul>
-          </div>
-          <ul
-            class="d-flex flex-column flex-xl-row align-items-center justify-content-between mt-5 p-0 pt-3 pb-md-1 pb-xl-0 footer__list footer__bottom"
-          >
-            <li class="">
-              <a class="footer__privecy-text" href="#"
-                >Политика конфиденциальности</a
-              >
-            </li>
-            <li class="mt-3 mt-xl-0">
-              <a class="footer__privecy-text" href="#">Юридические услуги</a>
-            </li>
-            <li class="mt-3 mt-xl-0 footer__privecy-text">
-              ©2007–2024 Все права защищены
-            </li>
-          </ul>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/bankrotstvo.html">Банкротство физ.лиц</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/zashchitapravpotrebiteley.html">Защита прав
+                                    потребителей</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/semeinyespory.html">Семейные споры</a>
+                            </li>
+                            <li class="footer__list-item">
+                                <a class="footer__list-link" href="/uslugi.html">Все услуги</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer__main-item">
+                        <div class="footer__contacts">
+                            <div class="footer__phone">
+                                <a class="footer__phone-number" href="tel:+7 (995) 127-83-12">+7 (995) 127-83-12</a>
+                                <a class="footer__phone-number" href="tel:+7 (3812) 34-61-34">+7 (3812) 34-61-34</a>
+                            </div>
+                            <div class="footer__address">
+                                <p class="footer__address-title">Адрес:</p>
+                                <span class="footer__address-text">
+                                    <b>г. Москва,</b> ул. Ленинская Слобода, д. 26, офис&nbsp;533.9,
+                                    Бизнес&#8209центр "Омега&nbsp;2", корпус&nbsp;А.
+                                </span>
+                                <span class="footer__address-text">
+                                    <b>г. Омск,</b> ул. Декабристов, 45, офис 402&nbsp;Б
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="footer__bottom">
+                    <div class="footer__bottom-item">
+                        ©2007–2024 Все права защищены
+                    </div>
+                    <div class="footer__bottom-item">
+                        <a class="footer__bottom-link" href="#">Политика конфиденциальности</a>
+                    </div>
+                    <div class="footer__bottom-item">
+                        Юридические услуги
+                    </div>
+                </div>
+            </div>
         </div>
-      </footer>
+    </footer>
     </div>
     <script src="../js/navigate.js"></script>
-    <script
-      src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"
-      type="text/javascript"
-    ></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
     <script src="../js/map.js"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
 </html>
