@@ -163,17 +163,34 @@
 @media (max-width: 768px) {}
 
 /* Для экранов шириной до 576px */
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .person-services__arrow__margin{
+        margin-left: 40px!important;
+    }
+}
 
 /* Для экранов шириной до 390px */
 @media (max-width: 390px) {
+
+    .person-services__consultation {
+        height: auto;
+    }
 
     .person-services__item {
         height: auto;
     }
 
     .person-services__consultation-button {
-        width: 300px;
+        width: 200px;
         height: 60px;
+        margin: 0!important;
+        margin-top: 20px!important;
+    }
+    .person-services__arrow__margin{
+        margin-left: 0px!important;
+    }
+    .person-services__consultation-button-text {
+        font-size: 14px;
+        line-height: 18px;
     }
 }

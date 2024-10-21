@@ -108,3 +108,35 @@
     }
 }
 
+@media (max-width: 350px) {
+
+    .start__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+    
+    .start__subTitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .start__input {
+        width: 200px;
+    }
+    
+    .start__btn {
+        width: 200px;
+    }
+
+    .start__img {
+        width: 200px;
+        height: auto;
+    }
+
+    .start__textHolder {
+        width: 200px;
+    }
+}
+    
+
+

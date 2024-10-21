@@ -59,6 +59,11 @@
 
 /* Для экранов шириной до 390px */
 @media (max-width: 390px) {
+    .advantages__title {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
     .advantages__item-image-wrapper {
         width: 40px;
         height: 40px;
@@ -70,7 +75,7 @@
     }
 
     .advantages__item-title {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 18px;
     }
 
