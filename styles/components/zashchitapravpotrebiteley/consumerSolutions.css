@@ -101,4 +101,9 @@
 
 @media (max-width: 480px) {}
 
-@media (max-width: 390px) {}
+@media (max-width: 390px) {
+  .consumer-solutions__title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+}
